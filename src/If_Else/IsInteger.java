@@ -1,3 +1,5 @@
+//Que: Take real number input and check if it is an integer or not.
+
 package If_Else;
 import java.util.Scanner;
 

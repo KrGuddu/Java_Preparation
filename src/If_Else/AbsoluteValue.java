@@ -1,3 +1,5 @@
+//Que: Take integer input and print the absolute value of that integer
+
 package If_Else;
 import java.util.Scanner;
 
