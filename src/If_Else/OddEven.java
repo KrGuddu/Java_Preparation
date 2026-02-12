@@ -1,6 +1,6 @@
 // Ques: Take positive integer input and tell if it is odd or even
 
-package Basics;
+package If_Else;
 import java.util.Scanner;
 
 public class OddEven {

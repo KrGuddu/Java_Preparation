@@ -1,6 +1,6 @@
 // Take positive integer input and tell if it is divisible by 5 or not.
 
-package Basics;
+package If_Else;
 import java.util.Scanner;
 
 public class DivisibleBy5 {
