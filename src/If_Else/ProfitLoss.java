@@ -1,4 +1,8 @@
-//Que.: If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss or no profit no loss. Also determine how much profit he made or loss he incurred.
+/* Que: If cost price and selling price of an item is input through the keyboard, write a program to determine
+whether the seller has made profit or incurred loss or no profit no loss. Also determine how much profit he made
+or loss he incurred.
+*/
+
 //Note: we can use multiple if condition at a time. Absolutely allowed
 
 package If_Else;
@@ -22,7 +26,7 @@ public class ProfitLoss {
         }
 
         // or, Use this to find profit or loss or no profit no loss
-//        if (sp > cp) System.out.println(sp);
+//        if (sp > cp) System.out.println(sp);                //Note: we can use multiple if condition at a time. Absolutely allowed
 //        if (cp > sp) System.out.println(cp);
 //        if (cp == sp) System.out.println("No Profit, No Loss");
 

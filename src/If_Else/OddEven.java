@@ -16,5 +16,11 @@ public class OddEven {
             System.out.println("Odd Number");
         }
 
+        // using ternary operator
+        String result = (n%2 == 0) ? "Even" : "Odd";
+        System.out.println(result);
+
+        // or, in one line (using ternary operator)
+        System.out.println((n%2 == 0) ? "Even" : "Odd");
     }
 }
