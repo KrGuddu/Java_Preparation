@@ -1,8 +1,28 @@
-=========================== 2nd ==============================
-------------- if-else -------------
+=========================== 1st (Basics) ==============================
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+=========================== 2nd (if-else) ==============================
 1. OddEven
 2. DivisibleBy5
 3. AbsoluteValue
 4. IsInteger
 5. ProfitLoss
-6.
+6. RectangleProgram
+7. Divisibility
+8. QuadrantProgram
+9. FourDigitNumber
+10. MagnitudeCheck
+11. DivisibleBy_5_Or_3
+12. SidesOfTriangle
+13. GreatestOfThree
+14. LeastOfThree
+

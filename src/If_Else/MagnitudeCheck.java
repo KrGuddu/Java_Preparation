@@ -1,4 +1,4 @@
-// Take integer input and tell if its magnitude is smaller than 69 or not.
+//Que: Take integer input and tell if its magnitude is smaller than 69 or not.
 
 package If_Else;
 import java.util.Scanner;
