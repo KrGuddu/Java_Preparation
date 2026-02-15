@@ -5,7 +5,7 @@
 package Loops;
 import java.util.Scanner;
 
-public class Ap_2ndPart {
+public class Ap_Q1_2ndMethod {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

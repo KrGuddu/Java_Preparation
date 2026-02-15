@@ -3,7 +3,7 @@
 package Loops;
 import java.util.Scanner;
 
-public class Ap {
+public class Ap_Q1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
