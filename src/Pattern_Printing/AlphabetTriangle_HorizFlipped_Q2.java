@@ -9,8 +9,8 @@ public class AlphabetTriangle_HorizFlipped_Q2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 1; i <=n; i++) {
-            for (int j = 1; j <= n-i; j++) {          //2nd method => but not standard method: (int j=n; j>=i; j--)
-                System.out.print(j + " ");
+            for (int j = 1; j <= n+1-i; j++) {
+                System.out.print((char)(i+64) + " ");
             }
             System.out.println();
         }
