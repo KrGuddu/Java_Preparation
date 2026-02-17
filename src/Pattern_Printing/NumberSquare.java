@@ -9,7 +9,7 @@ public class NumberSquare {
 
         for (int i = 1; i <=n; i++) {       // ye loop jitna number i/p ayega utna hi number of rows tak count ko chalayega
             for (int j = 1; j <=n; j++) {   // ye loop counting ko print krta hai like 1, 2, 3, 4, 5, ....
-                System.out.print(j+ " ");
+                System.out.print(j+ " ");   // i dene par 1111  2222  3333  ... ki format me ayega
             }
             System.out.println();
         }
