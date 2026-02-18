@@ -1,5 +1,11 @@
-package Pattern_Printing;
+/* Que: Print the given pattern
+a b c d
+a b c
+a b
+a
+*/
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class AlphabetTriangle_HorizFlipped {
