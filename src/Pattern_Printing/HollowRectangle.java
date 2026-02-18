@@ -1,8 +1,9 @@
-package Pattern_Printing;
+//Ques: Print the given pattern
 
+package Pattern_Printing;
 import java.util.Scanner;
 
-public class HollowRectangel {
+public class HollowRectangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
