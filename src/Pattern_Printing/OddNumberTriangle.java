@@ -1,7 +1,13 @@
+/* Ques: Print the given pattern
+1
+1 3
+1 3 5
+1 3 5 7
+*/
+
 //complete this
 
 package Pattern_Printing;
-
 import java.util.Scanner;
 
 public class OddNumberTriangle {
