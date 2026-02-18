@@ -1,5 +1,11 @@
-package Pattern_Printing;
+/* Ques: Print the given pattern
+1
+2 3
+4 5 6
+7 8 9 10
+*/
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class FloydsTriangle {
