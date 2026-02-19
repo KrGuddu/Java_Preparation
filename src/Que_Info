@@ -1,9 +1,9 @@
 =========================== 1st (Basics) ==============================
-1.
-2.
-3.
-4.
-5.
+1. FirstClass
+2. TSA
+3. TSA2ndMethod
+4. VolumeOfSphere
+5. VolumeOfSphere2ndMethod
 6.
 7.
 8.
@@ -26,16 +26,47 @@
 13. GreatestOfThree
 14. LeastOfThree
 
-
 ============================ 4th (Pattern Printing) =================
 1. StarRectangle
 2. StarSquare
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+3. NumberSquare
+4. AlphabetSquare
+5. AlphabetSquare_Q2
+6. AlphabetSquare_Q3
+7. AlphabetSquare_Q4
+8. AlphabetSquare_Q4_2ndMethod
+9. AlphabetSquare_Q4_Extra
+10. StarTriangle
+11. NumberTriangle
+12. AlphabetTriangle
+13. AlphanumericTriangle
+14. AlphabetTriangle_Q2
+15. StarTriangle_HorizFlipped
+16. StarTriangle_HorizFlipped_2ndMethod
+17. NumberTriangle_HorizFlipped
+18. AlphabetTriangle_HorizFlipped
+19. AlphabetTriangle_HorizFlipped_Q2
+20. HollowRectangle
+21. StarPlus/Star square plus
+22. StarCross
+23. FloydsTriangle
+24. OddNumberTriangle
+25. OddNumberTriangle_2ndMethod
+26. BinaryTriangle
+27. StarTriangleVerticallyFlipped
+28. StarTriangleVerticallyFlipped_2ndMethod
+29. NumberTriangleVerticallyFlipped
+30. AlphabetTriangleVerticallyFlipped
+31. Rhombus
+32. Pyramid
+33. Pyramid_2ndMethod
+34.**Pyramid_Alternate
+35. Pyramid_Extra
+36. Diamond
+37. Bridge
+38. Bridge_2ndMethod
+39. Bridge_FinalMethod
+40. NumberSpiral_Hint_Q1
+41 **NumberSpiral
 
+=================================== 5th (Methods) ===============================
