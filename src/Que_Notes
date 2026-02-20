@@ -1,0 +1,64 @@
+===================== Question from: Method > Swap3 ========== Most Important for Interview =====================
+# Problem: Java me Pass by Value hota hai
+Java pass by value language hai.
+Matlab jab swap(a, b) call karte hai, to:
+• a ki copy method me jaati hai
+• b ki copy method me jaati hai
+• Original a aur b change nahi hote
+
+Isliye output same rehta hai.
+
+🔎 Step by Step Samjho
+swap(a,b);
+
+To, Ye actually internally aise kaam karta hai: swap(10,20);
+
+Method ke andar:
+public static void swap(int a, int b){
+    int temp = a;  // temp = 10
+    a = b;         // a = 20
+    b = temp;      // b = 10
+}
+
+👉 Ye sirf method ke local variables change hue
+👉 Main method ke a aur b same rehte hain
+
+✅ Output kya aayega?
+Input:
+10
+20
+
+Output:
+10 20
+10 20
+
+✅ Solution 1 (Return Method Use Karo)
+=> Swap karne ke liye return use karo:
+
+public static int[] swap(int a, int b){
+    int temp = a;
+    a = b;
+    b = temp;
+    return new int[]{a,b};
+}
+
+In, Main method:
+int result[] = swap(a,b);
+a = result[0];
+b = result[1];
+
+✅ Solution 2 (Using Array – Best for Learning)
+public static void swap(int arr[]){
+    int temp = arr[0];
+    arr[0] = arr[1];
+    arr[1] = temp;
+}
+
+Main:
+int arr[] = {a,b};
+swap(arr);
+System.out.println(arr[0] + " " + arr[1]);
+
+🧠 Interview Important Point
+👉 Java me primitive types (int, float, char) always pass by value
+👉 Java me pass by reference hota hi nahi hai.
