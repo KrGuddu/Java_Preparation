@@ -1,4 +1,4 @@
-//Que: Print product of elements of the array
+//Que: Print product of elements of the array.
 
 package Array;
 import java.util.Scanner;
