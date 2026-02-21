@@ -1,4 +1,4 @@
-===================== Question from: Method > Swap3 ========== Most Important for Interview =====================
+===================== Topics: Method, Que: Swap3 ========== Most Important for Interview =====================
 # Problem: Java me Pass by Value hota hai
 Java pass by value language hai.
 Matlab jab swap(a, b) call karte hai, to:
@@ -62,3 +62,54 @@ System.out.println(arr[0] + " " + arr[1]);
 🧠 Interview Important Point
 👉 Java me primitive types (int, float, char) always pass by value
 👉 Java me pass by reference hota hi nahi hai.
+
+================================== Topics: Array, Que: PrintNegativeElements =============================
+🔹 2nd Method (Input + Print together)
+for (int i = 0; i < arr.length; i++) {
+    arr[i] = sc.nextInt();
+    if (arr[i] < 0){
+        System.out.print(arr[i] + " ");
+    }
+}
+✔ Advantage:
+Thoda short code
+Memory same use ho rahi hai
+
+❌ Problem:
+Single Responsibility Principle break karta hai
+Ek hi loop me:
+    input bhi le raha
+    logic bhi laga raha
+    print bhi kar raha
+
+Agar baad me tumhe:
+    positive count nikalna ho
+    sum nikalna ho
+    array reuse karna ho
+
+To problem ho sakti hai.
+
+🔹 1st Method (Input and Processing separate) ✅
+for (int i = 0; i < arr.length; i++) {
+    arr[i] = sc.nextInt();
+}
+
+for (int i = 0; i < arr.length; i++){
+    if (arr[i] < 0)
+        System.out.print(arr[i] + " ");
+}
+✔ Advantage:
+Clean structure
+Readable
+Debug karna easy
+Industry standard approach
+Reusable array
+
+Ye professional coding style hai 💯
+
+🎯 Final Verdict
+👉 Interview / Best Practice → 2nd Method
+👉 Quick coding / simple question → 1st Method bhi chalega
+
+💡 Pro Developer Tip: Agar sirf negative print karna hai aur array store karna zaroori nahi hai, tab 1st method efficient hai.
+Lekin agar DSA practice kar rahe ho to: 🔥 Always separate Input, Processing, and Output.
