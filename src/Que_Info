@@ -93,7 +93,13 @@
 8. SumOfElements
 9. SumOfElements_2ndMethod => [SumOfElements_2ndMethod_Version2, SumOfElements_2ndMethod_Version3]
 10. ProductOfElements
-11.
+11. MaxElements
+12. MinElements
+13. ArrayOfOtherDataTypes
+14. ShallowCopyDeepCopy
+15. SortArrayBuiltIn
+16. ModifyElements
+17. ModifyElements_2nd
 
 
 
