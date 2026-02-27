@@ -1,4 +1,4 @@
-//Que: Ques: Adding One
+//Que: Adding One
 //gfg: https://www.geeksforgeeks.org/problems/adding-one2529/1
 
 package Array;
