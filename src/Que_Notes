@@ -216,3 +216,134 @@ Parameter passing
 Return value
 
 Static vs Object concept
+
+
+-------------------------------------------------------
+🔷 Return Value Kya Hota Hai?
+
+Jab koi method apna kaam karke kuch value wapas bhejta hai, usse return value kehte hain.
+
+👉 Matlab:
+Method andar calculation karega
+Phir result ko return keyword se bahar bhej dega
+
+🧠 Basic Structure
+returnType methodName(parameters) {
+    // logic
+    return value;
+}
+
+⚠️ Rule:
+
+Agar method kuch return karta hai → void nahi likhenge
+
+Jo type return kar rahe ho → wahi returnType hoga
+
+🔹 Example 1: Simple Sum
+public class Demo {
+
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        int result = sum(5, 3);
+
+        System.out.println(result);
+    }
+}
+🔎 Flow:
+
+sum(5,3) call hua
+
+Andar 5 + 3 = 8
+
+return 8;
+
+8 result me store ho gaya
+
+🔹 Example 2: Boolean Return
+public static boolean isEven(int n) {
+    if(n % 2 == 0)
+        return true;
+    else
+        return false;
+}
+
+Call:
+
+System.out.println(isEven(4));  // true
+🔹 Example 3: Return Without Storing
+
+Tum directly bhi use kar sakte ho:
+
+System.out.println(sum(10, 20));
+🔴 Important Rule
+1️⃣ void method kuch return nahi karta
+public static void greet() {
+    System.out.println("Hello");
+}
+
+Yeh sirf print karega, value wapas nahi bhejega.
+
+2️⃣ Agar returnType likh diya to return zaroor karna padega
+
+❌ Galat:
+
+public static int test() {
+    // return nahi diya
+}
+
+👉 Compile error aayega.
+
+🔥 Return Ka Real Meaning (Deep Understanding)
+
+Method call jab hota hai:
+
+main() → method() → kaam → return value → wapas main()
+
+Matlab method ka result wapas caller ko milta hai.
+
+⚡ Interview Level Concept
+🔹 Return Value Memory Me Kaise Aata Hai?
+
+Jab method call hota hai:
+
+Stack me ek frame banta hai
+
+Method execute hota hai
+
+Return value caller ko milti hai
+
+Method ka stack frame delete ho jata hai
+
+🎯 Practice Example (Important)
+
+Predict output:
+
+public static int test(int x){
+    x = x + 5;
+    return x;
+}
+
+public static void main(String[] args){
+    int a = 10;
+    int b = test(a);
+    System.out.println(a);
+    System.out.println(b);
+}
+🧠 Answer:
+10
+15
+
+👉 Kyunki Java pass-by-value hai
+👉 Original a change nahi hota
+
+🚀 Short Summary
+
+✔ return value wapas bhejta hai
+✔ returnType aur value ka type same hona chahiye
+✔ void ka matlab no return
+✔ Return value ko store kar sakte ho ya direct use kar sakte ho
+✔ Java pass-by-value follow karta hai
