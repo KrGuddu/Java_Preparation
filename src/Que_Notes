@@ -115,3 +115,104 @@ Ye professional coding style hai 💯
 Lekin agar DSA practice kar rahe ho to: 🔥 Always separate Input, Processing, and Output.
 
 =====================================================================================================================
+🔴 Sabse Common Galtiyaan
+1️⃣ Static vs Non-Static Method
+❌ Galti
+public boolean isSorted(int[] arr) {  // non-static method
+    return true;
+}
+
+public static void main(String[] args) {
+    isSorted(arr);  // ❌ Error
+}
+
+👉 Error aayega kyunki main() static hota hai
+👉 Aur tum non-static method directly call nahi kar sakte
+
+✅ 2 Solutions
+✔ Solution 1 (Easy) – Method ko static bana do
+public static boolean isSorted(int[] arr) {
+    return true;
+}
+
+Phir direct call kar sakte ho:
+
+isSorted(arr);
+✔ Solution 2 – Object bana kar call karo
+public boolean isSorted(int[] arr) {
+    return true;
+}
+
+public static void main(String[] args) {
+    Solution obj = new Solution();
+    obj.isSorted(arr);
+}
+2️⃣ Return Type ka Dhyaan
+❌ Galti
+public static boolean isSorted(int[] arr) {
+    return true;
+}
+
+System.out.println(isSorted); // ❌
+
+👉 Method ko call karna hota hai ()
+
+✅ Sahi
+System.out.println(isSorted(arr));
+3️⃣ Parameter Match Karna
+
+Method:
+
+public static int sum(int a, int b)
+
+Call:
+
+sum(5, 10);  // ✅ correct
+sum(5);      // ❌ wrong
+
+👉 Arguments count aur type match hone chahiye.
+
+4️⃣ Method Scope Issue
+
+Kabhi kabhi tum method main ke andar bana dete ho 😅
+
+❌ Galat
+public static void main(String[] args) {
+
+    public static void test() {  // ❌ allowed nahi hai
+    }
+}
+
+👉 Java me method ke andar method allowed nahi hota.
+
+🔥 Perfect Template Yaad Kar Lo
+public class Solution {
+
+    public static void myMethod() {
+        System.out.println("Hello");
+    }
+
+    public static void main(String[] args) {
+
+        myMethod();  // correct way
+    }
+}
+🧠 Dhyan Rakhne Wali Baatein (Golden Rules)
+
+✔ main() hamesha static hota hai
+✔ Static method ko direct call kar sakte ho
+✔ Non-static method ke liye object banana padega
+✔ Method call me () lagana zaroori hai
+✔ Arguments ka type aur number match hona chahiye
+✔ Return type ka sahi use karo
+
+Guddu 💪
+Tum DSA me strong banna chahte ho to ye 4 cheeze master kar lo:
+
+Method call
+
+Parameter passing
+
+Return value
+
+Static vs Object concept
