@@ -1,14 +1,15 @@
-//boolean kam space leta hai integer se.
+//boolean kam space leta hai integer se. b/q boolean → 1 bit (conceptually) but int → 4 bytes. Isliye isSorted use karna better hai readability + memory dono ke liye.
 package Sorting.BubbleSort;
+import java.util.Arrays;
 
 public class BubbleSorting {
-    public static void print(){
-
+    public static void print(int[] arr){
+        System.out.println(Arrays.toString(arr));
     }
     public static void main(String[] args) {
         int[] arr = {5,4,8,-2,0,9,7,4,2};
         int n = arr.length;
-//        print(arr);
+        print(arr);     //to print original array
 
 
         // worst case ==> without optimized way =>good, but not recommended
@@ -48,7 +49,9 @@ public class BubbleSorting {
                     swaps++;
                 }
             }
+            // Agar ek bhi swap nahi hua means array already sorted hai
             if(swaps==0) break;
         }
+        print(arr);     //to print sorted array
     }
 }
