@@ -1,4 +1,5 @@
-//Que: Given an integer array, sort the array in ascending order using the Selection Sort algorithm.
+//Que: Find smallest first.
+//or, Given an integer array, sort the array in ascending order using the Selection Sort algorithm.
 //Or, Given an array of integers, sort the array in ascending order by repeatedly selecting the minimum element from the unsorted part and placing it at the beginning.
 
 package Sorting.SelectionSort;
@@ -13,7 +14,7 @@ public class SortInAscendingOrder {
 
         for (int i = 0; i < n - 1; i++) { // n-1 passes
             int min = Integer.MAX_VALUE;
-            int mindx = i;
+            int mindx = i;      //int mindx = -1;       // -1 ya aur kux v le skte hai
 
             for (int j = i; j < n; j++) {  // start from i
                 if (arr[j] < min) {
