@@ -2,3 +2,9 @@ Passed by value
 Note: java me jab ham variable banate hai to uss concept ko ham passed by value kahte hai.
 diff b/w return vs break
 kaise pata chalega ki kisme return type likhna hoga aur kisme nhi. matlab kisme return krna hoga aur kisme system.out.println lagana hoga?
+
+
+======== Sorting =========
+Bubble, selection and insertion sort => use for brain sharp
+merge sort and quick sort => some question concept are important
+Built in sort => Most important for question and Interview
