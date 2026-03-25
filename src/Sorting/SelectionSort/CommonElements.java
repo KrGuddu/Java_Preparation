@@ -8,8 +8,8 @@ public class CommonElements {
         int[] b = {6,1,1,4,4,2,8};
 
         int i=0, j=0;
-        Arrays.sort(a);     //mlogm
-        Arrays.sort(b);     //nlogn
+        Arrays.sort(a);     // mlogm
+        Arrays.sort(b);     // nlogn
         ArrayList<Integer> ans = new ArrayList<>();
 
         while(i<a.length && j<b.length){    //m+n
