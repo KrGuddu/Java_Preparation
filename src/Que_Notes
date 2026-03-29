@@ -348,7 +348,7 @@ public static void main(String[] args){
 ✔ Return value ko store kar sakte ho ya direct use kar sakte ho
 ✔ Java pass-by-value follow karta hai
 
-===========================================sorting==============================================
+==========================================sorting==============================================
 que: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1              ==>> 2:22:20
 
 class Solution {
