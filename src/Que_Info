@@ -3,12 +3,19 @@
 2. TSA
 3. TSA2ndMethod
 4. VolumeOfSphere
-5. VolumeOfSphere2ndMethod
-6.
-7.
-8.
-9.
-10.
+5. VolumeOfSphere2ndMethod*
+6. SquareOfNumber
+7. SquareOfNumber2ndMethod
+8. SumOfNumbers
+9. SumOfNumbers2ndMethod
+10. SumOf_1toN_Numbers
+11. SumOf_UnlimitedNumbers*
+12. Simple_Interest_Basic
+13. Simple_Interest
+14. Simple_Interest_2ndMethod
+15. CharDataType
+
+
 
 =========================== 2nd (if-else) ==============================
 1. OddEven
@@ -142,7 +149,11 @@
 3. Last_Occurrence
 4. First_And_Last_Occurrence
 5. First_And_Last_Occurrence_2nd
-6.
+6. Sorted Array Search  ==>> https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1
+7.
+8.
+9.
+10.
 
 
 
