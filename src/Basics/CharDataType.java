@@ -36,7 +36,7 @@ public class CharDataType {
         System.out.println(r);   // 6
 
         int c = 10;
-        int d = c++;        // d pahle c ko print krega(qki post increment hai) phir increment krega(now, print krne ke baad d me 11 store hogi). and 1 add hone se c=11 hogi.
+        int d = c++;        //ye post increment hai so pahle c ki value d me store hogi and then c ki value increase hogi. So d=10 and c=11 ho jayegi.      // d pahle c ko print krega(qki post increment hai) phir increment krega(now, print krne ke baad d me 11 store hogi). and 1 add hone se c=11 hogi.
         System.out.println(c + " " +d);    // 11   10
 
     }
