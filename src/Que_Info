@@ -15,8 +15,6 @@
 14. Simple_Interest_2ndMethod
 15. CharDataType
 
-
-
 =========================== 2nd (if-else) ==============================
 1. OddEven
 2. DivisibleBy5
@@ -26,12 +24,16 @@
 6. RectangleProgram
 7. Divisibility
 8. QuadrantProgram
-9. FourDigitNumber
-10. MagnitudeCheck
-11. DivisibleBy_5_Or_3
-12. SidesOfTriangle
-13. GreatestOfThree
-14. LeastOfThree
+9. QuadrantProgram_2ndMethod
+10. FourDigitNumber
+11. MagnitudeCheck
+12. DivisibleBy_5_Or_3
+13. SidesOfTriangle
+14. GreatestOfThree
+15. LeastOfThree
+
+================================== 3rd Loops ============================
+
 
 ============================ 4th (Pattern Printing) =================
 1. StarRectangle
@@ -132,7 +134,7 @@
 40. MergeTwoSortedArrays_ReverseOrder
 
 
-===================================================  Sorting  ==================================================
+===================================================    Sorting  ==================================================
 1. Basics
 2. BubbleSorting
 3. BubbleSort_Desc_Order
@@ -145,15 +147,20 @@
 
 ================================================== Binary Search ======================================================
 1. BinarySearch_Q1
-2. First_Occurrence
+2. First_Occurrence [Gfg and Leetcode]
 3. Last_Occurrence
 4. First_And_Last_Occurrence
-5. First_And_Last_Occurrence_2nd
-6. Sorted Array Search  ==>> https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1
-7.
-8.
-9.
-10.
+5. First_And_Last_Occurrence_2nd [Gfg and Leetcode Problem]
+6. Leetcode Q.852 => Peak Index in a Mountain Array
+7. Floor_in_Sorted_Array_gfg ==>> https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
+8. Floor_in_Sorted_Array_gfg
+9. Smallest_Letter_Greater_Than_Target_Leetcode_744
+10. Search_Insert_Position_Leetcode_35
+11. LC. 2529. Maximum Count of Positive Integer and Negative Integer
+12. Square Root ==>> https://www.geeksforgeeks.org/problems/square-root/1
+13. LC. 69. Sqrt(x)
+14. Single Among Doubles in a Sorted ==>> https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1
+
 
 
 
@@ -163,5 +170,5 @@ Better than segregate0and1 b/q in Segregate0and1 non zeros order is mismatch.
 
 
 
-
 Note: Annotation in vscode
+

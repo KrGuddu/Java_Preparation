@@ -1,0 +1,9 @@
+============== MultiHighlight plugin working==================
+Apply Highlighter => ctrl + shift + '
+Remove Highlighter => ctrl + shift + '
+
+Remove multi Highlighter => right click on any empty space, then choose highlighter option and then choose Clear All.
+or, ctrl + shift + '
+
+Change color => Ctrl + Alt + S => Editor => Color Scheme => MultiHighlight => Choose color
+or, ctrl + shift + ' => Then Choose color
