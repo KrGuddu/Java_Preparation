@@ -1,4 +1,6 @@
-//https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
+// https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
+// https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1
+// Leetcode Binary Search Que. 704  ==>> https://leetcode.com/problems/binary-search/description/
 
 package BinarySearch;
 
