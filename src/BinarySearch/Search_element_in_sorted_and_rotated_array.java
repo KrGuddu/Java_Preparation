@@ -8,7 +8,6 @@ public class Search_element_in_sorted_and_rotated_array {
 
         int lo = 0;
         int hi = arr.length - 1;
-
         int ans = -1;
 
         while (lo <= hi) {
