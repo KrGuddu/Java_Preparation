@@ -156,13 +156,12 @@
 8. Floor_in_Sorted_Array_gfg
 9. Smallest_Letter_Greater_Than_Target_Leetcode_744
 10. Search_Insert_Position_Leetcode_35
-11. LC. 2529. Maximum Count of Positive Integer and Negative Integer
+11. LC. 2529. ==>> Maximum Count of Positive Integer and Negative Integer  ==>> Solution pending
 12. Square Root ==>> https://www.geeksforgeeks.org/problems/square-root/1
 13. LC. 69. Sqrt(x)
 14. Single Among Doubles in a Sorted ==>> https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1
-
-
-
+15. Arranging Coins ==> LC 441
+16. Search_element_in_sorted_and_rotated_array  ==>> https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
 
 
 
@@ -171,4 +170,3 @@ Better than segregate0and1 b/q in Segregate0and1 non zeros order is mismatch.
 
 
 Note: Annotation in vscode
-
