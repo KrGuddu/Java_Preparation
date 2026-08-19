@@ -30,7 +30,7 @@ All common characters same → length difference
 Yahi basic logic String.compareTo() ke behavior ko reproduce karta hai.
 
 
-============== In Details Explanations =============
+============== In Details Explanations ===============
 1. Different character → character difference:
 Matlab dono strings ko left se right compare karo. Jahan pehli baar characters different mile, wahi decide karega result.
 
