@@ -181,7 +181,7 @@
 7. CountDigits
 8. StringToCharArray
 9. SubString
-   1. SubStringsOfStrings
+   1. SubStringsOfString
    2. Print_All_Substrings
    3. sumSubstrings (Sum_Of_All_Substrings_Of_A_Number)  => https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1
                 or, Sum_Of_All_Substrings_Of_A_Number_ForIntellij
