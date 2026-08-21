@@ -180,8 +180,29 @@
 6. IntToString
 7. CountDigits
 8. StringToCharArray
-9. SubStringsOfStrings
-10.
+9. SubString
+   1. SubStringsOfStrings
+   2. Print_All_Substrings
+   3. sumSubstrings (Sum_Of_All_Substrings_Of_A_Number)  => https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1
+                or, Sum_Of_All_Substrings_Of_A_Number_ForIntellij
+10. Equals_Method_In_String
+11. StringBuilders
+12. Reverse_Sb
+13. Anagram [LC.242. Valid Anagram]  ==>https://www.geeksforgeeks.org/problems/anagram-1587115620/1
+14. Most Frequent Character  ==>> https://www.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1
+15. Non Repeating Character  ==>> https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/1       ==>pending
+16. String Compression
+17.
+18.
+
+
+=================================== 2D Array ============================================
+
+
+=================================== Recursion ===========================================
+
+
+
 
 
 
@@ -190,5 +211,5 @@
 Better than segregate0and1 b/q in Segregate0and1 non zeros order is mismatch.
 
 
-
 Note: Annotation in vscode
+
