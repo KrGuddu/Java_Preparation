@@ -1,0 +1,15 @@
+For Even number/Divisible by 2: if(i%2 == 0)
+                for (int i = 2; i <= 100; i += 2)
+
+For odd number: if(i%2 != 0)
+                for (int i = 3; i <= 100; i += 2)
+
+Divisible by 3: if (i%3==0)
+for (int i = 3; i <= 100; i=i+3)
+
+Divisible by 5: if (i%5==0)
+for (int i = 5; i <= 100; i=i+5)
+
+Divisible by 5 from 1 to n:
+for (int i = 5; i <= n; i=i+5)
+
