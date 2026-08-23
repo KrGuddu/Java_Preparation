@@ -232,7 +232,20 @@ Power
 
 
 =================================== 2D Array ============================================
-
+1. OutputIn2DArray
+   InputIn2DArray
+2. SumOf2DArray
+   SumOf2DArray_Q2
+   SumOf2DArray_Q3
+3. maximum element in given 2D array.       ==>Pending
+4. Rows_MaxSum
+   Rows_MaxSum_Q2
+5. ColumnWisePrint
+6. ForEachLoop
+7. SnakePattern_Row_Wise
+   SnakePattern_Column_Wise         ==>Verify
+8. Reverse_Row_And_Column           ==>Pending
+9.
 
 =================================== Recursion ===========================================
 
