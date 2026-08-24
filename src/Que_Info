@@ -245,7 +245,17 @@ Power
 7. SnakePattern_Row_Wise
    SnakePattern_Column_Wise         ==>Verify
 8. Reverse_Row_And_Column           ==>Pending
-9.
+9. Transpose_Of_Matrix                 https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1 ===>> see again
+   LC 867. Transpose Matrix
+10. RotateBy90Degree_Clockwise
+    RotateBy90Degree_AntiClockwise
+    Rotate by 90 degree    ==> https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1
+    LC. 48. Rotate Image    ==>Pending
+11. ArrayList_In_2D >>> Basics
+12. LC. 118. Pascal's Triangle
+13.
+14.
+15.
 
 =================================== Recursion ===========================================
 
