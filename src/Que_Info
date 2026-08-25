@@ -253,9 +253,13 @@ Power
     LC. 48. Rotate Image    ==>Pending
 11. ArrayList_In_2D >>> Basics
 12. LC. 118. Pascal's Triangle
-13.
-14.
-15.
+    LC. 119. Pascal's Triangle II
+13. Search in a Row-Column Sorted matrix
+    LC. 240. Search a 2D Matrix II
+14. Spirally_Traversing_Matrix      ==>https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+15. Multiply Two Matrices       ==>> https://www.geeksforgeeks.org/problems/multiply-matrices/1
+16.
+
 
 =================================== Recursion ===========================================
 
