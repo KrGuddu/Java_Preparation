@@ -1,6 +1,6 @@
 package Loops;
 
-public class LImitsOfInt {
+public class LimitsOfInt {
     public static void main(String[] args) {
         int x = Integer.MAX_VALUE;
         System.out.println(x);
