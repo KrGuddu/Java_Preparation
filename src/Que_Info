@@ -32,43 +32,39 @@
 14. GreatestOfThree
 15. LeastOfThree
 
-================================== 3rd Loops ============================
+================================== 3rd (Loops) ============================
 1. Print_1_To_10
-2. Print_1_To_10_Extra
-3. Print_1_to_n
-4. Print_n_to_1
-5. Print_N_Times
-6. EvenNumber
-7. OddNumberDivisibleBy3
-8. Table17
-9. Print_n_to_1
-Ap_Q1
-Ap_Q1_2ndMethod
-Ap_Q2
-Ap_Q2_2ndMethod
-Gp_Q1
- Ascii
- SequencePattern
- ContinueStatement
- ContinueStatement_Q2
- CompositeNumber
-PrimeNumber
-EvenNumber
-InfiniteLoop
-LImitsOfInt
-CountDigit
-CountDigit_2ndMethod
-SumOfDigits
-ReverseNumber
-SumOfReverseNumber
-Factor
-Factorial  **
-Power
-
-
-
-
-
+   Print_1_To_10_Extra
+   Print_1_to_n
+   Print_n_to_1
+   Print_N_Times
+2. EvenNumber
+3. OddNumberDivisibleBy3
+4. Table17
+5. Ap_Q1
+   Ap_Q1_2ndMethod
+   Ap_Q2
+   Ap_Q2_2ndMethod
+6. Gp_Q1
+7. Ascii
+8. SequencePattern
+9. ContinueStatement
+   ContinueStatement_Q2
+10. CompositeNumber
+    CompositeNumber_V2
+    PrimeNumber
+11. EvenNumber
+    OddNumber
+12. InfiniteLoop
+13. LimitsOfInt
+14. CountDigit
+    CountDigit_2ndMethod
+15. SumOfDigits
+16. ReverseNumber
+    SumOfReverseNumber
+17. Factor
+18. Factorial  **
+19. Power
 
 ============================ 4th (Pattern Printing) =================
 1. StarRectangle
@@ -168,8 +164,10 @@ Power
 39. MergeTwoSortedArrays
 40. MergeTwoSortedArrays_ReverseOrder
 
+=========================================== 7th (Time & Space Complexity) ===============================
 
-===================================================    Sorting  ==================================================
+
+=================================================== 8th (Sorting) ==================================================
 1. Basics
 2. BubbleSorting
 3. BubbleSort_Desc_Order
@@ -180,7 +178,7 @@ Power
 8. Kth_Smallest
 9. InsertionSort Basics
 
-================================================== Binary Search ======================================================
+================================================== 9th (Binary Search) ======================================================
 1. BinarySearch_Q1
 2. First_Occurrence [Gfg and Leetcode]
 3. Last_Occurrence
@@ -204,7 +202,7 @@ Power
 19.
 
 
-============================================== String ==============================================
+============================================== 10th (String) ==============================================
 1. NumberOfVowels
 2. PalindromeString ==>> https://www.geeksforgeeks.org/problems/palindrome-string0817/1
 3. BuiltInMethod  ==>> Read this from documentations and practice questions based on this.  [Important methods Hint: video timespan: 48:30]
@@ -231,7 +229,7 @@ Power
 18.
 
 
-=================================== 2D Array ============================================
+=================================================== 11th (2D Array) ============================================
 1. OutputIn2DArray
    InputIn2DArray
 2. SumOf2DArray
@@ -261,7 +259,7 @@ Power
 16.
 
 
-=================================== Recursion ===========================================
+=================================== 12th & 13th (Recursion) ===========================================
 
 
 

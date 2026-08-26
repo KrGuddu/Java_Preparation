@@ -348,7 +348,7 @@ public static void main(String[] args){
 ✔ Return value ko store kar sakte ho ya direct use kar sakte ho
 ✔ Java pass-by-value follow karta hai
 
-==========================================sorting==============================================
+========================================== sorting ==============================================
 que: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1              ==>> 2:22:20
 
 class Solution {
@@ -369,3 +369,63 @@ class Solution {
         return arr[k-1];
     }
 }
+
+
+===================================== Complexity ========================================
+T.C. = Time Complexity
+S.C. = Space Complexity
+A.C. = Auxiliary Space Complexity
+
+1. T.C. — Time Complexity: Algorithm ko execute hone mein input size n ke saath kitna time/operations badhenge, ye batata hai.
+Example:
+for (int i = 1; i <= n; i++) {
+    System.out.println(i);
+}
+
+Loop n times chalega.
+So, T.C. = O(n)
+
+2. S.C. — Space Complexity: Algorithm ko run karne ke liye total extra memory requirement batata hai, generally input storage ko context ke hisaab se include/exclude karke.
+Example:
+int[] arr = new int[n];
+
+n integers ki memory use ho rahi hai.
+So, S.C. = O(n)
+
+3. A.C. — Auxiliary Space Complexity: Ye specifically algorithm ke execution ke dauran input ke alawa extra space ko measure karta hai.
+Example:
+int sum = 0;
+for (int i = 0; i < n; i++) {
+    sum += arr[i];
+}
+
+Yahan existing arr ko count nahi karenge.
+
+Extra variables:
+sum
+i
+
+Fixed number of variables hain.
+So, A.C. = O(1)
+
+🔥 S.C. vs A.C. — Important
+Maan lo:
+int[] arr = new int[n];
+int sum = 0;
+
+To:
+Input/array space → O(n)
+Extra variables   → O(1)
+
+Generally DSA discussions mein:
+Auxiliary Space = input ke alawa extra space
+
+Isliye interview mein agar interviewer "space complexity" pooche, context clear karna useful hai:
+"The auxiliary space is O(1), excluding the input array."
+
+Quick memory trick
+T.C. → Time → kitna work?
+S.C. → Space → total memory?
+A.C. → Auxiliary → extra memory?
+
+DSA mein sabse important: T.C. + A.C. ko confidently calculate karna.
