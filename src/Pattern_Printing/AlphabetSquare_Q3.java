@@ -1,5 +1,6 @@
-package Pattern_Printing;
+//when i is constant
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class AlphabetSquare_Q3 {

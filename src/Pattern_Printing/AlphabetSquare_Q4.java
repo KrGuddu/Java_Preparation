@@ -1,7 +1,7 @@
 // See Again Solution
+//for lowercase alphabet
 
 package Pattern_Printing;
-
 import java.util.Scanner;
 
 public class AlphabetSquare_Q4 {

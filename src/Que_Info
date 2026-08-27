@@ -70,6 +70,7 @@
 1. StarRectangle
 2. StarSquare
 3. NumberSquare
+   NumberSquare_Q2
 4. AlphabetSquare
 5. AlphabetSquare_Q2
 6. AlphabetSquare_Q3
@@ -260,10 +261,23 @@
 
 
 =================================== 12th & 13th (Recursion) ===========================================
+1. Function_Calling_Itself
+2. LocalVariables
+   GlobalVariables
+3. NToOne
+   OneToN
+4. Increasing_Decreasing
+5. Power_Linear
+6.
 
 
 
 
+
+For recursion need to revise methods => function calling itself.
+what is recurrence relations?
+purana kux ho jiski madad se ham kux build kare to wo recursion kahlati hai.
+function ke under parameter & argument dekar recursion ko meaning full banate hai.
 
 
 

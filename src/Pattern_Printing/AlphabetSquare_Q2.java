@@ -1,5 +1,6 @@
-package Pattern_Printing;
+// for lowercase alphabet
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class AlphabetSquare_Q2 {
