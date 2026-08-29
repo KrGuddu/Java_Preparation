@@ -261,6 +261,7 @@
 
 
 =================================== 12th & 13th (Recursion) ===========================================
+------------------------------------- Videos No: 12th ------------------------------
 1. Function_Calling_Itself
 2. LocalVariables
    GlobalVariables
@@ -268,7 +269,12 @@
    OneToN
 4. Increasing_Decreasing
 5. Power_Linear
-6.
+6. Reverse
+7. SumOfNumbers
+   SumOfNumbers_V2          ==>> https://www.geeksforgeeks.org/problems/reverse-coding2452/1
+8. Raise to Power of Its Own Reverse    ==>> https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1
+9. GCD of two numbers     ==>> https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
+10.
 
 
 
