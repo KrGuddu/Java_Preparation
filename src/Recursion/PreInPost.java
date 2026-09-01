@@ -13,4 +13,3 @@ public class PreInPost {
         System.out.print(n + " "); //post: call ke baad ka kam
     }
 }
-
