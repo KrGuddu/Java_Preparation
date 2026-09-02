@@ -1,5 +1,10 @@
 //when i is constant
-
+/* Print this
+A A A A
+B B B B
+C C C C
+D D D D
+ */
 package Pattern_Printing;
 import java.util.Scanner;
 
