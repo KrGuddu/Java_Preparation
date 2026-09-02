@@ -1,5 +1,13 @@
-package Pattern_Printing;
+/* Print this
 
+ *
+ * *
+ * * *
+ * * * *
+
+ */
+
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class StarTriangle {

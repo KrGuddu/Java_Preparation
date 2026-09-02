@@ -1,4 +1,10 @@
 // for lowercase alphabet
+/* Print this
+a b c d
+a b c d
+a b c d
+a b c d
+ */
 
 package Pattern_Printing;
 import java.util.Scanner;
