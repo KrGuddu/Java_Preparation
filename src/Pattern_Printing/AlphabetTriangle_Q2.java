@@ -1,5 +1,11 @@
-package Pattern_Printing;
+/* Print this
+A
+B B
+C C C
+D D D D
+ */
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class AlphabetTriangle_Q2 {
