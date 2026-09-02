@@ -1,3 +1,10 @@
+/* Print this
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+ */
+
 package Pattern_Printing;
 import java.util.Scanner;
 
