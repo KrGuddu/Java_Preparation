@@ -1,5 +1,11 @@
-package Pattern_Printing;
+/*Print this
+1 1 1 1
+2 2 2 2
+3 3 3 3
+4 4 4 4
+ */
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class NumberSquare_Q2 {

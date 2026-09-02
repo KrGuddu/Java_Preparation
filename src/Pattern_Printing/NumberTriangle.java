@@ -1,5 +1,11 @@
-package Pattern_Printing;
+/* Print this
+1
+1 2
+1 2 3
+1 2 3 4
+ */
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class NumberTriangle {
