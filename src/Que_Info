@@ -72,21 +72,23 @@
 3. NumberSquare
    NumberSquare_Q2
 4. AlphabetSquare
-5. AlphabetSquare_Q2
-6. AlphabetSquare_Q3
-7. AlphabetSquare_Q4
-8. AlphabetSquare_Q4_2ndMethod
-9. AlphabetSquare_Q4_Extra
+   AlphabetSquare_Q2
+   AlphabetSquare_Q3
+   AlphabetSquare_Q4
+   AlphabetSquare_Q4_2ndMethod
+   AlphabetSquare_Q4_Extra
 10. StarTriangle
 11. NumberTriangle
 12. AlphabetTriangle
-13. AlphanumericTriangle
-14. AlphabetTriangle_Q2
-15. StarTriangle_HorizFlipped
+13. AlphabetTriangle_Q2
+14. AlphanumericTriangle
+
+15. StarTriangle_HorizFlipped       ==>>start
 16. StarTriangle_HorizFlipped_2ndMethod
-17. NumberTriangle_HorizFlipped
+17. NumberTriangle_HorizFlipped          -->>
 18. AlphabetTriangle_HorizFlipped
 19. AlphabetTriangle_HorizFlipped_Q2
+
 20. HollowRectangle
 21. StarPlus/Star square plus
 22. StarCross
@@ -293,7 +295,25 @@ LC 78. Subsets
 **LC 22. Generate Parentheses
 **PreInPost
 **TowerOfHanoi  =>https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
-Look and Say Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1      => H.W.
+Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1      => H.W.
+
+
+=========================================== Merge Sort ==========================
+1. Inversions Count
+2. LC.493. Reverse Pairs  ==> do complete the solution  =>H.W.
+
+========================================= Cyclic sort ===========================
+1. Missing in Array  ==>https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1        ==>> Solve again
+   LC 268. Missing Number ==>H.W.
+2. Duplicates in a Limited Range Array  => https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
+3. LC.448. Find All Numbers Disappeared in an Array  =>H.W.
+4. LC.645. Set Mismatch  =>H.W.
+5. LC.41. First Missing Positive
+    or, on gfg: Smallest Positive Missing =>https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1
+6.
+
+
+
 
 
 
