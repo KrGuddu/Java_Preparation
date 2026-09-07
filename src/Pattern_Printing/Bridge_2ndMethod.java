@@ -9,6 +9,7 @@ public class Bridge_2ndMethod {
 
         for (int i = 1; i <=2*n-1; i++) System.out.print("* ");
         System.out.println();
+
         for (int i = 1; i <=n-1; i++) {
             for (int j = 1; j <= nsp; j++) {
                 System.out.print("* ");
