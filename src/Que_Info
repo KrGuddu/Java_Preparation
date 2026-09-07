@@ -77,40 +77,42 @@
    AlphabetSquare_Q4
    AlphabetSquare_Q4_2ndMethod
    AlphabetSquare_Q4_Extra
-10. StarTriangle
-11. NumberTriangle
-12. AlphabetTriangle
-13. AlphabetTriangle_Q2
-14. AlphanumericTriangle
-
-15. StarTriangle_HorizFlipped       ==>>start
-16. StarTriangle_HorizFlipped_2ndMethod
-17. NumberTriangle_HorizFlipped          -->>
-18. AlphabetTriangle_HorizFlipped
-19. AlphabetTriangle_HorizFlipped_Q2
-
-20. HollowRectangle
-21. StarPlus/Star square plus
-22. StarCross
-23. FloydsTriangle
-24. OddNumberTriangle
-25. OddNumberTriangle_2ndMethod
-26. BinaryTriangle
-27. StarTriangleVerticallyFlipped
-28. StarTriangleVerticallyFlipped_2ndMethod
-29. NumberTriangleVerticallyFlipped
-30. AlphabetTriangleVerticallyFlipped
-31. Rhombus
-32. Pyramid
-33. Pyramid_2ndMethod
-34.**Pyramid_Alternate
-35. Pyramid_Extra
-36. Diamond
-37. Bridge
-38. Bridge_2ndMethod
-39. Bridge_FinalMethod
-40. NumberSpiral_Hint_Q1
-41 **NumberSpiral
+5. StarTriangle
+   NumberTriangle
+   AlphabetTriangle
+   AlphabetTriangle_Q2
+6. AlphanumericTriangle
+7. StarTriangle_HorizFlipped
+   StarTriangle_HorizFlipped_2ndMethod
+   NumberTriangle_HorizFlipped          -->>
+   AlphabetTriangle_HorizFlipped
+   AlphabetTriangle_HorizFlipped_Q2
+   Right_Aligned_Triangle_Horizontally_Flipped **
+8. HollowRectangle
+9. StarPlus/Star square plus
+10. StarCross
+11. FloydsTriangle
+12. OddNumberTriangle
+    OddNumberTriangle_2ndMethod
+13. BinaryTriangle
+14. StarTriangleVerticallyFlipped
+    StarTriangleVerticallyFlipped_2ndMethod
+    NumberTriangleVerticallyFlipped
+    AlphabetTriangleVerticallyFlipped
+15. Rhombus
+    Right_Aligned_Triangle_Horizontally_Flipped  => HW
+16. Pyramid
+    Pyramid_2ndMethod
+    Pyramid_Alternate **
+    Pyramid_Extra
+    Pyramid_Logics      =>Imp
+    Pyramid_Vertically_Flipped
+17. Diamond
+18. Bridge
+    Bridge_2ndMethod
+    Bridge_FinalMethod
+19. NumberSpiral_Hint_Q1
+    NumberSpiral **
 
 =================================== 5th (Methods) ===============================
 1. MaxOfThreeBuiltIn
