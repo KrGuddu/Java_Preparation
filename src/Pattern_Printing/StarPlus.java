@@ -1,5 +1,13 @@
-package Pattern_Printing;
+/* Ques: Print the given pattern
+     *
+     *
+ * * * * *
+     *
+     *
+ */
 
+
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class StarPlus {

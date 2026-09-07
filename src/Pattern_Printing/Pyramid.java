@@ -1,5 +1,12 @@
-package Pattern_Printing;
+/* Print this
+         *
+       * * *
+     * * * * *
+   * * * * * * *
+ * * * * * * * * *
+ */
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class Pyramid {
@@ -23,9 +30,9 @@ public class Pyramid {
             for (int j = 1; j <= i-1; j++) {
                 System.out.print("* ");
             }
-//            for (int j = 1; j <= i; j++) {        // Agar last me Space chahiye tab ye loop use karo warna skip kro koe issue nhi hai
-//                System.out.print("  ");
-//            }
+            for (int j = 1; j <= i; j++) {        // Agar last me Space chahiye tab ye loop use karo warna skip kro koe issue nhi hai
+                System.out.print("  ");
+            }
             System.out.println();
         }
     }

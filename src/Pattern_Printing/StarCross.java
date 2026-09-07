@@ -1,5 +1,11 @@
-//Ques: Print the given pattern
+/* Print this pattern
+ *         *
+   *    *
+     *
+   *    *
+ *         *
 
+ */
 package Pattern_Printing;
 import java.util.Scanner;
 
