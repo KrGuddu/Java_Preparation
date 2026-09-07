@@ -1,5 +1,12 @@
-package Pattern_Printing;
+/* Print this
+         *
+       * *
+     * * *
+   * * * *
+ * * * * *
+ */
 
+package Pattern_Printing;
 import java.util.Scanner;
 
 public class StarTriangleVerticallyFlipped {
@@ -10,7 +17,7 @@ public class StarTriangleVerticallyFlipped {
             for (int j = 1; j <= n; j++) {
                 if(i+j>n){
                     System.out.print("* ");
-                }else {         // i+j <= n
+                }else { // i+j <= n
                     System.out.print("  ");
                 }
             }
