@@ -1,5 +1,4 @@
 package Pattern_Printing;
-
 import java.util.Scanner;
 
 public class Rhombus {
@@ -24,3 +23,11 @@ public class Rhombus {
         }
     }
 }
+
+
+/* Logic is:
+j<=n-i =>sout(space)
+j<=i =>sout(star)
+j<=n-i =>sout(star)
+j<=i =>sout(space)
+ */
