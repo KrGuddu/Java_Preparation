@@ -315,11 +315,23 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 6.
 
 
+=========================================== OOPs ====================================================
+1. UserDefinedDataType
+2. PassingClassesToMethods
+3. PolyMorphism
+4. PrivateKeyword_1.java
+   PrivateKeyword_getter_setter.java
+5. StringBuilder_Input
+6. Method_Overloading
+7. Constructors
+8.
 
 
 
 
 
+
+=====================================================================================================
 For recursion need to revise methods => function calling itself.
 what is recurrence relations?
 purana kux ho jiski madad se ham kux build kare to wo recursion kahlati hai.
