@@ -24,7 +24,7 @@ public class Constructors {     //Constructor is also a method
 
         void print(){
             int price = 12;
-            System.out.println(this.price+" "+name);
+            System.out.println(this.price+" "+name);        //yaha par this likh v skte hai or na v koe issue nhi hai. But int price = 12; likhne par this use karna hi hoga.   //Always recommended to use this keyword.
         }
     }
 
