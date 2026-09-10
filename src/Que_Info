@@ -300,11 +300,12 @@ LC 78. Subsets
 Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1      => H.W.
 
 
-=========================================== Merge Sort ==========================
+=========================================== 14th (Merge Sort) ==============================================
 1. Inversions Count
 2. LC.493. Reverse Pairs  ==> do complete the solution  =>H.W.
 
-========================================= Cyclic sort ===========================
+
+========================================= 15th (Cyclic sort) ===============================================
 1. Missing in Array  ==>https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1        ==>> Solve again
    LC 268. Missing Number ==>H.W.
 2. Duplicates in a Limited Range Array  => https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
@@ -315,7 +316,7 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 6.
 
 
-=========================================== OOPs ====================================================
+=========================================== 16th (OOPs) ====================================================
 1. UserDefinedDataType
 2. PassingClassesToMethods
 3. PolyMorphism
@@ -332,6 +333,24 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 11. ComplexNumberClass          ==>H.W.
 12. Fraction_In_Opps            ==>H.W.
 13. Inheritance
+
+
+
+============================================ 17th & 18th (Linked List) ======================================
+----------------------------------------------- 17th (Linked List-I) ----------------------------------------
+
+
+----------------------------------------------- 18th (Linked List-II) ---------------------------------------
+
+
+
+
+
+============================================= 19th (Stacks) ================================================
+
+
+============================================= 20th (Queues) ================================================
+
 
 
 
