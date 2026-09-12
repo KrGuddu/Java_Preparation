@@ -116,16 +116,16 @@
 
 =================================== 5th (Methods) ===============================
 1. MaxOfThreeBuiltIn
-2. MaxOfFourBuiltIn
+   MaxOfFourBuiltIn         ==> Maximum of n numbers or infinite number         //Array>MaxElements: This is for array elements
 3. ReturnType
-4. ReturnType_2ndPart
+   ReturnType_2ndPart
 5. MaxOfThree_ReturnType_3rdPart
-6. MaxOfThree_ReturnType_4thPart
+   MaxOfThree_ReturnType_4thPart  ***
 7. PermutationAndCombination_WithoutMethod
-8. PermutationAndCombination_UsingMethod
+   PermutationAndCombination_UsingMethod
 9. Swap
-10. Swap2
-11. Swap3
+   Swap2
+   Swap3   ***
 
 ================================= 6th (Array) ============================
 1. Basics
@@ -340,7 +340,7 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 ----------------------------------------------- 17th (Linked List-I) ----------------------------------------
 1. NodeOfLinkedList
 2. DisplayList
-
+LinkedListDataStructure
 ----------------------------------------------- 18th (Linked List-II) ---------------------------------------
 
 
