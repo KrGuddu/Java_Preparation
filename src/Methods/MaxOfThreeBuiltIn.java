@@ -1,6 +1,5 @@
 // Que: Find the maximum of three number using built-in function
 package Methods;
-
 import java.util.Scanner;
 
 public class MaxOfThreeBuiltIn {
@@ -15,5 +14,8 @@ public class MaxOfThreeBuiltIn {
 
         //or
         System.out.println(Math.max(Math.max(a,b), c));
+
+        //Or,
+        System.out.println(Math.max(a, Math.max(b, c)));
     }
 }

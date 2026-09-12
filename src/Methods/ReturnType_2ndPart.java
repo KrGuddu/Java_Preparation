@@ -8,6 +8,7 @@ public class ReturnType_2ndPart {
     }
     public static void main(String[] args) {
         int x = guddu(7);   // x=5 ho jayegi na ki x=7
-        System.out.println(3+x);    //3+5=8
+//        System.out.println(x);                    //o/p: Vicky 5
+        System.out.println(3+x);    //3+5=8         //o/p: Vicky 8
     }
 }

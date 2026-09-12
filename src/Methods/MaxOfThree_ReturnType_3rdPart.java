@@ -1,3 +1,4 @@
+//Que: find max of three using return type.
 package Methods;
 
 public class MaxOfThree_ReturnType_3rdPart {

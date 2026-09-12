@@ -20,7 +20,8 @@ public class PermutationAndCombination_WithoutMethod {
             nrFact *= i;
         }
 
-        int ncr = nFact/(rFact*nrFact);
+        int ncr = nFact/(rFact*nrFact);     //Combination
+//        int npr = nFact/nrFact;           //Permutation
         System.out.println(ncr);
     }
 }

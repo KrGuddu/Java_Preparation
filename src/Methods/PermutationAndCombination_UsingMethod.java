@@ -1,5 +1,4 @@
 package Methods;
-
 import java.util.Scanner;
 
 public class PermutationAndCombination_UsingMethod {

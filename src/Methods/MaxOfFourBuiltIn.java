@@ -1,7 +1,6 @@
 // Que: Find the maximum of four number using built-in function
 
 package Methods;
-
 import java.util.Scanner;
 
 public class MaxOfFourBuiltIn {
