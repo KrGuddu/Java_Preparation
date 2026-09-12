@@ -6,8 +6,12 @@ import java.util.Scanner;
 public class DisplayList {
     public static void displayRec(Node head){           //Display recursivelly
         if(head == null) return;        //Base case means: terminative condition of for loop. Here for loop terminative condition is null so base case is null.
-        System.out.print(head.val + " ");
-        displayRec(head.next);
+//        System.out.print(head.val + " ");
+//        displayRec(head.next);
+
+        //to print in reverse
+//        displayRec(head.next);
+//        System.out.print(head.val + " ");
     }
     public static void display(Node head){                               //Node behave like datatype
         Node temp = head;
@@ -40,6 +44,7 @@ public class DisplayList {
 
 //        display(a);
         displayRec(a);
+        System.out.println(get(a,4));       //To find LinkedList 4th index value.
 
 
 //        Node n = null;
@@ -47,14 +52,25 @@ public class DisplayList {
 //        System.out.println(n.val);          //NullPointerException: Cannot read field "val" because "n" is null
 //        System.out.println(n.next);         //NullPointerException: Cannot read field "next" because "n" is null
     }
+
+    private static int get(Node head, int idx) {
+        Node temp = head;
+        for(int i=1; i<=idx; i++){
+            temp = temp.next;
+        }
+        return temp.val;
+    }
 }
+
+
 
 /* Revision steps
 1. main method
 2. display
 3. displayRec
 4. NullPointerException
-
+5. To print in reverse
+6. To find LinkedList 4th index value
 
  Note: Recursive code ko kavi v null tak na jane de, null tak ane se pahle hi return kar do.
  */
