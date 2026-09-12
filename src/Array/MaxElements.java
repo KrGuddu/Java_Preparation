@@ -9,7 +9,7 @@ public class MaxElements {
         int max = arr[0];   // assume maximum element of array is arr[0] that is 5.
 //        int max = Integer.MIN_VALUE;
         for (int i = 0; i <arr.length; i++) {
-            if (arr[i] > max) max = arr[i];
+            if (arr[i] > max) max = arr[i];         //If arr[i] > max then maximum is arr[i] otherwise maximum is arr[0]
         }
         System.out.println(max);
     }
