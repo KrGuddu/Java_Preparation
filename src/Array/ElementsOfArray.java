@@ -6,7 +6,7 @@ public class ElementsOfArray {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         int sum = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {           //i<arr.length
 //            System.out.println(arr[i]);
             System.out.print(arr[i] + " ");
         }

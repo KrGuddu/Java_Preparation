@@ -130,12 +130,13 @@
 ================================= 6th (Array) ============================
 1. Basics
 2. ElementsOfArray
-3. OutputInputArray
-4. OutputInputArray_Part2
+ OutputInputArray
+ OutputInputArray_Part2       **
 5. OutputInput_Que
-6. OutputInput_QuePart2
+ OutputInput_QuePart2         **
 7. PrintNegativeElements
-8. PrintNegativeElements_2ndMethod
+PrintNegativeElements_2ndMethod
+PrintNegativeElements_2
 9. SumOfElements
 10. SumOfElements_2ndMethod => [SumOfElements_2ndMethod_Version2, SumOfElements_2ndMethod_Version3]
 11. ProductOfElements_Basics

@@ -17,5 +17,6 @@ public class Basics {
         arr[1] = 20;
         arr[2] = -15;
         arr[3] = 150;
+        System.out.println(arr[3]);
     }
 }
