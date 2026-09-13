@@ -29,7 +29,7 @@ public class OutputInputArray {
             System.out.print(arr[i] + " ");
         }
 
-        //Note: Default value of an array is 0
+        //Note**: Default value of an array is 0
         int[] arr2 = new int[7];    //Means, 7 length ka ek array hai jiska default value 0 hai
         for (int i = 0; i <7 ; i++) {
             System.out.print(arr2[i] + " ");
