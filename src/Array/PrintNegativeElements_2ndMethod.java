@@ -1,4 +1,5 @@
 //Ques: Given an Array, print negative elements only
+//Input + check + print in same loop  ==> Slightly shorter
 //not Recommended
 
 package Array;
