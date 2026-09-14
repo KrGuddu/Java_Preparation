@@ -14,7 +14,7 @@ public class ModifyElements_3rd {
 
     public static void print(int[] arr) {       //print method create here.
         for (int i = 0; i <arr.length; i++) {
-            System.out.print(arr[i] + " ");     //print updated array
+            System.out.print(arr[i] + " ");     //print updated array   //Also if-else condition write here(Before sout)
         }
         System.out.println();
     }
