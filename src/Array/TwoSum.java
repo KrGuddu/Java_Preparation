@@ -1,5 +1,5 @@
-// Ques: Two Sum
-//Note: return keyword pure function ko khatam krta hai
+// Ques: Two Sum / Pair Sum (i.e. sum of any two array elements is equal to taget.)
+//Note: return keyword pure function ko khatam krta hai (return function/method ki execution ko immediately terminate karta hai aur control caller ko return karta hai. return ke baad us method ka remaining code execute nahi hota.)
 package Array;
 
 public class TwoSum {

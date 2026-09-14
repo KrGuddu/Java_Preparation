@@ -1,5 +1,7 @@
-//Ques: Two Sum. i.e. sum of any two elements of array is equal to any 3rd elements or equal to any given number.
 //Best practice
+//Ques: Two Sum / Pair Sum (i.e. sum of any two elements of array is equal to any 3rd elements or equal to any given number.)
+//This is Brute Force Method: Har possible pair ko try karna
+
 package Array;
 
 public class TwoSum_2nd {
@@ -23,3 +25,15 @@ public class TwoSum_2nd {
         return false;
     }
 }
+
+
+
+/* DSA classification
+Array
+ └── Searching / Pair problems
+      └── Two Sum
+           ├── Brute Force → O(n²) ← Current approach           //Space: O(1)
+           ├── HashMap → O(n)   ← optimized
+           └── Two Pointer → O(n)
+                (usually sorted array ke saath)
+ */

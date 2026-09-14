@@ -4,7 +4,7 @@ for (int i = 0; i < n; i++) {
     System.out.print(sum);
 }
 
-Ye kya kar raha hai?: Ye prefix sum print kar raha hai.
+Ye kya kar raha hai?: Ye prefix sum print kar raha hai. (Matlab jaise jaise i/p ayega waise waise add karte chala jayega)
 
 Example:
 Input:
@@ -23,6 +23,8 @@ Explanation:
 
 Ye alag concept hai (Prefix Sum concept).
 * */
+
+//This is for "Prefix Sum concept"
 
 package Array;
 import java.util.Scanner;
