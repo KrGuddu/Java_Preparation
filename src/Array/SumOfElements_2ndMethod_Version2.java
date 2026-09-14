@@ -39,7 +39,7 @@ public class SumOfElements_2ndMethod_Version2 {
         }
 
         for (int i = 0; i <n; i++) {
-             System.out.print(sum);
+             System.out.print(sum);             //o/p: 1515151515
         }
     }
 }
