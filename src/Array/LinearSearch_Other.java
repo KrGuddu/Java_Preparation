@@ -15,3 +15,8 @@ public class LinearSearch_Other {
         else System.out.println("Target missing in Array");
     }
 }
+
+
+//boolean flag = false; and int found =-1; dono hi flag hai and dono ka meaning same hai qki -ve ye batata hai ki target array me nhi hai. Bas difference ye hai ki ek boolean se check kar rha hai and ek integer se check kar rha hai.
+// if(flag)     => Acceptable when flag is boolean datatype
+// if(flag)     => Not acceptable when flag is Integer datatype
