@@ -11,24 +11,25 @@ public class ArrayListsBasic {
         arr.add(5);
         arr.add(10);
 
-        System.out.println(arr.get(2)); // arr[2]
-        arr.set(3,50); // arr[3] = 50
+        System.out.println(arr.get(2));         // arr[2]=18
+        arr.set(3,50);                          // arr[3] = 50
+        System.out.println(arr);                // not traversing the array by ourselves
 
-        System.out.println(arr); // not traversing the array by ourselves
-        int n = arr.size(); // arr.length
-//        for(int i=0;i<n;i++){
+//        int n = arr.size();                     // arr.length
+//        for(int i=0;i<n;i++){                   //for loop
 //            System.out.print(arr.get(i)+" ");
 //        }
-//        for(int ele : arr){
+//        for(int ele : arr){                     //for-each loop
 //            System.out.print(ele+" ");
 //        }
 //        System.out.println();
+
         // 25 21 18 50 10
-        arr.add(78); // 25 21 18 50 10 78
-        arr.add(1,100);
+        arr.add(78);                            // 25 21 18 50 10 78
+        arr.add(1,100);           // 25 100 21 18 50 10 78
         System.out.println(arr);
-        arr.remove(arr.size()-1);
-        System.out.println(arr);
+        arr.remove(arr.size()-1);         //25, 100, 21, 18, 50, 10
+        System.out.println(arr);                //[25, 100, 21, 18, 50, 10]
 
         int i=0, j = arr.size()-1;
         while(i<j){
@@ -40,7 +41,7 @@ public class ArrayListsBasic {
         }
 
         //Collections.reverse(arr);
-        System.out.println(arr);
+        System.out.println(arr);                //[10, 5, 18, 21, 25]
         ArrayList<String> arr2 = new ArrayList<>();
 
         // HW -> {3,5,2,0,7} + {9,2,1} = {3,6,1,2,8}
