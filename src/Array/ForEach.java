@@ -23,3 +23,6 @@ public class ForEach {
         }
     }
 }
+
+
+// enhanced for loop / for-each loop
