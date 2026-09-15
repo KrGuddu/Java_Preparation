@@ -130,45 +130,56 @@
 ================================= 6th (Array) ============================
 1. Basics
 2. ElementsOfArray
- OutputInputArray
- OutputInputArray_Part2       **
-5. OutputInput_Que
- OutputInput_QuePart2         **
-7. PrintNegativeElements
-PrintNegativeElements_2ndMethod
-PrintNegativeElements_2
-9. SumOfElements
-10. SumOfElements_2ndMethod => [SumOfElements_2ndMethod_Version2, SumOfElements_2ndMethod_Version3]
-11. ProductOfElements_Basics
-12. ProductOfElements
-13. MaxElements
-14. MinElements
-15. ArrayOfOtherDataTypes
-16. ShallowCopyDeepCopy
-17. SortArrayBuiltIn
-18. ModifyElements
-19. ModifyElements_2nd
-20. ModifyElements_3rd
-21. LinearSearch
-22. LinearSearch_Other
-23. TwoSum
-24. TwoSum_2nd ==> best practice
-25. SecondMax
-26. ForEach
-27. ReverseArray
-28. ReversePartOfArray
-29. RotateArray
-30. RotateArray_Right
-31. MissingNumber
-32. MissingNumber_gfg
-33. Segregate0and1
-34. Segregate0and1_2ndMethod
-35. Segregate0and1_3rdMethod
-36. WaveArray
-37. ArrayListsBasic
-38. AddingOne
-39. MergeTwoSortedArrays
-40. MergeTwoSortedArrays_ReverseOrder
+3. OutputInputArray
+   OutputInputArray_Part2       **
+   OutputInput_Que
+   OutputInput_QuePart2         **
+4. PrintNegativeElements
+   PrintNegativeElements_2ndMethod
+   PrintNegativeElements_2
+5. SumOfElements
+   SumOfElements_2ndMethod
+   SumOfElements_2ndMethod_Version2
+   SumOfElements_2ndMethod_Version3        =>Prefix Sum concept  ***
+6. ProductOfElements_Basics
+   ProductOfElements
+7. MaxElements
+   MinElements
+8. ArrayOfOtherDataTypes
+9. ShallowCopyDeepCopy
+10. SortArrayBuiltIn
+11. ModifyElements
+    ModifyElements_2nd
+    ModifyElements_3rd
+12. LinearSearch
+    LinearSearch_Other
+13. TwoSum
+    TwoSum_2nd ==> best practice     *****
+14. SecondMax
+15. ForEach
+16. ReverseArray
+    ReversePartOfArray
+17. RotateArray
+    RotateArray_Right
+18. MissingNumber           =>Start from here
+    MissingNumber_gfg
+19. Segregate0and1
+    Segregate0and1_2ndMethod
+    Segregate0and1_3rdMethod
+20. WaveArray
+21. ArrayListsBasic
+22. AddingOne
+23. MergeTwoSortedArrays
+    MergeTwoSortedArrays_ReverseOrder
+24.
+
+
+Array length = n
+Valid indexes = 0 to n-1
+
+Loop:
+i < arr.length   ✅
+i <= arr.length  ❌
 
 =========================================== 7th (Time & Space Complexity) ===============================
 
