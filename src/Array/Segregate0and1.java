@@ -1,5 +1,5 @@
 //Que: Ques: Segregate 0s and 1s
-//1St Method by Two pass solution   ==> Not pass all test cases to not recommended.
+//1St Method by Two pass solution   ==> Not pass all test cases So not recommended.
 package Array;
 import java.util.Arrays;
 
@@ -26,3 +26,7 @@ public class Segregate0and1 {
         }
     }
 }
+
+
+//Segregate means: alag-alag karna / separate karna.
+//Segregate 0s and 1s => 0 aur 1 ko alag groups me arrange karna.

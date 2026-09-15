@@ -1,5 +1,5 @@
 //Que: Ques: Segregate 0s and 1s
-//Two pointer technique using while loop    ==> best a/c to chatGpt.
+//Two pointer technique using while loop    ==> best for 2-pointer (a/c to chatGpt).        ==>> the best
 //gfg: https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1
 
 package Array;
