@@ -11,28 +11,54 @@ class Linkedlist{ // user defined data structure
     Node head; // null
     Node tail; // null;
     int size;
-    int search(int val){
-        if(head==null) return -1;
+
+    boolean search(int val){        //when boolean datatype
+        if(head == null) return false;
         Node temp = head;
-        int idx = 0;
         while(temp != null){
-            if(temp.val == val) return idx;
+            if(temp.val == val) return true;     //temp.val and val both are different
             temp = temp.next;
-            idx++;
         }
-        return -1;
+        return false;
     }
+
+    //or,
+//    int search(int val){            //when integer datatype
+//        if(head==null) return -1;
+//        Node temp = head;
+//        int idx = 0;
+//
+//        while(temp != null){
+//            if(temp.val == val) return idx;     //temp.val and val both are different
+//            temp = temp.next;
+//            idx++;
+//        }
+//        return -1;
+//    }
+
     void addAtHead(int val) {
         Node temp = new Node(val);                  //Create a new node which name is temp
-        if(head==null) head = tail = temp;          //pahle tails ke under tail store hua then head ke under.
+        if(head==null) head = tail = temp;          //pahle tail ke under temp store hua then head ke under.
         else{
             temp.next = head;           //temp ko head se connect kiya and head ko temp par le aya (means ab temp head ban gya)
             head = temp;
         }
         size++;
     }
+
+//    void addAtTail(int val){
+//        Node temp = new Node(val);
+//        if(tail==null) head = tail = temp;
+//        else {
+//            tail.next = temp;           //tail.next me temp ko attached kiya then temp hi tail ho gya
+//            tail = temp;
+//        }
+//        size++;
+//    }
+
+    //or,
     void addAtTail(int val){
-        if(tail==null){
+        if(tail==null){             //Agr zero size ka linkedlist hai to iska matlab head par add karna hoga, so add karke wahi par kam khatam karo
             addAtHead(val);
             return;
         }
@@ -41,6 +67,7 @@ class Linkedlist{ // user defined data structure
         tail = temp;
         size++;
     }
+
     void deleteAtHead(){
         if(head==null){     //for empty linkedlist
             System.out.println("List Is Empty!");
@@ -50,6 +77,7 @@ class Linkedlist{ // user defined data structure
         if(head==null) tail = null;     //for one size linkedlist       //agar head null par chala gya to tail ko v null par le aao. qki head kavi v tail se chhota nhi ho skta hai ya to equal ya bada ho skta hai.
         size--;
     }
+
     void display() {
         if(head==null) return;
         Node temp = head;
@@ -72,12 +100,12 @@ class Linkedlist{ // user defined data structure
         else if(idx==size) addAtTail(val);
         else{
             Node temp = head;
-            for(int i=1;i<=idx-1;i++){
+            for(int i=1;i<=idx-1;i++){          //or i<idx
                 temp = temp.next;
             }
             Node t = new Node(val);
-            t.next = temp.next;
-            temp.next = t;
+            t.next = temp.next;                 //temp ka next, t ka next bana
+            temp.next = t;                      //temp ka next t bana
             size++;
         }
     }
@@ -123,3 +151,15 @@ public class LinkedListDataStructure {
 //Kavi v head and tail me se koe ek null nhi ho skta hai ya to dono hi null hoga ya dono ke pass value hogi. jab ek hi node hoga to tab wo ek node hi head v hoga nad tail v hoga.
 //LinkedList me multiple node ek node ko point kar skte hai but ek node multiple node ko point nhi kar skte hai. (Means, multiple node ka ek next ho skte hai but ek node ka multiple next nhi ho skte hai.)
 //Add karne se size++ hoti hai and delete karne se size-- hoti hai
+
+
+/*
+addAtHead
+addAtTail
+deleteAtHead
+display
+search
+insert
+get
+delete
+ */
