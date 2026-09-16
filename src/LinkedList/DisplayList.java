@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class DisplayList {
     public static void displayRec(Node head){           //Display recursivelly
         if(head == null) return;        //Base case means: terminative condition of for loop. Here for loop terminative condition is null so base case is null.
-//        System.out.print(head.val + " ");
-//        displayRec(head.next);
+        System.out.print(head.val + " ");
+        displayRec(head.next);
 
-        //to print in reverse
+        //to print in reverse =>Need to call first and then print
 //        displayRec(head.next);
 //        System.out.print(head.val + " ");
     }
+
     public static void display(Node head){                               //Node behave like datatype
         Node temp = head;
         while (temp != null){
@@ -21,7 +22,7 @@ public class DisplayList {
         }
         System.out.println();
 
-//        for(Node temp = head; temp != null; temp = temp.next){        //Using for loo => Not recommended
+//        for(Node temp = head; temp != null; temp = temp.next){        //Using for loop => Not recommended
 //            System.out.print(temp.val + " ");
 //        }
 //        System.out.println();
@@ -42,12 +43,12 @@ public class DisplayList {
         c.next=d;
         d.next=e;
 
-//        display(a);
+//        display(a);           //o/p: 10 20 30 40 50
         displayRec(a);
         System.out.println(get(a,4));       //To find LinkedList 4th index value.
 
 
-//        Node n = null;
+//        Node n = null;                      //Agar koe node null hai to uski value assign nhi kar skte hai, jisse uski na to koe value hogi aur na hi uska koe next variable hoga.
 //        n.val = 10;                         //NullPointerException: Cannot assign field "val" because "n" is null
 //        System.out.println(n.val);          //NullPointerException: Cannot read field "val" because "n" is null
 //        System.out.println(n.next);         //NullPointerException: Cannot read field "next" because "n" is null
@@ -65,9 +66,9 @@ public class DisplayList {
 
 
 /* Revision steps
-1. main method
-2. display
-3. displayRec
+1. display ->main method
+2. displayRec   ->main method
+3. get ->main method
 4. NullPointerException
 5. To print in reverse
 6. To find LinkedList 4th index value
