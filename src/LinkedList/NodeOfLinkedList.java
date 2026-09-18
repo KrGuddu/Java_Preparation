@@ -16,8 +16,8 @@ public class NodeOfLinkedList {
         Node e = new Node(50);      //tail node
 
 //        System.out.println(a);                 //o/p: Address of a
-//        System.out.println(a.val);             //o/p: value
-//        System.out.println(a.next);            //o/p: null     =>b/q default value of any node is null.  (qki a.next connect karne se pahle use kar rhe hai to, a ko pata nhi hai ki uska next variable kya hai to iss condition me default value null hoti hai.)
+//        System.out.println(a.val);             //o/p: value of a
+//        System.out.println(a.next);            //o/p: null     =>b/q default value of any single node is null.  (qki a.next connect karne se pahle use kar rhe hai to, a ko pata nhi hai ki uska next variable kya hai, aur wo khud ko ek single node mann rha hai and every single node ki tail and head same node par hi hoti hai and tail.next hamesa null ko point karta hai. So iss condition me default value null hoti hai.)
 
         // Connect karenge (Link karenge)
         a.next = b;
@@ -34,9 +34,17 @@ public class NodeOfLinkedList {
 //        System.out.println(c.next);                       //o/p: address of d
 
         System.out.println(e.val);                          //o/p: value of e
-        System.out.println(a.next.next.next.val);           //value of d
+        System.out.println(a.next.next.next.val);           //o/p: value of d
         System.out.println(c);                              //o/p: address of c
         System.out.println(b.next);                         //o/p: address of c
         System.out.println(a.next.next);                    //o/p: address of c
     }
 }
+
+
+/* Summary
+1. Declaration of node and it's constructor
+2. Create a node and provide value using constructor function and without constructor function.
+3. Connect a node to another node
+4. How to access a node, values of node, address of node, next of node.
+ */
