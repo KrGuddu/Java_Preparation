@@ -148,7 +148,7 @@ public class LinkedListDataStructure {
 
 
 
-//Kavi v head and tail me se koe ek null nhi ho skta hai ya to dono hi null hoga ya dono ke pass value hogi. jab ek hi node hoga to tab wo ek node hi head v hoga nad tail v hoga.
+//For single node: Kavi v head and tail me se koe ek null nhi ho skta hai ya to dono hi null hoga ya dono ke pass value hogi. jab ek hi node hoga to tab wo ek node hi head v hoga nad tail v hoga.
 //LinkedList me multiple node ek node ko point kar skte hai but ek node multiple node ko point nhi kar skte hai. (Means, multiple node ka ek next ho skte hai but ek node ka multiple next nhi ho skte hai.)
 //Add karne se size++ hoti hai and delete karne se size-- hoti hai
 
