@@ -355,12 +355,20 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 3. LinkedListDataStructure     => Revise again         *****
 4. DeleteNode  => LC.237. Delete Node in a Linked List
 5. Middle of Linked List ==>> https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
-   Delete Middle of Linked List ==> https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1           =>H.W.
+   Delete Middle of Linked List ==> https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1           =>H.W. =>Done
    Kth from End of Linked List  ==> https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
-6. L.C. 19. Remove Nth Node From End of List   =>H.W.
-7. L.C. 1721. Swapping Nodes in a Linked List       =>H.W.
+6. L.C. 19. Remove Nth Node From End of List   =>H.W.       =>4:29:00
+7. L.C. 1721. Swapping Nodes in a Linked List
 8. Intersection_Of_Two_LL : => L.C. 160
-9.
+9. DetectLoop   [LC. 141. Linked List Cycle
+                 Or, https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1 ]
+10. https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1
+11. RemoveDuplicates   [LC.83. Remove Duplicates from Sorted List]
+                            Or, [ https://www.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1 ]
+12. RemoveDuplicates_II     [LC.82. Remove Duplicates from Sorted List II]
+13. RotateList  =>   Rotate Right [LC. 61. Rotate List]
+                     Rotate left  [ https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1 ]         ==> H.W.
+14.
 
 
 
