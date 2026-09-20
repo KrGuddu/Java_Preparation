@@ -12,11 +12,11 @@ public class DeleteNode {
         }
     }
 
-    // Delete given node                                    //This is actual code
-    public static void deleteNode(Node tar) {
+    // Delete given node   //This is actual code        //Hint in que: You do not have to delete actual node, it delete the value =>means value delete karna hai node nhi.
+    public static void deleteNode(Node tar) {           //void me kux return nhi karna hota hai.
         tar.val = tar.next.val;
         tar.next = tar.next.next;
-    }
+    }               //isme targeted node ki value ko delete karna hai to target ke next node ki value ko target ke under store kara le and then target.next.next ko target ka next bana do.
 
     // Print Linked List
     public static void printList(Node head) {
