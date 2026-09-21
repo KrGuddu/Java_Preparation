@@ -370,11 +370,16 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
                      Rotate left  [ https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1 ]         ==> H.W.
 14.
 
-
-
 ----------------------------------------------- 18th (Linked List-II) ---------------------------------------
-
-
+15. Merge_Two_Sorted_Lists  [LC.21. Merge Two Sorted Lists]
+                            [https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1]
+16. Merge_Sort_for_LinkedList   [https://www.geeksforgeeks.org/problems/sort-a-linked-list/1]
+                                [LC. 148. Sort List]        ==>Check code   =>H.W.
+17. LC.86. PartitionList
+    https://www.geeksforgeeks.org/problems/partition-a-linked-list-around-a-given-value/1           ==>H.W.
+18. https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1          => isme even ko pahle and odd ko last me rakhna hai
+19. LC.328. Odd Even Linked List       => Isme even index ko pahle and odd index ko last me rakhna hai.        ==>H.W.
+20. LC.24. Swap Nodes in Pairs      =>H.W.
 
 
 
@@ -390,6 +395,17 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 
 
 =====================================================================================================
+
+Remove Duplicates from Unsorted Linked List
+Remove Duplicates from a Sorted Linked List
+Remove Loop in Linked List
+Find Duplicates in O(n) Time and O(1) Space
+Maximum Subarray Problem (Kadane's Algorithm)
+Sort an Array of 0s, 1s, and 2s (Dutch National Flag Problem)
+
+
+
+
 For recursion need to revise methods => function calling itself.
 what is recurrence relations?
 purana kux ho jiski madad se ham kux build kare to wo recursion kahlati hai.
