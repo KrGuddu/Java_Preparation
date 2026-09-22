@@ -1,15 +1,15 @@
 package LinkedList;
 import java.util.ArrayList;
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}
+//class Node {
+//    int data;
+//    Node next;
+//
+//    Node(int x) {
+//        data = x;
+//        next = null;
+//    }
+//}
 
 public class ReverseLL {
     Node reverseList(Node head) {
