@@ -380,6 +380,8 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 18. https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1          => isme even ko pahle and odd ko last me rakhna hai
 19. LC.328. Odd Even Linked List       => Isme even index ko pahle and odd index ko last me rakhna hai.        ==>H.W.
 20. LC.24. Swap Nodes in Pairs      =>H.W.
+21. ReverseLL       => [LC. 206. Reverse Linked List]
+                       [https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1 ]
 
 
 
