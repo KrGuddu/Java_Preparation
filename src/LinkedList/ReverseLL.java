@@ -40,6 +40,14 @@ public class ReverseLL {
         }
         return prev;
 
+        //3rd method: Recursive way: T.C.= O(n), A.S.= O(n) =>why n recursive calls → call stack
+//         if(head==null || head.next==null) return head;          //Base case
+//         Node a = head.next;
+//         head.next = null;
+//         Node b = reverseList(a);
+//         a.next = head;
+//         return b;
+
     }
     public static void main(String[] args) {
 
