@@ -390,15 +390,6 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
 
 
 
-
-Q. Reorder list
-Even ki case me left middle nikale and odd ki case me right middle nikale
-Steps:
-1. middle of a linked list
-2. reverse of a linked list
-3. merge to sorted linked list(reverse ll)
-
-
 ============================================= 19th (Stacks) ================================================
 
 
