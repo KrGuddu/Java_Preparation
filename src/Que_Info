@@ -379,10 +379,24 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
     https://www.geeksforgeeks.org/problems/partition-a-linked-list-around-a-given-value/1           ==>H.W.
 18. https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1          => isme even ko pahle and odd ko last me rakhna hai
 19. LC.328. Odd Even Linked List       => Isme even index ko pahle and odd index ko last me rakhna hai.        ==>H.W.
-20. LC.24. Swap Nodes in Pairs      =>H.W.
+20. LC.24. Swap Nodes in Pairs
 21. ReverseLL       => [LC. 206. Reverse Linked List]
                        [https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1 ]
+22. isPalindrome_InLL       [LC.234. Palindrome Linked List]
+                            [https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1]
+23. LC.2130. Maximum Twin Sum of a Linked List          ==>H.W.
+24. LC.143. Reorder List                                ==>H.W.
+25.
 
+
+
+
+Q. Reorder list
+Even ki case me left middle nikale and odd ki case me right middle nikale
+Steps:
+1. middle of a linked list
+2. reverse of a linked list
+3. merge to sorted linked list(reverse ll)
 
 
 ============================================= 19th (Stacks) ================================================
