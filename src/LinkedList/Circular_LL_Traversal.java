@@ -19,4 +19,8 @@ public class Circular_LL_Traversal {
         System.out.print(temp.data+" ");
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
