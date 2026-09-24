@@ -386,8 +386,21 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
                             [https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1]
 23. LC.2130. Maximum Twin Sum of a Linked List          ==>H.W.
 24. LC.143. Reorder List                                ==>H.W.
-25.
+25. Merge_K_Sorted_LL       [https://www.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1]
+                            [LC.23. Merge k Sorted Lists]
+26. Reverse_Sublist_Of_LL   [LC.92. Reverse Linked List II]
+                            [https://www.geeksforgeeks.org/problems/reverse-a-sublist-of-a-linked-list/1]
+https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+LC.2. Add Two Numbers
 
+Circular_LL_Traversal   [https://www.geeksforgeeks.org/problems/circular-linked-list-traversal/1]
+                        141. Linked List Cycle              =>Check this
+
+convert singly linked list into circular linked list        => 4:07:00          =>>H.W.
+https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1           =>After (4:07:00)      =>H.W.
+
+
+https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1            ==>H.W.         => 4:15:00
 
 
 ============================================= 19th (Stacks) ================================================
