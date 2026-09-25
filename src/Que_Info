@@ -390,17 +390,27 @@ Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern
                             [LC.23. Merge k Sorted Lists]
 26. Reverse_Sublist_Of_LL   [LC.92. Reverse Linked List II]
                             [https://www.geeksforgeeks.org/problems/reverse-a-sublist-of-a-linked-list/1]
-https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
-LC.2. Add Two Numbers
+27. https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+LC.2. Add Two Numbers         ==>>Pending
 
-Circular_LL_Traversal   [https://www.geeksforgeeks.org/problems/circular-linked-list-traversal/1]
-                        141. Linked List Cycle              =>Check this
+28. Circular_LL_Traversal   [https://www.geeksforgeeks.org/problems/circular-linked-list-traversal/1]
+                            141. Linked List Cycle              =>Check this
 
-convert singly linked list into circular linked list        => 4:07:00          =>>H.W.
-https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1           =>After (4:07:00)      =>H.W.
+29. convert singly linked list into circular linked list        => 4:07:00          =>>H.W.
+30. https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1           =>After (4:07:00)      =>H.W.
+31. LC.725. Split Linked List in Parts                      ==>>Ignore this(Headache question)
+
+32. Deletion_And_Reverse_In_LL  [https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1]            ==>H.W.         => 4:15:00       ==>check again both solution
 
 
-https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1            ==>H.W.         => 4:15:00
+-------------------------------------------- Doubly ll (Start from 4:31:30) -----------------------------------------
+1. DoublyLinkedListClass
+2. Reverse_Doubly_LL       [https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1]
+3. https://www.geeksforgeeks.org/problems/rotate-doubly-linked-list-by-p-nodes/1                       ==>H.W.
+4. https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1         ==>H.W.
+5. FlattenMultilevel_DLL       [LC.430. Flatten a Multilevel Doubly Linked List]           ==>>toughest question of DLL
+6. Min_And_Max_NumOf_Nodes_Between_Critical_Points     [LC.2058. Find the Minimum and Maximum Number of Nodes Between Critical Points]     ==>Hard question
+7. LC.138. Copy List with Random Pointer       ==>Hardest problem of LL
 
 
 ============================================= 19th (Stacks) ================================================
@@ -415,7 +425,7 @@ https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1    
 
 
 =====================================================================================================
-
+Important question must do it:-
 Remove Duplicates from Unsorted Linked List
 Remove Duplicates from a Sorted Linked List
 Remove Loop in Linked List
@@ -438,4 +448,16 @@ Better than segregate0and1 b/q in Segregate0and1 non zeros order is mismatch.
 
 
 Note: Annotation in vscode
+
+
+===============================================================================================
+
+
+before flattenMulDLL:
+insert(idx, val) : zero based indexing
+insertion head and tail dono se kar skte hai.
+
+
+
+
 
