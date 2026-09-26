@@ -186,12 +186,13 @@ i <= arr.length  ❌
 
 =================================================== 8th (Sorting) ==================================================
 1. Basics
-2. BubbleSorting
-3. BubbleSort_Desc_Order
+2. BubbleSorting                =>LC.912. Sort an Array
+   BubbleSort_Desc_Order
 4. SelectionSort => SortInAscendingOrder
-5. SortInDescendingOrder
-6. https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1
-7. CommonElements
+                    SortInDescendingOrder
+6. https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1               =>H.W.  =>Must complete it
+7. CommonElements       [https://www.geeksforgeeks.org/problems/common-elements5420/1]
+                        [https://www.geeksforgeeks.org/problems/common-elements1132/1]          =>H.W.
 8. Kth_Smallest
 9. InsertionSort Basics
 
