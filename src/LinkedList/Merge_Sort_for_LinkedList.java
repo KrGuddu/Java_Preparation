@@ -1,13 +1,13 @@
 package LinkedList;
 
-class Node {
-    int data;
-    Node next;
-    Node(int key) {
-        data = key;
-        next = null;
-    }
-}
+//class Node {
+//    int data;
+//    Node next;
+//    Node(int key) {
+//        data = key;
+//        next = null;
+//    }
+//}
 
 public class Merge_Sort_for_LinkedList {
     public Node mergeSort(Node head) {
