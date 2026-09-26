@@ -36,3 +36,14 @@ public class SortInAscendingOrder {
         System.out.println(Arrays.toString(arr));
     }
 }
+
+
+
+/*
+Suppose hume array ka minimum element find karna hai:- Hum min ko initially sabse bada possible number dete hain(min = Integer.MAX_VALUE), taaki array ka koi bhi actual element usse chhota ho aur min update ho sake.
+
+int min = Integer.MAX_VALUE;     =>Because we're looking for something smaller.
+int max = Integer.MIN_VALUE;     =>Because we're looking for something larger.
+But, Agar array guaranteed non-empty hai, you can also initialize from the first element:
+int min = arr[0];
+ */
