@@ -6,8 +6,9 @@ public class Kth_Smallest {
         int[] arr = {10, 5, 4, 3, 48, 6, 2, 33, 53, 10};
         int k = 4;
         int n = arr.length;
+
         // TC = O(n*k)
-        for(int i=0;i<k;i++) { // n-1 passes
+        for(int i=0; i<k; i++) { // n-1 passes
             int min = Integer.MAX_VALUE, mindx = -1;
             for(int j=i;j<n;j++) {
                 if (arr[j] < min) {
