@@ -22,3 +22,4 @@ public class BinarySearch_Q1 {
         System.out.println("Element not found");
     }
 }
+
