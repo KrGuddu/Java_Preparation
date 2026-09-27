@@ -24,3 +24,4 @@ public class Kth_Smallest {
         System.out.println(arr[k-1]);       //k-1 means 3 and it is the index of arr elements which is 5.
     }
 }
+
