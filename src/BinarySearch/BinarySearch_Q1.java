@@ -23,3 +23,5 @@ public class BinarySearch_Q1 {
     }
 }
 
+//arr[mid]  =>means: array mid ki value ko point karta hai
+//mid =>means: array mid ki index ko point karta hai.
