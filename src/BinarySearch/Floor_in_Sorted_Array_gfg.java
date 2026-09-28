@@ -2,23 +2,23 @@
 
 package BinarySearch;
 
-public class Floor_in_Sorted_Array_gfg {
-    public static void main(String[] args) {
+//public class Floor_in_Sorted_Array_gfg {
+//    public static void main(String[] args) {
 //        int[] arr = {1, 2, 8, 10, 10, 12, 19};
 //        int x = 5;
 //        int lo=0, hi=arr.length-1, idx=-1;
 //
 //        while(lo<=hi){
 //            int mid = (lo+hi)/2;
-//            if(arr[mid]>x) hi=mid-1;
+//            if(arr[mid]>x) hi=mid-1;        //question say "Largest number is less than or equal to x", isliye sirf ye hi statement lenge.
 //            else{
 //                idx=mid;
 //                lo=mid+1;
 //            }
 //        }
 //        return idx;
-    }
-}
+//    }
+//}
 
 
 /*
