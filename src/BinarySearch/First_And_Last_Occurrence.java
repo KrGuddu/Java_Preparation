@@ -50,3 +50,11 @@ public class First_And_Last_Occurrence {
         return idx;
     }
 }
+
+
+/* Solutions flow:
+1. Create a method for firstOccurrence
+2. Create a method for lastOccurrence
+3. store these in first and last
+4. then, apply condition and print/return "First Occurrence and Last Occurrence" and handle "Element not found"
+ */

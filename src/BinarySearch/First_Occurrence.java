@@ -17,7 +17,7 @@ public class First_Occurrence {
             else if(arr[mid]>k) hi=mid-1;
             else{   //means, arr[mid]==target
                 idx=mid;        // store answer
-                hi=mid-1;       // move left if target element is available in left/lower index index
+                hi=mid-1;       // move left if target element is available on left/lower index.
             }
         }
         if (idx != -1)
@@ -38,4 +38,7 @@ Ans: Kyuki hume first occurrence chahiye, Isliye left side me aur search karna p
 Tips: First Occurrence	hi = mid - 1
       Last Occurrence	lo = mid + 1
 
+
+Note: Binary search me 2 index lene parte hai low and high.
+      Binary search me 3 hisse hote hai left-half, middle element, right-half.
 */
