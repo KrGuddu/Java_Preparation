@@ -198,13 +198,13 @@ i <= arr.length  ❌
 
 ================================================== 9th (Binary Search) ======================================================
 1. BinarySearch_Q1
-2. First_Occurrence [Gfg and Leetcode]
-3. Last_Occurrence
-4. First_And_Last_Occurrence
-5. First_And_Last_Occurrence_2nd [Gfg and Leetcode Problem]
-6. Leetcode Q.852 => Peak Index in a Mountain Array
-7. Floor_in_Sorted_Array_gfg ==>> https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
-8. Floor_in_Sorted_Array_gfg
+2. First_Occurrence     ==> [LC.704] [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1] [https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1]
+   Last_Occurrence
+   First_And_Last_Occurrence
+   First_And_Last_Occurrence_2nd    **    ==>> [LC.34] [https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1]
+6. Peak Index in a Mountain Array   [Leetcode Q.852]
+7. Floor_in_Sorted_Array_gfg    ==>>  [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
+                                      [LC.35. Search Insert Position]           =>Pending
 9. Smallest_Letter_Greater_Than_Target_Leetcode_744
 10. Search_Insert_Position_Leetcode_35
 11. LC. 2529. ==>> Maximum Count of Positive Integer and Negative Integer  ==>> Solution pending
