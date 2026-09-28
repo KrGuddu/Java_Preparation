@@ -69,3 +69,8 @@ letters[0]
 
 Important: Is problem mein ans ki zarurat nahi hai. lo directly smallest element greater than target ka insertion position deta hai.
 * */
+
+
+/* what is lexicographically greater?
+   what is lexicographically smaller?
+ */
