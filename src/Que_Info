@@ -415,6 +415,16 @@ LC.2. Add Two Numbers         ==>>Pending
 
 
 ============================================= 19th (Stacks) ================================================
+1. BasicSTLOfStacks
+2. PushAtBottom
+3. LL_Implementation_Of_Stack
+4. BalancedBrackets        [https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1]
+                           [LC.20. Valid Parentheses]
+5. Remove Consecutive Characters                       ==>H.W.
+6. BaseBallGame            [LC.682. Baseball Game]
+
+
+
 
 
 ============================================= 20th (Queues) ================================================
