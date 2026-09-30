@@ -418,12 +418,19 @@ LC.2. Add Two Numbers         ==>>Pending
 1. BasicSTLOfStacks
 2. PushAtBottom
 3. LL_Implementation_Of_Stack
-4. BalancedBrackets        [https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1]
-                           [LC.20. Valid Parentheses]
+4. BalancedBrackets                 [https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1]
+                                    [LC.20. Valid Parentheses]
 5. Remove Consecutive Characters                       ==>H.W.
-6. BaseBallGame            [LC.682. Baseball Game]
-
-
+6. BaseBallGame                     [LC.682. Baseball Game]
+7. RemoveNodesFromLL                [LC.2487. Remove Nodes From Linked List]
+   RemoveNodesFromLL_2
+   RemoveNodesFromLL_3
+8. NextGreaterElement               [https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1]
+   NextGreaterElement_BF
+   NextGreaterElement_2             [LC. 503. Next Greater Element II]
+9. StockSpanProblem                 [https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1]
+10. CelebrityProblem                [https://www.geeksforgeeks.org/problems/the-celebrity-problem/1]
+11. VisiblePeopleInQueue            [LC.1944. Number of Visible People in a Queue]
 
 
 
