@@ -418,7 +418,7 @@ LC.2. Add Two Numbers         ==>>Pending
 1. BasicSTLOfStacks
 2. PushAtBottom
 3. LL_Implementation_Of_Stack
-4. BalancedBrackets                 [https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1]
+4. BalancedBrackets                 [https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1]          =>revisions
                                     [LC.20. Valid Parentheses]
 5. Remove Consecutive Characters                       ==>H.W.
 6. BaseBallGame                     [LC.682. Baseball Game]
@@ -431,8 +431,11 @@ LC.2. Add Two Numbers         ==>>Pending
 9. StockSpanProblem                 [https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1]
 10. CelebrityProblem                [https://www.geeksforgeeks.org/problems/the-celebrity-problem/1]
 11. VisiblePeopleInQueue            [LC.1944. Number of Visible People in a Queue]
-
-
+12. LC.84. Largest Rectangle in Histogram   [https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1]
+13. MaxRectangle                    [https://www.geeksforgeeks.org/problems/max-rectangle/1]
+                                    [LC.85. Maximal Rectangle]              => Try to solve this
+14. MinStack                        [LC.155. Min Stack]
+    MinStack_2
 
 ============================================= 20th (Queues) ================================================
 

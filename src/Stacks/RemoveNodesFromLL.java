@@ -12,25 +12,25 @@ import java.util.Stack;
 //    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 //}
 
-public class RemoveNodesFromLL {
-    public ListNode removeNodes(ListNode head) {
-        //1st method:        //T.C.= O(n), A.S.=O(n)
-        Stack<ListNode> st = new Stack<>();
-        ListNode temp = head;
-
-        while(temp!=null){
-            while(st.size()>0 && st.peek().val < temp.val) st.pop();            // st.size()>0;  ==>use this to handle underflow error
-            st.push(temp);
-            temp=temp.next;
-        }
-        while(st.size()>0){
-            ListNode top = st.pop();
-            top.next = temp;
-            temp = top;
-        }
-        return temp;
-    }
-}
+//public class RemoveNodesFromLL {
+//    public ListNode removeNodes(ListNode head) {
+//        //1st method:        //T.C.= O(n), A.S.=O(n)
+//        Stack<ListNode> st = new Stack<>();
+//        ListNode temp = head;
+//
+//        while(temp!=null){
+//            while(st.size()>0 && st.peek().val < temp.val) st.pop();            // st.size()>0;  ==>use this to handle underflow error
+//            st.push(temp);
+//            temp=temp.next;
+//        }
+//        while(st.size()>0){
+//            ListNode top = st.pop();
+//            top.next = temp;
+//            temp = top;
+//        }
+//        return temp;
+//    }
+//}
 
 
 /* Idea: Remove a node if there is a node to its right with a greater value.

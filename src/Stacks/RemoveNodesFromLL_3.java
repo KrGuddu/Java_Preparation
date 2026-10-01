@@ -2,56 +2,56 @@
 //TC: O(n)
 //AS: O(1)
 
-package Stacks;
-
-public class RemoveNodesFromLL_3 {
-    public ListNode removeNodes(ListNode head) {
-
-        // Step 1: Reverse the linked list
-        ListNode prev = null;
-        ListNode curr = head;
-
-        while (curr != null) {
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-
-        // prev is now the reversed head
-        head = prev;
-
-        // Step 2: Remove nodes smaller than the maximum seen so far
-        curr = head;
-        int max = curr.val;
-
-        while (curr != null && curr.next != null) {
-
-            if (curr.next.val < max) {
-                // Remove curr.next
-                curr.next = curr.next.next;
-            }
-            else {
-                // Current node becomes the new maximum
-                max = curr.next.val;
-                curr = curr.next;
-            }
-        }
-
-        // Step 3: Reverse again to restore original order
-        prev = null;
-        curr = head;
-
-        while (curr != null) {
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-
-        return prev;
-    }
-}
+//package Stacks;
+//
+//public class RemoveNodesFromLL_3 {
+//    public ListNode removeNodes(ListNode head) {
+//
+//        // Step 1: Reverse the linked list
+//        ListNode prev = null;
+//        ListNode curr = head;
+//
+//        while (curr != null) {
+//            ListNode next = curr.next;
+//            curr.next = prev;
+//            prev = curr;
+//            curr = next;
+//        }
+//
+//        // prev is now the reversed head
+//        head = prev;
+//
+//        // Step 2: Remove nodes smaller than the maximum seen so far
+//        curr = head;
+//        int max = curr.val;
+//
+//        while (curr != null && curr.next != null) {
+//
+//            if (curr.next.val < max) {
+//                // Remove curr.next
+//                curr.next = curr.next.next;
+//            }
+//            else {
+//                // Current node becomes the new maximum
+//                max = curr.next.val;
+//                curr = curr.next;
+//            }
+//        }
+//
+//        // Step 3: Reverse again to restore original order
+//        prev = null;
+//        curr = head;
+//
+//        while (curr != null) {
+//            ListNode next = curr.next;
+//            curr.next = prev;
+//            prev = curr;
+//            curr = next;
+//        }
+//
+//        return prev;
+//    }
+//}
 
 
 /* Dry run

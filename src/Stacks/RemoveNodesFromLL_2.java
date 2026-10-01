@@ -1,52 +1,52 @@
 //By chatgpt
 
-package Stacks;
-import java.util.Stack;
-
-//public class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode() {}
-//    ListNode(int val) { this.val = val; }
-//    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+//package Stacks;
+//import java.util.Stack;
+//
+////public class ListNode {
+////    int val;
+////    ListNode next;
+////    ListNode() {}
+////    ListNode(int val) { this.val = val; }
+////    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+////}
+//
+//
+//public class RemoveNodesFromLL_2 {
+//    public ListNode removeNodes(ListNode head) {
+//
+//        // Stack to store nodes in decreasing order
+//        Stack<ListNode> stack = new Stack<>();
+//
+//        ListNode curr = head;
+//
+//        while (curr != null) {
+//
+//            // Remove smaller nodes from stack
+//            // because current node is greater than them
+//            while (!stack.isEmpty() && stack.peek().val < curr.val) {
+//                stack.pop();
+//            }
+//
+//            // Add current node
+//            stack.push(curr);
+//
+//            curr = curr.next;
+//        }
+//
+//        // Reconstruct the linked list
+//        ListNode newHead = null;
+//
+//        while (!stack.isEmpty()) {
+//            ListNode node = stack.pop();
+//
+//            node.next = newHead;
+//            newHead = node;
+//        }
+//
+//        return newHead;
+//    }
 //}
-
-
-public class RemoveNodesFromLL_2 {
-    public ListNode removeNodes(ListNode head) {
-
-        // Stack to store nodes in decreasing order
-        Stack<ListNode> stack = new Stack<>();
-
-        ListNode curr = head;
-
-        while (curr != null) {
-
-            // Remove smaller nodes from stack
-            // because current node is greater than them
-            while (!stack.isEmpty() && stack.peek().val < curr.val) {
-                stack.pop();
-            }
-
-            // Add current node
-            stack.push(curr);
-
-            curr = curr.next;
-        }
-
-        // Reconstruct the linked list
-        ListNode newHead = null;
-
-        while (!stack.isEmpty()) {
-            ListNode node = stack.pop();
-
-            node.next = newHead;
-            newHead = node;
-        }
-
-        return newHead;
-    }
-}
 
 
 /* Dry run

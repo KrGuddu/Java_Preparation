@@ -1,29 +1,29 @@
 //Using brute-force (if-else) approach : If you specifically want to understand it without Stack first.
 
-package Stacks;
-import java.util.ArrayList;
-
-public class NextGreaterElement_BF {
-    public ArrayList<Integer> nextLargerElement(int[] arr) {
-        ArrayList<Integer> ans = new ArrayList<>();
-
-        for (int i = 0; i < arr.length; i++) {
-            boolean found = false;
-
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] > arr[i]) {
-                    ans.add(arr[j]);
-                    found = true;
-                    break;
-                }
-            }
-            if (found == false) {
-                ans.add(-1);
-            }
-        }
-        return ans;
-    }
-}
+//package Stacks;
+//import java.util.ArrayList;
+//
+//public class NextGreaterElement_BF {
+//    public ArrayList<Integer> nextLargerElement(int[] arr) {
+//        ArrayList<Integer> ans = new ArrayList<>();
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            boolean found = false;
+//
+//            for (int j = i + 1; j < arr.length; j++) {
+//                if (arr[j] > arr[i]) {
+//                    ans.add(arr[j]);
+//                    found = true;
+//                    break;
+//                }
+//            }
+//            if (found == false) {
+//                ans.add(-1);
+//            }
+//        }
+//        return ans;
+//    }
+//}
 
 
 /* Dry run

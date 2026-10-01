@@ -1,3 +1,6 @@
+//Time: O(n)
+//Auxiliary Space: O(n) — recursion call stack
+
 package Stacks;
 import java.util.Stack;
 
@@ -25,12 +28,29 @@ public class PushAtBottom {
 //    }
 
     private static void pushAtBottom(Stack<Integer> st, int ele) {          //By normal method  =>Good
-        if(st.size()==0){           //Base case
+        if(st.size()==0){           //Step3: Base case      =>jab stack empty ho gaya tab dalo.
             st.push(ele);
             return;
         }
-        int top = st.pop();         //stack ki ek elements ko nikalkar top me store kar diye
-        pushAtBottom(st,ele);       //ye check karegea avi v stack me elements hai ya nhi agar nhi hai to push kar dega
-        st.push(top);               //fir ek-ek karke savi elements ko bapas se top se stack me dal rhe hai
+        int top = st.pop();         //Step1: Remove top element       ==>stack ki ek elements ko nikalkar top me store kar diye
+        pushAtBottom(st,ele);       //Step2: Go until stack becomes empty         //pushAtBottom() recursively keeps popping elements until the stack becomes empty. At that point, it pushes ele, and during backtracking it restores all popped elements.     //ye line bar bar chalega jabtak stack khali na ho jaye.
+        st.push(top);               //Step4: Restore removed element          =>fir ek-ek karke savi elements ko bapas se top se stack me dal rhe hai
     }
 }
+
+
+
+/* Dry run:-
+For: [10, 20, 30, 40] → push 50 at bottom
+1. Pop 40
+2. Pop 30
+3. Pop 20
+4. Pop 10
+5. Stack becomes empty → push 50
+6. Backtracking → push 10
+7. Push 20
+8. Push 30
+9. Push 40
+
+Final: [50, 10, 20, 30, 40]
+ */
