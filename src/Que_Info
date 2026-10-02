@@ -438,11 +438,18 @@ LC.2. Add Two Numbers         ==>>Pending
     MinStack_2                      [https://www.geeksforgeeks.org/problems/get-minimum-element-from-stack/1]
 
 ============================================= 20th (Queues) ================================================
-
-
-
-
-
+1. BasicSTLOfQueues
+2. TraversalInQueue             => complete this code
+3. ReverseQueue                                 [https://www.geeksforgeeks.org/problems/queue-reversal/1]
+4. Reverse_First_K_Elements_In_Queue            [https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1]
+5. WinnerOfCircularGame         [LC.1823. Find the Winner of the Circular Game]     [https://www.geeksforgeeks.org/problems/josephus-problem/1]         ==>Bits manipulations
+6. MyQueue + LLImplementationOfQueue
+7. LC.232. Implement Queue using Stacks     ==>Also known as QueueFromStack
+8. LC.225. Implement Stack using Queues     ==>Also known as StackFromQueue
+9. RearrangeQueue                               [https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/1]
+   RearrangeQueue_2
+   RearrangeQueue_3
+10. FirstNegativeInteger                        [https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1]
 
 
 =====================================================================================================
