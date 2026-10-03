@@ -81,5 +81,4 @@ public class ImplementQueueUsingStacks {
             return (st.size()==0);
         }
     }
-
 }
