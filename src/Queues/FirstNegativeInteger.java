@@ -22,3 +22,4 @@ public class FirstNegativeInteger {
         return ans;
     }
 }
+
