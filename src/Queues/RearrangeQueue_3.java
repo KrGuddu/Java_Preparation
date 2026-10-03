@@ -8,7 +8,6 @@ import java.util.Stack;
 public class RearrangeQueue_3 {
     class Solution {
         public void rearrangeQueue(Queue<Integer> q) {
-
             int n = q.size();
             Stack<Integer> st = new Stack<>();
 
@@ -53,3 +52,4 @@ public class RearrangeQueue_3 {
         }
     }
 }
+
