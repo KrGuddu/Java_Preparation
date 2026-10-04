@@ -204,9 +204,9 @@ i <= arr.length  ❌
    First_And_Last_Occurrence_2nd    **    ==>> [LC.34] [https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1]
 6. Peak Index in a Mountain Array   [Leetcode Q.852]
 7. Floor_in_Sorted_Array_gfg    ==>>  [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
-                                      [LC.35. Search Insert Position]           =>Pending
-9. Smallest_Letter_Greater_Than_Target_Leetcode_744
-10. Search_Insert_Position_Leetcode_35
+8. Search_Insert_Position_Leetcode_35      [LC.35. Search Insert Position]
+9. Smallest_Letter_Greater_Than_Target_Leetcode_744         [Opposite of Floor_in_Sorted_Array_gfg ]
+10.
 11. LC. 2529. ==>> Maximum Count of Positive Integer and Negative Integer  ==>> Solution pending
 12. Square Root ==>> https://www.geeksforgeeks.org/problems/square-root/1
 13. LC. 69. Sqrt(x)
