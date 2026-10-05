@@ -207,7 +207,10 @@ i <= arr.length  ❌
 8. Search_Insert_Position_Leetcode_35      [LC.35. Search Insert Position]
 9. Smallest_Letter_Greater_Than_Target_Leetcode_744         [Opposite of Floor_in_Sorted_Array_gfg ]
 10.
-11. LC. 2529. ==>> Maximum Count of Positive Integer and Negative Integer  ==>> Solution pending
+11. MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
+    MaxCount_Of_PosInt_NegInt_2
+    MaxCount_Of_PosInt_NegInt_3
+    Extra
 12. Square Root ==>> https://www.geeksforgeeks.org/problems/square-root/1
 13. LC. 69. Sqrt(x)
 14. Single Among Doubles in a Sorted ==>> https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1
@@ -219,6 +222,8 @@ i <= arr.length  ❌
     Or, LC.1539. Kth Missing Positive Number
 19.
 
+
+Q. find the number of positive integer, negative integer and zeros
 
 ============================================== 10th (String) ==============================================
 1. NumberOfVowels
