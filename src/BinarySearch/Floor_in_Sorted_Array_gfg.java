@@ -21,6 +21,7 @@ public class Floor_in_Sorted_Array_gfg {
 }
 
 
+
 /* Dry Run
 arr[] = [1, 2, 8, 10, 10, 12, 19]
 x = 5
