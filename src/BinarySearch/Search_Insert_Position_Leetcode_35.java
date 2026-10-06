@@ -13,6 +13,7 @@ public class Search_Insert_Position_Leetcode_35 {
     }
 
 
+
     //Normal Binary Search      //T.C.: O(log n)  A.S.: O(1)
 //    public int searchInsert(int[] nums, int target) {
 //        int lo = 0, hi = nums.length - 1;
