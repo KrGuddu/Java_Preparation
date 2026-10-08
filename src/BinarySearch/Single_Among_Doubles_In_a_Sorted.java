@@ -1,3 +1,6 @@
+//Method 3 (By Sir): first/second-occurrence binary search             =>good but Optimal complexity, more error-prone.
+//Note: [When array is sorted then always apply binary search]
+
 package BinarySearch;
 
 public class Single_Among_Doubles_In_a_Sorted {
@@ -22,7 +25,7 @@ public class Single_Among_Doubles_In_a_Sorted {
             if(leftCount%2 == 0) lo= s+1;
             else hi=f-1;
         }
-        return 942;
+        return 942;         //return 942; is an arbitrary fallback and can return a wrong value if the input is invalid.
 
     }
 }
