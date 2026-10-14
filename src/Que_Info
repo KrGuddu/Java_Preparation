@@ -211,8 +211,11 @@ i <= arr.length  ❌
     MaxCount_Of_PosInt_NegInt_2
     MaxCount_Of_PosInt_NegInt_3
     Extra
-12. Square Root ==>> https://www.geeksforgeeks.org/problems/square-root/1
-13. LC. 69. Sqrt(x)
+12. SquareRoot                       [https://www.geeksforgeeks.org/problems/square-root/1]
+    SquareRoot_2        ==> By Sir      =>The Best
+    LC. 69. Sqrt(x)
+
+    ----------Revise from here, also must check chatgpt solution----------
 14. Single Among Doubles in a Sorted ==>> https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1
 15. Arranging Coins ==> LC 441
 16. Search_element_in_sorted_and_rotated_array  ==>> https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
@@ -223,7 +226,7 @@ i <= arr.length  ❌
 19.
 
 
-Q. find the number of positive integer, negative integer and zeros
+
 
 ============================================== 10th (String) ==============================================
 1. NumberOfVowels
@@ -457,6 +460,18 @@ LC.2. Add Two Numbers         ==>>Pending
 10. FirstNegativeInteger                        [https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1]
 
 CircularQueue
+
+============================================= 21 (Binary Trees) ========================================================
+1. Implementation
+    [https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1]
+    [https://www.geeksforgeeks.org/problems/size-of-binary-tree/1]
+    MaxMinElement_In_BT     [https://www.geeksforgeeks.org/problems/max-and-min-element-in-binary-tree/1]
+    [LC.222. Count Complete Tree Nodes]             ==>> Check this
+2.
+
+
+
+
 
 =====================================================================================================
 Important question must do it:-
