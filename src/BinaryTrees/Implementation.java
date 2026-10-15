@@ -83,17 +83,17 @@ public class Implementation {
 //        }
 //        System.out.println();
 //    }
-//    private static void levelOrder(Node root) {
-//        Queue<Node> q = new LinkedList<>();
-//        q.add(root);
-//        while(q.size()>0){
-//            Node front = q.remove();
-//            System.out.print(front.val+" ");
-//            if(front.left!=null) q.add(front.left);
-//            if(front.right!=null) q.add(front.right);
-//        }
-//        System.out.println();
-//    }
+    private static void levelOrder(Node root) {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while(q.size()>0){
+            Node front = q.remove();
+            System.out.print(front.val+" ");
+            if(front.left!=null) q.add(front.left);         //checkpoint: ham tavi add karege jab front/root ka left null na ho.
+            if(front.right!=null) q.add(front.right);       //checkpoint: ham tavi add karege jab front ka right null na ho.
+        }
+        System.out.println();
+    }
 
 //    private static int levels(Node root) { // kaam ki cheez
 //        if(root==null) return 0;
@@ -102,7 +102,7 @@ public class Implementation {
 
 //    private static int size(Node root) {
 //        if(root==null) return 0;
-//        // if(root.left==null && root.right==null) return 1;
+//        // if(root.left==null && root.right==null) return 1;        =>This is leaf node   => Iska koe khash benefits nhi hai agar tree kafi bada hai to kavi kavi iska use pad skta hai.
 //
 ////        int leftSize = size(root.left);
 ////        int rightSize = size(root.right);
@@ -149,5 +149,10 @@ public class Implementation {
 
 
 
-
 }
+
+
+
+
+//if(root.left == null && root.right == null) return 1;     =>This is leaf node
+//null ka mirror null hi hota hai.
