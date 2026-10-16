@@ -468,6 +468,7 @@ CircularQueue
    [https://www.geeksforgeeks.org/problems/size-of-binary-tree/1]
    MaxMinElement_In_BT     [https://www.geeksforgeeks.org/problems/max-and-min-element-in-binary-tree/1]
    [LC.222. Count Complete Tree Nodes]             ==>> Check this
+2. LevelOrder           =>See on github and matched to implementations
 2. LC.144. Binary Tree Preorder Traversal       [https://www.geeksforgeeks.org/problems/preorder-traversal/1]
    LC.94. Binary Tree Inorder Traversal         [https://www.geeksforgeeks.org/problems/inorder-traversal/1]
    LC.145. Binary Tree Postorder Traversal      [https://www.geeksforgeeks.org/problems/postorder-traversal/1]
@@ -482,13 +483,34 @@ CircularQueue
 7. RootToLeafPaths                              [https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1]
                                                 [LC.257. Binary Tree Paths] **
 
+
+Note: See again last 1.30 hours videos
 ---------------------------------------------- Part2 -------------------------------------------------------------
-8.
+8. BalancedBinaryTreeCheck                      [https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1]          =>this is DP
+                                                [LC.110. Balanced Binary Tree]
+9. DiameterOfBinaryTree                         [https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1]          =>this is DP
+                                                [LC.543. Diameter of Binary Tree]
+10. BT_RightSideView                            [https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1]
+                                                [LC.199. Binary Tree Right Side View]
+11. BT_LeftSideView                             [https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1]
+                                                [Tips: https://leetcode.com/discuss/post/1733771/different-type-of-view-in-binary-tree-by-qk1d/]
+12. LCA_In_BT           [LCA: lowest common ancestor/purbaj]            ==> Must See & Do Again
+                                                [https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1]
+                                                [LC.236. Lowest Common Ancestor of a Binary Tree]
+13. MinDistBtw2NodesInBT     [02:03:35]*        [https://www.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1]
+                                                [LC.1740. Find Distance in a Binary Tree]           =>Premium Access Only
+                                                [LC.783. Minimum Distance Between BST Nodes]        => Check this isse avi solve krna hai
+14. FlattenBT_To_LL                             [https://www.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1]
+                                                [LC.114. Flatten Binary Tree to Linked List]
+15.
+
+
 
 
 
 https://www.geeksforgeeks.org/problems/level-order-traversal/1          =>H.W.
 https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1
+https://www.geeksforgeeks.org/problems/perfect-binary-tree/1
 =====================================================================================================
 Important question must do it:-
 Remove Duplicates from Unsorted Linked List
