@@ -484,7 +484,7 @@ CircularQueue
                                                 [LC.257. Binary Tree Paths] **
 
 
-Note: See again last 1.30 hours videos
+Note: See again last 1.30 hours videos of part1
 ---------------------------------------------- Part2 -------------------------------------------------------------
 8. BalancedBinaryTreeCheck                      [https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1]          =>this is DP
                                                 [LC.110. Balanced Binary Tree]
@@ -502,7 +502,20 @@ Note: See again last 1.30 hours videos
                                                 [LC.783. Minimum Distance Between BST Nodes]        => Check this isse avi solve krna hai
 14. FlattenBT_To_LL                             [https://www.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1]
                                                 [LC.114. Flatten Binary Tree to Linked List]
-15.
+15. [https://www.geeksforgeeks.org/problems/paths-from-root-with-a-specified-sum/1]                 =>pending   =>H.W.
+16. BTPreOrderTraversal_2ndMethod               [2nd method of que.no. 2nd (preorder, inorder** =>Toughest, postorder)]
+    BTInOrderTraversal_2ndMethod                [Que: what is Morris traversal           =>Morris traversal/Inorder]
+    BTPostOrderTraversal_2ndMethod
+17. TreeBoundaryTraversal  ***                  [https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1]
+                                                [Leetcode: Premium access (https://leetcode.com/problems/boundary-of-binary-tree/description/) ]
+18. ConstructTreeFromInAndPre                   [https://www.geeksforgeeks.org/problems/construct-tree-1/1]
+                                                [LC.105. Construct Binary Tree from Preorder and Inorder Traversal]
+19.                                             [https://www.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1]              =>H.W.
+                                                [LC.]
+20. PreorderToBST                               [https://www.geeksforgeeks.org/problems/preorder-to-postorder4423/1]
+                                                [LC.1008. Construct Binary Search Tree from Preorder Traversal]
+21.
+
 
 
 
