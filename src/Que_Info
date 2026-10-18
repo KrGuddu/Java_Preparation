@@ -502,7 +502,8 @@ Note: See again last 1.30 hours videos of part1
                                                 [LC.783. Minimum Distance Between BST Nodes]        => Check this isse avi solve krna hai
 14. FlattenBT_To_LL                             [https://www.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1]
                                                 [LC.114. Flatten Binary Tree to Linked List]
-15. [https://www.geeksforgeeks.org/problems/paths-from-root-with-a-specified-sum/1]                 =>pending   =>H.W.
+15. PathsFromRootWithSum         [BST]          [https://www.geeksforgeeks.org/problems/paths-from-root-with-a-specified-sum/1]                 =>pending   =>H.W.
+                                                [LC.113. Path Sum II]   ***
 16. BTPreOrderTraversal_2ndMethod               [2nd method of que.no. 2nd (preorder, inorder** =>Toughest, postorder)]
     BTInOrderTraversal_2ndMethod                [Que: what is Morris traversal           =>Morris traversal/Inorder]
     BTPostOrderTraversal_2ndMethod
@@ -518,12 +519,26 @@ Note: See again last 1.30 hours videos of part1
 
 
 
+Que: Delete Node in binary tree   [BST Que.]   [https://www.geeksforgeeks.org/problems/delete-a-node-from-bst/1]            [On github: BST/DeleteNodeInBST]
+                                               [LC.450. Delete Node in a BST]
 
 
 
 https://www.geeksforgeeks.org/problems/level-order-traversal/1          =>H.W.
 https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1
 https://www.geeksforgeeks.org/problems/perfect-binary-tree/1
+
+
+
+============================================== 23. Binary Search Tree (BST) =======================================================
+1. MinMaxInBST                              [https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1]
+
+
+
+
+
+
+
 =====================================================================================================
 Important question must do it:-
 Remove Duplicates from Unsorted Linked List
