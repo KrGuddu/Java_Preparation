@@ -25,7 +25,7 @@ public class ConstructTreeFromInAndPre {
 
 
 /*
-Note: Agar sirf ek preorder diya jata hai tab iss preorder se bahut sara tree banaya ja skta hai.       [4:18:15]
+Note: Agar sirf ek preorder diya jata hai tab iss preorder se bahut sara tree banaya ja skta hai.      [4:18:15]
       Similarly, Agar sirf ek inorder diya jata hai tab iss inorder se bahut sara tree banaya ja skta hai.
       But, Agar ek preorder and ek inorder diya hua hai to sirf ek hi tree banaya ja skta hai.
       Kya Binary tree ki inorder se root identify kar skte hai?   ==> Ans: No         [inorder structure: LST, root, RST]
