@@ -15,7 +15,7 @@ public class PreorderToBST {
 //        int val = preorder[preLo];
 //        Node root = new Node(val);
 //        int r = inLo;
-//        for(int i=inLo;i<=inHi;i++){   // locating root in inorder array
+//        for(int i=inLo;i<=inHi;i++){  // locating root in inorder array
 //            if(inorder[i]==val){
 //                r = i;
 //                break;
