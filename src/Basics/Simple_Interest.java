@@ -1,7 +1,7 @@
 // Print Simple Interest SI = (p*r*t)/100 where p: principal amount, r: Interest rate, t: time in years
 // In SI by default time is in years, if time is in months then t = t/12 and if time is in days then t = t/365.
-package Basics;
 
+package Basics;
 import java.util.Scanner;
 
 public class Simple_Interest {

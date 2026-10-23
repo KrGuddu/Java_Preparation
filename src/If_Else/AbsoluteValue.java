@@ -1,3 +1,4 @@
+//Note: Absolute means agar negative hai to positive bana do aur agar positive hai to as it is rhne do. (Means, mode of a => |a| )
 //Que: Take integer input and print the absolute value of that integer
 
 package If_Else;
@@ -30,3 +31,5 @@ public class AbsoluteValue {
 
     }
 }
+
+
