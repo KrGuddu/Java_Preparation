@@ -1,7 +1,6 @@
 // Q4. Take user input for n numbers and print the sum of those numbers.
 
 package Basics;
-
 import java.util.Scanner;
 
 public class SumOf_UnlimitedNumbers {
@@ -19,11 +18,10 @@ public class SumOf_UnlimitedNumbers {
             sum = sum + num;
 
             // System.out.println("Sum = " + sum); // Ye line har iteration ke baad sum
-            // print karega, agar aapko final sumhi chahiye to is line ko nhi likho.
+            // print karega, agar aapko final sum hi chahiye to is line ko nhi likho.
         }
 
         System.out.println("Sum = " + sum);
-
         sc.close();
     }
 }
