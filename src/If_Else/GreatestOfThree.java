@@ -59,7 +59,5 @@ public class GreatestOfThree {
                 System.out.println(c);
             }
         }
-
-
     }
 }

@@ -1,6 +1,16 @@
 /*Que: Given a point (x, y), write a program to find out if it lies in the 1st Quadrant, 2nd Quadrant, 3rd Quadrant, 4th
 Quadrant, on the x-axis, y-axis or at the origin. */
 
+/* Quadrant tips:
+(0,0) : origin
+y=0 : on x-axis
+x=0 : on y-axis
+(+, +) : 1st quadrant
+(-, +) : 2nd quadrant
+(-, -) : 3rd quadrant
+(+, -) : 4th quadrant
+ */
+
 package If_Else;
 import java.util.Scanner;
 
@@ -26,9 +36,8 @@ public class QuadrantProgram {
             System.out.println("2nd");          // The point lies in the 2nd Quadrant.
         } else if (x<0 && y<0) {
             System.out.println("3rd");          // The point lies in the 3rd Quadrant.
-        } else if (x>0 && y<0) {       // also we can use here only else statement like: else if{System.out.println("4th");}.
+        } else if (x>0 && y<0) {                // also we can use here only else statement like: else if{System.out.println("4th");}.
             System.out.println("4th");
         }
-
     }
 }
