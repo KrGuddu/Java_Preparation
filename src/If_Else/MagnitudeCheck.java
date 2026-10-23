@@ -1,4 +1,6 @@
 //Que: Take integer input and tell if its magnitude is smaller than 69 or not.
+// To checking a Magnitude number: if(n>0)
+// Note: 0 is not a Magnitude number so don't write if(n>=0)
 
 package If_Else;
 import java.util.Scanner;

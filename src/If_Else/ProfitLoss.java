@@ -13,7 +13,7 @@ public class ProfitLoss {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter CP: ");
-        double cp = sc.nextDouble();          // Better way to use double datatype => if I give and double value then will get an error, so always use double. => when datatype is int so error is: Exception in thread "main" java.util.InputMismatchException.
+        double cp = sc.nextDouble();          // Better way to use double datatype => if I give a double value then will get an error, so always use double. => when datatype is int so error is: Exception in thread "main" java.util.InputMismatchException.
 
         System.out.print("Enter Sp: ");
         double sp = sc.nextDouble();
