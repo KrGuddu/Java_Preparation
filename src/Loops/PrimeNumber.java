@@ -9,7 +9,7 @@ public class PrimeNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int n = sc.nextInt();
-        boolean flag = true;    // true means prime
+        boolean flag = true;    //here, true means prime     //we can assume true or false not matter
 
         for (int i = 2; i <= n-1 ; i++) {
             if (n%i==0){
@@ -27,6 +27,6 @@ public class PrimeNumber {
 
 /*
 Prime vs Composite: Difference sirf interpretation ka hai:
-Factor mil gaya → Composite / Not Prime
-Factor nahi mila → Prime / Not Composite
+Factor mil gaya  → Composite / Not Prime : jiska more than 2 factor ho
+Factor nahi mila → Prime / Not Composite : jiska exactly 2 factor ho 1 and number itself.
 * */
