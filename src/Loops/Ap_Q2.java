@@ -41,7 +41,7 @@ public class Ap_Q2 {
 //            a = a + d;
 //        }
 
-        // *using while loop => The Best, Recommended
+        // ** using while loop => The Best, Recommended
         int a = 99;      // first term
         int d = -4;      // common difference
 

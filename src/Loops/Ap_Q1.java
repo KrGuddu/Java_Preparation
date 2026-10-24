@@ -9,7 +9,7 @@ public class Ap_Q1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        //Using AP formula      // nth term of an AP: an = a + (n - 1)d     //where: First term a = 2, Common difference d = 3, Number of terms = n
+        //Using AP formula      // nth term of an AP: an = a + (n - 1)d     //where: First term (a) = 2, Common difference (d) = 3, Number of terms = n
         for (int i = 2; i <= 3*n-1; i+=3) {      //an = 2+(n-1)3 =>2+3n-3 =>3n-1         //o/p: 2, 5, 8, 11, 14...
             System.out.print(i + " ");
         }
@@ -21,6 +21,16 @@ public class Ap_Q1 {
             a += d;
         }
 
+        //or
+//        int a=2, d=3;
+//        for(int i=a; i<=n; i+=d){
+//            System.out.println(i);
+//        }
+
+        //or
+//        for(int i=2; i<=n; i+=3){
+//            System.out.println(i);
+//        }
     }
 }
 
