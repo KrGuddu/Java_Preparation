@@ -1,6 +1,5 @@
 //Display the GP: 1, 2, 4, 8, 16, ... up to n terms.
 package Loops;
-
 import java.util.Scanner;
 
 public class Gp_Q1 {
@@ -120,3 +119,19 @@ Sum:            Sₙ = a(rⁿ - 1)/(r - 1)
 AP: Next = Current + d
 GP: Next = Current × r
 * */
+
+
+
+
+/*
+Exponential Growth: Amount = 2ⁿ⁻¹       Where n= no. of days
+Ex: 2 ^ (30 - 1) = 2 ^ 29 = 53,68,70,912
+
+Total Sum: S_{n} = a * (r ^ n - 1)/(r - 1)
+a = पहला पद (1 रुपये)
+r = साधारण अनुपात (2, क्योंकि हर दिन डबल हो रहा है)
+n = दिनों की संख्या (30)
+
+गणना:
+S_{30} = 1 * (2 ^ 30 - 1)/(2 - 1) =1,073,741,823\$49
+ */
