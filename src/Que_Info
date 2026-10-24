@@ -8,8 +8,8 @@
    SquareOfNumber2ndMethod
 5. SumOfNumbers
    SumOfNumbers2ndMethod
-   SumOf_1toN_Numbers     ***
-   SumOf_UnlimitedNumbers      ***
+   SumOf_1toN_Numbers           ***
+   SumOf_UnlimitedNumbers       ***
 6. Simple_Interest_Basic
    Simple_Interest
    Simple_Interest_2ndMethod
@@ -27,7 +27,7 @@
 7. Divisibility
 8. QuadrantProgram
    QuadrantProgram_2ndMethod        ***
-9. FourDigitNumber                 *
+9. FourDigitNumber                  *
 10. MagnitudeCheck
 11. SidesOfTriangle
 12. GreatestOfThree
@@ -40,32 +40,31 @@
    Print_n_to_1
    Print_N_Times
 2. EvenNumber
-3. OddNumberDivisibleBy3
-4. Table17
-5. Ap_Q1
+   OddNumber
+   OddNumberDivisibleBy3
+3. Table17                  **
+4. Ap_Q1
    Ap_Q1_2ndMethod
    Ap_Q2
    Ap_Q2_2ndMethod
-6. Gp_Q1
-7. Ascii
-8. SequencePattern
-9. ContinueStatement
+5. Gp_Q1                    **
+6. Ascii
+7. SequencePattern          ***
+8. ContinueStatement
    ContinueStatement_Q2
-10. CompositeNumber
-    CompositeNumber_V2
-    PrimeNumber
-11. EvenNumber
-    OddNumber
-12. InfiniteLoop
-13. LimitsOfInt
-14. CountDigit
-    CountDigit_2ndMethod
-15. SumOfDigits
-16. ReverseNumber
-    SumOfReverseNumber
-17. Factor
-18. Factorial  **
-19. Power
+9. CompositeNumber
+   CompositeNumber_V2       *
+   PrimeNumber
+10. InfiniteLoop
+    LimitsOfInt
+11. CountDigit              *
+    CountDigit_2ndMethod    **
+12. SumOfDigits
+13. ReverseNumber
+    SumOfReverseNumber      *
+14. Factor
+15. Factorial               **
+16. Power
 
 ============================ 4th (Pattern Printing) =================
 1. StarRectangle
