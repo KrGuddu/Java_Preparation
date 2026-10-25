@@ -1,9 +1,9 @@
 /* Print this
 A
-B B
-C C C
-D D D D
-E E E E E
+A B
+A B C
+A B C D
+A B C D E
  */
 
 package Pattern_Printing;
