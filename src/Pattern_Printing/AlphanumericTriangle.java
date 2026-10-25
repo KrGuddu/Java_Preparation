@@ -28,3 +28,9 @@ public class AlphanumericTriangle {
         }
     }
 }
+
+
+/* Tips:
+1. Here column is constant
+2. on odd print number and on even print Uppercase alphabet
+ */
