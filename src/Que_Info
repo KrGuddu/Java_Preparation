@@ -75,7 +75,7 @@
    AlphabetSquare_Q2
    AlphabetSquare_Q3
    AlphabetSquare_Q4
-   AlphabetSquare_Q4_2ndMethod
+   AlphabetSquare_Q4_2ndMethod          *
    AlphabetSquare_Q4_Extra
 5. StarTriangle
    NumberTriangle
@@ -84,14 +84,14 @@
 6. AlphanumericTriangle
 7. StarTriangle_HorizFlipped
    StarTriangle_HorizFlipped_2ndMethod
-   NumberTriangle_HorizFlipped          -->>
+   NumberTriangle_HorizFlipped
    AlphabetTriangle_HorizFlipped
    AlphabetTriangle_HorizFlipped_Q2
-   Right_Aligned_Triangle_Horizontally_Flipped **
-8. HollowRectangle
-9. StarPlus/Star square plus
-10. StarCross
-11. FloydsTriangle
+   Right_Aligned_Triangle_Horizontally_Flipped          **
+8. HollowRectangle                          *
+9. StarPlus/Star square plus                *
+10. StarCross                               *
+11. FloydsTriangle                          ***
 12. OddNumberTriangle
     OddNumberTriangle_2ndMethod
 13. BinaryTriangle

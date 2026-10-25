@@ -39,4 +39,9 @@ public class SumOfReverseNumber {
         r += (n%10);
         sum += n%10;
         n /= 10;
+
+
+Note: To Handle negative numbers
+        n = Math.abs(n);
+        Or, if (n<0) n=-n;
  */
