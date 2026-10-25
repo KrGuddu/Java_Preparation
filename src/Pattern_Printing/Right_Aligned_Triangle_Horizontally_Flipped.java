@@ -21,3 +21,7 @@ public class Right_Aligned_Triangle_Horizontally_Flipped {
         }
     }
 }
+
+
+
+

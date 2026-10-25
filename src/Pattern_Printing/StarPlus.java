@@ -16,7 +16,7 @@ public class StarPlus {
         int n = sc.nextInt();
 
         for (int i = 1; i <=n; i++) {
-            for (int j = 1; j <=n; j++) {
+            for (int j = 1; j <=n; j++) {           //or we can create a variable mid=(n/2)+1
                 if (i==(n/2)+1 || j==(n/2)+1){
                     System.out.print("* ");
                 }else {
