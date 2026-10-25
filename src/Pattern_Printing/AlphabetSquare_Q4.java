@@ -39,7 +39,7 @@ public class AlphabetSquare_Q4 {
             System.out.println();
         }
 
-        //3nd method: The Best              //Why: No extra ch variable, No magic numbers like 96 and 64, Logic is easy to understand, Directly shows the relationship between row number → alphabet, This is the most useful approach to remember for pattern problems.
+        //3rd method: The Best              //Why: No extra ch variable, No magic numbers like 96 and 64, Logic is easy to understand, Directly shows the relationship between row number → alphabet, This is the most useful approach to remember for pattern problems.
 //        for(int i=1;i<=n;i++){
 //            for(int j=1;j<=n;j++){
 //                if (i % 2 != 0) System.out.print((char)('a' + i - 1) + " ");
