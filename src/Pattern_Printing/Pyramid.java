@@ -21,18 +21,31 @@ public class Pyramid {
             for (int j = 1; j <=i; j++) {
                 System.out.print("* ");
             }
-//            for (int j = 1; j <=i+1; j++) {     //or, (int j = 2; j <=n+1-i; j++) =>not good 2nd condition
+            //1st method => Works, but unnecessary extra spaces
+//            for(int j=1; j<=i-1; j++){
+//                System.out.print("* ");
+//            }
+//            for(int j=1; j<=n-i; j++){        //not necessary
+//                System.out.print("  ");
+//            }
+
+
+//            for (int j = 1; j <=i+1; j++) {     //or, (int j = 2; j <=n+1-i; j++) =>not good 2nd condition        //This code is not working
 //                System.out.print("* ");
 //            }
 //            for (int j = 1; j <=i; j++) {
 //                System.out.print("  ");
 //            }
-            for (int j = 1; j <= i-1; j++) {
-                System.out.print("* ");
-            }
-            for (int j = 1; j <= i; j++) {        // Agar last me Space chahiye tab ye loop use karo warna skip kro koe issue nhi hai
-                System.out.print("  ");
-            }
+
+
+            //2nd method    => Works, but trailing spaces unnecessary
+//            for (int j = 1; j <= i-1; j++) {
+//                System.out.print("* ");
+//            }
+//            for (int j = 1; j <= i; j++) {        // Agar last me Space chahiye tab ye loop use karo warna skip kro koe issue nhi hai
+//                System.out.print("  ");
+//            }
+
             System.out.println();
         }
     }

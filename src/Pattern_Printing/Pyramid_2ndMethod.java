@@ -1,4 +1,4 @@
-//more modulus according to 1st method
+//more modulus according to 1st method      => The best method
 
 package Pattern_Printing;
 import java.util.Scanner;
