@@ -25,3 +25,6 @@ public class StarTriangleVerticallyFlipped {
         }
     }
 }
+
+
+//Note: This is not working on every stage like "NumberTriangleVerticallyFlipped"
