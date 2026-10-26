@@ -25,3 +25,9 @@ public class Right_Aligned_Triangle_Horizontally_Flipped {
 
 
 
+//for(int j=1; j<=i-1; j++){
+//        System.out.print("* ");
+//            }
+//                    for(int j=1; j<=n-i; j++){
+//        System.out.print("  ");
+//            }
