@@ -18,3 +18,11 @@ public class ReturnType {
         System.out.println(x);
     }
 }
+
+
+/* void vs int method
+        void method	                                int method
+1. Value return nahi karta	                Integer value return karta hai
+2. return; likh sakte ho	                return 5; jaisi integer value deni hoti hai
+3. int x = method(); allowed nahi	        int x = method(); allowed hai
+ */

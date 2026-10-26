@@ -25,3 +25,15 @@ public class PermutationAndCombination_WithoutMethod {
         System.out.println(ncr);
     }
 }
+
+
+
+/* Tips:
+
+for(1 to n) nFact *= i
+for(1 to r) rFact *= i
+for(1 to n-r) nrFact *= i
+sout(nFact/(rFact*nrFact))      //Combination
+sout(nFact/nrFact)              //Permutation
+
+ */

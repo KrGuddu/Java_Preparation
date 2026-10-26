@@ -1,4 +1,5 @@
 // Note: jab koe method me int return type use karte hai aur agar usme if condition lagate hai to usme else condition lagana mandatory hota otherwise error(missing return statement) de deta hai. qki agar if condition true nhi hua to wo else condition check rkna hota hai aur else condition nhi hoga to check kya krega.
+//Means: jab method ka return type int ho to if ke sath-sath else condition likhna necessary hota hai, warna error de dega.
 
 package Methods;
 

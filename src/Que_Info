@@ -62,9 +62,9 @@
 12. SumOfDigits
 13. ReverseNumber
     SumOfReverseNumber      *
-14. Factor
-15. Factorial               **
-16. Power
+14. Factor                                  RA
+15. Factorial               **              RA
+16. Power                                   RA
 
 ============================ 4th (Pattern Printing) =================
 1. StarRectangle
@@ -92,40 +92,39 @@
 9. StarPlus/Star square plus                *
 10. StarCross                               *
 11. FloydsTriangle                          ***
-12. OddNumberTriangle
+12. OddNumberTriangle                       *
     OddNumberTriangle_2ndMethod
 13. BinaryTriangle
 14. StarTriangleVerticallyFlipped
-    StarTriangleVerticallyFlipped_2ndMethod
-    NumberTriangleVerticallyFlipped
+    StarTriangleVerticallyFlipped_2ndMethod         *
+    NumberTriangleVerticallyFlipped                 *
     AlphabetTriangleVerticallyFlipped
-15. Rhombus
-    Right_Aligned_Triangle_Horizontally_Flipped  => HW
-16. Pyramid
-    Pyramid_2ndMethod
-    Pyramid_Alternate **
-    Pyramid_Extra
-    Pyramid_Logics      =>Imp
-    Pyramid_Vertically_Flipped
-17. Diamond
-18. Bridge
-    Bridge_2ndMethod
-    Bridge_FinalMethod
+15. Rhombus                                         **
+16. Pyramid                         *
+    Pyramid_2ndMethod               **
+    Pyramid_Alternate               **                RA =>See video again
+    Pyramid_Extra                                     RA
+    Pyramid_Logics      =>Imp                         RA
+    Pyramid_Vertically_Flipped                        RA
+17. Diamond                         **                RA
+18. Bridge                          **                RA
+    Bridge_2ndMethod                                  RA
+    Bridge_FinalMethod                                RA
 19. NumberSpiral_Hint_Q1
-    NumberSpiral **
+    NumberSpiral                    **
 
 =================================== 5th (Methods) ===============================
 1. MaxOfThreeBuiltIn
    MaxOfFourBuiltIn         ==> Maximum of n numbers or infinite number         //Array>MaxElements: This is for array elements
-3. ReturnType
+2. ReturnType
    ReturnType_2ndPart
-5. MaxOfThree_ReturnType_3rdPart
+3. MaxOfThree_ReturnType_3rdPart
    MaxOfThree_ReturnType_4thPart  ***
-7. PermutationAndCombination_WithoutMethod
+4. PermutationAndCombination_WithoutMethod
    PermutationAndCombination_UsingMethod
-9. Swap
+5. Swap
    Swap2
-   Swap3   ***
+   Swap3        ***
 
 ================================= 6th (Array) ============================
 1. Basics
