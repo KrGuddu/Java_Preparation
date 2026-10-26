@@ -13,12 +13,11 @@ public class NumberSpiral_Hint_Q1 {
                 }else {
                     System.out.print(j + " ");
                 }
-                //or, standard methods =>better than ternary
-//                System.out.print(Math.min(i, j) + " ");
-
                 //or, using ternary operation =>better than if-else
 //                System.out.print((i<j ? i : j) + " ");
 
+                //or, standard methods =>better than ternary
+//                System.out.print(Math.min(i, j) + " ");
             }
             System.out.println();
         }

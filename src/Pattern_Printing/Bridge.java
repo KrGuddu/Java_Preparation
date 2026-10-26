@@ -1,3 +1,12 @@
+/* Print Bridge
+ * * * * * * * * *
+ * * * *   * * * *
+ * * *       * * *
+ * *           * *
+ *               *
+
+ */
+
 package Pattern_Printing;
 import java.util.Scanner;
 
