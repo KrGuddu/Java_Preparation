@@ -18,9 +18,8 @@ public class OutputInput_QuePart2 {
 
 
 
-/*If Input is:
-5
-1 2 3 4 5
+/*If user input(n) is: 5
+then, array i/p is 1 2 3 4 5
 
 Then Output is: 2 4 6 8 10
  */

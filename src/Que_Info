@@ -130,22 +130,22 @@
 1. Basics
 2. ElementsOfArray
 3. OutputInputArray
-   OutputInputArray_Part2       **
+   OutputInputArray_Part2               **
    OutputInput_Que
-   OutputInput_QuePart2         **
-4. PrintNegativeElements
+   OutputInput_QuePart2                 **
+4. PrintNegativeElements                *
    PrintNegativeElements_2ndMethod
-   PrintNegativeElements_2
+   PrintNegativeElements_2              *
 5. SumOfElements
-   SumOfElements_2ndMethod
-   SumOfElements_2ndMethod_Version2
+   SumOfElements_2ndMethod              *
+   SumOfElements_2ndMethod_Version2     *
    SumOfElements_2ndMethod_Version3        =>Prefix Sum concept  ***
 6. ProductOfElements_Basics
    ProductOfElements
 7. MaxElements
    MinElements
-8. ArrayOfOtherDataTypes
-9. ShallowCopyDeepCopy
+8. ArrayOfOtherDataTypes            => Default Value of Data Type
+9. ShallowCopyDeepCopy              *
 10. SortArrayBuiltIn
 11. ModifyElements
     ModifyElements_2nd
