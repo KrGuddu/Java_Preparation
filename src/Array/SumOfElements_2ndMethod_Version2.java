@@ -38,8 +38,8 @@ public class SumOfElements_2ndMethod_Version2 {
             sum += arr[i];
         }
 
-        for (int i = 0; i <n; i++) {
-             System.out.print(sum);             //o/p: 1515151515
+        for (int i = 0; i <n; i++) {            //Unnecessary loop
+             System.out.print(sum);             //o/p: 1515151515       => they print n-times of o/p
         }
     }
 }
