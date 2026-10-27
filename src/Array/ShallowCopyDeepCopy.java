@@ -14,14 +14,14 @@ public class ShallowCopyDeepCopy {
 
 
         //shallow copy
-        int[] x = arr; // x is shallow copy of arr
-        x[0] = 100;
-        System.out.println(arr[0]);         //100
+//        int[] x = arr; // x is shallow copy of arr
+//        x[0] = 100;
+//        System.out.println(arr[0]);         //100     =>It modify in original array
 
         // deep copy
         int[] y = Arrays.copyOf(arr, arr.length);    // arr: name of array jise ham update krna chahte hai, arr.length: kaun si length par update krna chahte hai
         y[0] = 100;
         System.out.println(y[0]);           //100
-        System.out.println(arr[0]);         //10
+        System.out.println(arr[0]);         //10    =>Not modify in original array
     }
 }
