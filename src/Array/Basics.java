@@ -1,10 +1,12 @@
 package Array;
+import java.util.Arrays;
 
 public class Basics {
     public static void main(String[] args) {
         //1st method of array initialization
         int[] x = {9,169,5,84,91,82};
         System.out.println(x);  //it will give memory allocation not an array. like: [I@6acbcfc0
+//        System.out.println(Arrays.toString(x));       //to print an array
         //Indexing
         System.out.println(x[2]);   //access
         //Updating elements - mutability (array element changed b/q is it mutable and its process is known as mutability).
