@@ -1,3 +1,5 @@
+//Que: To check negative number is Exist or Not, if exist then print it otherwise print "Not Exist".
+
 package Array;
 import java.util.Scanner;
 
@@ -19,9 +21,8 @@ public class PrintNegativeElements_2 {
                 foundNegative = true;
             }
         }
-        if (!foundNegative) {
-            System.out.println("No negative element found. Please enter at least one negative number.");
-        }
+        if(foundNegative) System.out.println("Yes, negative number is exist.");
+        if (!foundNegative) System.out.println("No negative element found. Please enter at least one negative number.");
     }
 }
 
