@@ -1,6 +1,6 @@
 //Ques: Reverse Array or Reverse using two pointer
 //concept/Problem: reversing an array/reversing the complete array
-//Technique: Two pointer technique
+//Technique: Two pointer technique / 2-variable technique
 
 package Array;
 public class ReverseArray {
