@@ -22,7 +22,7 @@ public class SecondMax {
 }
 
 
-/* Explaination of arr[i] > secMax && arr[i] != max
+/* Explanation of arr[i] > secMax && arr[i] != max
 condition ka purpose ye hai ki max ko second maximum banne se roka ja sake.
 arr[i] > secMax     → current element secMax se bada hai.
 arr[i] != max       → lekin current element maximum nahi hona chahiye.
