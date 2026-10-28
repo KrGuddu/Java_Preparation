@@ -1,0 +1,41 @@
+2. Constraints ko kaise read karein?
+    Symbol	    Meaning	                    Example
+    ≤	        Less than or equal to	    1 ≤ n ≤ 100
+    ≥	        Greater than or equal to	n ≥ 1
+    <	        Strictly less than	        i < n
+    >	        Strictly greater than	    x > 0
+    =	        Equal to	                n = 10
+    10⁵	        1 lakh	                    100000
+    10⁶	        10 lakh	                    1000000
+    10⁹	        100 crore	                1000000000
+
+Important: arr.size() aur arr[i] alag cheezein hain.
+- arr.size() → array mein kitne elements hain.
+- arr[i] → kisi particular index par element ki value.
+- Java mein array ke liye arr.length use karte hain, arr.size() nahi. GFG statement mein arr.size() likha ho sakta hai kyunki woh generic terminology use kar raha hai.
+  But, ArrayList me arr.size() ka use hota hai.
+
+3. Constraints se kya pata chalta hai?
+Constraints ke 3 main uses hain.
+A. Input ki boundaries pata chalti hain.
+Example: 1 ≤ n ≤ 10⁶
+
+Tumhe pata hai ki array bahut bada ho sakta hai. Isliye unnecessarily nested loops use karne se bachna chahiye.
+
+B. Algorithm ki time complexity choose kar sakte ho
+    Maximum (n)	        Generally suitable approaches
+    n ≤ 10	            Exponential approaches bhi possible ho sakti hain
+    n ≤ 20	            Bitmasking / O(2^n) kuch problems mein
+    n ≤ 10³	            O(n^2) aksar workable
+    n ≤ 10⁵	            O(nlog n) ya O(n) prefer karo
+    n ≤ 10⁶	            O(n) ya O(n log n) generally better
+
+Ye sirf rough guidelines hain, guaranteed rules nahi. Actual suitability time limit, language, operations aur problem structure par depend karti hai.
+C. Problem ka hidden hint mil sakta hai
+Tumhare example mein:
+
+1 ≤ arr[i] ≤ arr.size()+1
+
+Agar array mein n elements hain aur values 1 se n+1 tak ho sakti hain, toh possible values ki total sankhya n+1 hai, lekin elements sirf n hain.
+
+Isse hint milta hai ki question missing number ya missing value se related ho sakta hai. Lekin exact problem statement dekhe bina ise confirm nahi kar sakte.
