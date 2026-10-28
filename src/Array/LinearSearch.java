@@ -18,3 +18,12 @@ public class LinearSearch {
         else System.out.println("Target not exist in array");
     }
 }
+
+
+
+/*
+Algorithm	            Best Used For	    Time Complexity	    How it Works
+1. Linear Search	    Unsorted arrays	    O(N)	            Checks every element from start to finish until it finds a match.
+2. Binary Search	    Sorted arrays	    O(log N)    	    Divides the search space in half repeatedly (like looking up a word in a physical dictionary).
+
+ */

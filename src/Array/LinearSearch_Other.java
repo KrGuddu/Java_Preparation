@@ -7,7 +7,7 @@ public class LinearSearch_Other {
         int found = -1;     //-1 is index not value  // -1 means target array me nahi hai    // found me koe v -ve le skte hai like -20 or -70 etc.
         for(int i=0;i<arr.length;i++){
             if(arr[i] == target){
-                found = i; // any no. except -1 means target array me hai
+                found = i;  //Any no. except -ve (like -1) means target array me hai
                 break;
             }
         }
