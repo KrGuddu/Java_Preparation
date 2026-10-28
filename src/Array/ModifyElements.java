@@ -1,4 +1,6 @@
+//Que: Multiply odd indexed elements by 2 and add 10 to even indexed elements
 // 2nd method best hai iske comparison me
+
 package Array;
 
 public class ModifyElements {
