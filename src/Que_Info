@@ -129,6 +129,7 @@
 ================================= 6th (Array) ============================
 1. Basics
 2. ElementsOfArray
+   PrintingArrays
 3. OutputInputArray
    OutputInputArray_Part2               **
    OutputInput_Que
@@ -150,27 +151,30 @@
 11. ModifyElements
     ModifyElements_2nd
     ModifyElements_3rd
-12. LinearSearch
+12. LinearSearch               **     [LC.33. Search in Rotated Sorted Array]      [https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1]
     LinearSearch_Other
-13. TwoSum
-    TwoSum_2nd ==> best practice     *****
-14. SecondMax
+13. TwoSum                          [LC.1. Two Sum]     [https://www.geeksforgeeks.org/problems/key-pair5616/1]
+    TwoSum_2nd ==> best practice     *
+14. SecondMax               [https://www.geeksforgeeks.org/problems/second-largest3735/1]
 15. ForEach
-16. ReverseArray
+16. ReverseArray            [https://www.geeksforgeeks.org/problems/reverse-an-array/1]
     ReversePartOfArray
-17. RotateArray
-    RotateArray_Right
-18. MissingNumber           =>Start from here
-    MissingNumber_gfg
-19. Segregate0and1
-    Segregate0and1_2ndMethod
-    Segregate0and1_3rdMethod
-20. WaveArray               ==>see again
-21. ArrayListsBasic
-22. AddingOne
-23. MergeTwoSortedArrays
-    MergeTwoSortedArrays_ReverseOrder
-24.
+    ReverseInGroups         [https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1]
+17. RotateArray         **          [https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/0]
+    RotateArray_Right   ***         [LC.189. Rotate Array]
+18. MissingNumber
+    MissingNumber_gfg       *        [https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1]
+    Constraints         *
+19. Segregate0and1                  *
+    Segregate0and1_2ndMethod        **   [https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1]
+    Segregate0and1_3rdMethod        **
+20. WaveArray                       [https://www.geeksforgeeks.org/problems/wave-array-1587115621/1]
+
+21. ArrayListsBasic         [https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1]    =>pending
+22. AddingOne           ***             [https://www.geeksforgeeks.org/problems/adding-one2529/1]       =>See again
+23. MergeTwoSortedArrays        =>See again
+    MergeTwoSortedArrays_ReverseOrder       =>See again
+24. Sort 0s, 1s and 2s          =>pending
 
 
 Array length = n
