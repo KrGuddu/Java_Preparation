@@ -19,3 +19,6 @@ public class MissingNumber_gfg {
         return (int)(sum - arrSum);
     }
 }
+
+
+//missing number = Expected Sum - Actual Sum
