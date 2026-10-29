@@ -11,7 +11,7 @@ public class MergeTwoSortedArrays_ReverseOrder {
         System.out.println();
     }
     public static void merge(int[] a, int[] b, int[] c){
-        int i=a.length-1, j=b.length-1, k=c.length-1;       //Always remember array index is array.length-1         //ArrayIndexOutOfBounds means Invalid index access
+        int i=a.length-1, j=b.length-1, k=c.length-1;        //Always remember array index is array.length-1         //ArrayIndexOutOfBounds means Invalid index access
         while (i>=0 && j>=0){
             if (a[i]>b[j]) c[k--]= a[i--];
             else c[k--] = b[j--];
