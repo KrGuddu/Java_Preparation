@@ -1,13 +1,13 @@
 2. Constraints ko kaise read karein?
-    Symbol	    Meaning	                    Example
-    ≤	        Less than or equal to	    1 ≤ n ≤ 100
-    ≥	        Greater than or equal to	n ≥ 1
-    <	        Strictly less than	        i < n
-    >	        Strictly greater than	    x > 0
-    =	        Equal to	                n = 10
-    10⁵	        1 lakh	                    100000
-    10⁶	        10 lakh	                    1000000
-    10⁹	        100 crore	                1000000000
+    Symbol	    Meaning	                        Example
+    ≤	        Less than or equal to	        1 ≤ n ≤ 100
+    ≥	        Greater than or equal to	    n ≥ 1
+    <	        Strictly less than	            i < n
+    >	        Strictly greater than	        x > 0
+    =	        Equal to	                    n = 10
+    10⁵	        1 lakh	                        100000
+    10⁶	        10 lakh	                        1000000
+    10⁹	        100 crore	                    1000000000
 
 Important: arr.size() aur arr[i] alag cheezein hain.
 - arr.size() → array mein kitne elements hain.
