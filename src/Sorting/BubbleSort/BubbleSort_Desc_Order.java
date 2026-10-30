@@ -11,7 +11,7 @@ public class BubbleSort_Desc_Order {
         int n = arr.length;
 
         //1st method: Left-to-right traversal: Largest element moves to the right.          =>Recommended
-        for(int i=0; i<n-1; i++){ // n-1 passes
+        for(int i=0; i<n-1; i++){  // n-1 passes
             int swaps = 0;
             for(int j=0; j<n-1-i; j++){
                 if(arr[j] < arr[j+1]){

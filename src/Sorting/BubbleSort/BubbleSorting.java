@@ -54,7 +54,7 @@ public class BubbleSorting {
         }
         print(arr);
 
-        /*Explanations:
+        /*Explanations:-
             1st step: "isSorted = true" assumes the array is already sorted.
             2nd step: If a swap happens, isSorted = false.
             3rd step: If no swap happens, break terminates the loop.
