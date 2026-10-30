@@ -1,0 +1,61 @@
+Que: for ascending order "arr[i]>arr[i+1] return true otherwise false" is correct or not?
+And:- Galat hoga, agar tumhara intention ye hai ki array sorted hai ya nahi check karna.
+
+Tumhe return true aur return false ka meaning samajhna hoga.
+- return true → Array sorted hai.
+- return false → Array sorted nahi hai.
+
+
+Correct logic
+Order	                                Condition	            Return          Otherwise return
+1. Ascending / Non-decreasing	        arr[i] > arr[i+1]	    false           true
+2. Strictly Ascending	                arr[i] >= arr[i+1]	    false           true
+3. Descending / Non-increasing	        arr[i] < arr[i+1]	    false           true
+4. Strictly Descending	                arr[i] <= arr[i+1]	    false           true
+
+
+Agar condition invalid nahi hoti, toh loop complete hone ke baad return true karenge.
+Example: Ascending
+for(int i = 0; i < arr.length - 1; i++) {
+    if(arr[i] > arr[i+1]) {
+        return false;
+    }
+}
+return true;
+
+
+Agar tum return true condition ke andar likhoge:
+if(arr[i] > arr[i+1]) {
+    return true;
+}
+return false;
+
+Toh iska meaning ulta ho jayega: ye check karega ki array mein koi adjacent pair ascending order ko violate kar raha hai ya nahi.
+
+Remember: Invalid condition milne par false, aur poora loop successfully complete hone par true.
+
+Easy trick to remember:
+- Ascending → Left element should NOT be greater.
+- Descending → Left element should NOT be smaller.
+- Strictly → Equal elements are also invalid.
+
+All four approaches have:
+- Time Complexity: O(n)
+- Auxiliary Space: O(1)
+
+--------------------------------------------------------------------------------
+For your DSA preparation, follow this order:
+1. Learn Bubble Sort.
+2. Learn Selection Sort.
+3. Learn Insertion Sort.
+4. Learn Merge Sort.
+5. Learn Quick Sort.
+6. Learn Heap Sort.
+
+Complexity comparison:-
+   Algorithm	                Best	        Average	        Worst
+1. Bubble Sort (Optimised)	    O(n)	        O(n²)	        O(n²)
+2. Selection Sort	            O(n²)	        O(n²)	        O(n²)
+3. Insertion Sort	            O(n)	        O(n²)	        O(n²)
+4. Merge Sort	                O(nlog n)	    O(nlog n)	    O(nlog n)
+5. Heap Sort	                O(nlog n)	    O(nlog n)	    O(nlog n)
