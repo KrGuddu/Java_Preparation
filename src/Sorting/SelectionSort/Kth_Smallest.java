@@ -4,7 +4,7 @@ package Sorting.SelectionSort;
 public class Kth_Smallest {
     public static void main(String[] args) {
         int[] arr = {10, 5, 4, 3, 48, 6, 2, 33, 53, 10};
-        int k = 4;
+        int k = 4;          //find 4th smallest element
         int n = arr.length;
 
         // TC = O(n*k)
