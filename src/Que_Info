@@ -115,11 +115,11 @@
 
 =================================== 5th (Methods) ===============================
 1. MaxOfThreeBuiltIn
-   MaxOfFourBuiltIn         ==> Maximum of n numbers or infinite number         //Array>MaxElements: This is for array elements
+   MaxOfFourBuiltIn                 ==> Maximum of n numbers or infinite number         //Array>MaxElements: This is for array elements
 2. ReturnType
    ReturnType_2ndPart
 3. MaxOfThree_ReturnType_3rdPart
-   MaxOfThree_ReturnType_4thPart  ***
+   MaxOfThree_ReturnType_4thPart        ***
 4. PermutationAndCombination_WithoutMethod
    PermutationAndCombination_UsingMethod
 5. Swap
@@ -140,41 +140,41 @@
 5. SumOfElements
    SumOfElements_2ndMethod              *
    SumOfElements_2ndMethod_Version2     *
-   SumOfElements_2ndMethod_Version3        =>Prefix Sum concept  ***
+   SumOfElements_2ndMethod_Version3     ***    =>Prefix Sum concept
 6. ProductOfElements_Basics
    ProductOfElements
 7. MaxElements
    MinElements
-8. ArrayOfOtherDataTypes            => Default Value of Data Type
-9. ShallowCopyDeepCopy              *
+8. ArrayOfOtherDataTypes                       => Default Value of Data Type
+9. ShallowCopyDeepCopy                  *
 10. SortArrayBuiltIn
 11. ModifyElements
     ModifyElements_2nd
     ModifyElements_3rd
-12. LinearSearch               **     [LC.33. Search in Rotated Sorted Array]      [https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1]
+12. LinearSearch                        **     [LC.33. Search in Rotated Sorted Array]  [https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1]
     LinearSearch_Other
-13. TwoSum                          [LC.1. Two Sum]     [https://www.geeksforgeeks.org/problems/key-pair5616/1]
-    TwoSum_2nd ==> best practice     *
-14. SecondMax               [https://www.geeksforgeeks.org/problems/second-largest3735/1]
+13. TwoSum                                     [LC.1. Two Sum]     [https://www.geeksforgeeks.org/problems/key-pair5616/1]
+    TwoSum_2nd ==> best practice        *
+14. SecondMax                                  [https://www.geeksforgeeks.org/problems/second-largest3735/1]
 15. ForEach
-16. ReverseArray            [https://www.geeksforgeeks.org/problems/reverse-an-array/1]
+16. ReverseArray                               [https://www.geeksforgeeks.org/problems/reverse-an-array/1]
     ReversePartOfArray
-    ReverseInGroups         [https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1]
-17. RotateArray         **          [https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/0]
-    RotateArray_Right   ***         [LC.189. Rotate Array]
+    ReverseInGroups                            [https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1]
+17. RotateArray                         **     [https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/0]
+    RotateArray_Right                   ***    [LC.189. Rotate Array]
 18. MissingNumber
-    MissingNumber_gfg       *        [https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1]
-    Constraints         *
-19. Segregate0and1                  *
-    Segregate0and1_2ndMethod        **   [https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1]
-    Segregate0and1_3rdMethod        **
-20. WaveArray                       [https://www.geeksforgeeks.org/problems/wave-array-1587115621/1]
+    MissingNumber_gfg                   *      [https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1]
+    Constraints                         *
+19. Segregate0and1                      *
+    Segregate0and1_2ndMethod            **     [https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1]
+    Segregate0and1_3rdMethod            **
+20. WaveArray                                  [https://www.geeksforgeeks.org/problems/wave-array-1587115621/1]
 
-21. ArrayListsBasic         [https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1]    =>pending
-22. AddingOne           ***             [https://www.geeksforgeeks.org/problems/adding-one2529/1]       =>See again
-23. MergeTwoSortedArrays        =>See again
-    MergeTwoSortedArrays_ReverseOrder       =>See again
-24. Sort 0s, 1s and 2s          =>pending
+21. ArrayListsBasic                            [https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1]    =>pending
+22. AddingOne                           ***    [https://www.geeksforgeeks.org/problems/adding-one2529/1]       =>See again
+23. MergeTwoSortedArrays                       =>See again
+    MergeTwoSortedArrays_ReverseOrder          =>See again
+24. Sort 0s, 1s and 2s                         =>pending
 
 
 Array length = n
@@ -188,16 +188,21 @@ i <= arr.length  ❌
 
 
 ==================================================== 8th (Sorting) ==================================================
-1. Basics
-2. BubbleSorting                =>LC.912. Sort an Array
-   BubbleSort_Desc_Order
-4. SelectionSort => SortInAscendingOrder
-                    SortInDescendingOrder
-6. https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1               =>H.W.  =>Must complete it
-7. CommonElements       [https://www.geeksforgeeks.org/problems/common-elements5420/1]
-                        [https://www.geeksforgeeks.org/problems/common-elements1132/1]          =>H.W.
-8. Kth_Smallest
-9. InsertionSort Basics
+1. Logics                       **
+   Basics                               [https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1]
+2. BubbleSort
+   1. BubbleSorting             *+
+   2. SortArray_LC912           *       [LC.912. Sort an Array]
+   3. BubbleSort_Desc_Order
+3. SelectionSort
+   1. SortInAscendingOrder
+      SortArray_GFG                     [https://www.geeksforgeeks.org/problems/sort-the-array0055/1]
+   2. SortInDescendingOrder
+4.                                      [https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1]    =>H.W.  =>Must complete it
+5. CommonElements               **      [https://www.geeksforgeeks.org/problems/common-elements5420/1]
+   CommonInThreeSortedArrays    **      [https://www.geeksforgeeks.org/problems/common-elements1132/1]                      =>H.W.
+6. Kth_Smallest                 ***     [https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1]                 =>See again
+7. InsertionSort Basics
 
 ================================================== 9th (Binary Search) ======================================================
 1. BinarySearch_Q1
