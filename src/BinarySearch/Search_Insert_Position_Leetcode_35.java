@@ -1,7 +1,12 @@
+/* Search Insert Position means: search karo + insert karo
+Means: Agar target array me exist karti hai to uski index return karo otherwise wo index return karo jaha target ko actually me inserted hona chahiye tha.
+ */
+
+
 package BinarySearch;
 
 public class Search_Insert_Position_Leetcode_35 {
-    //1st method: Lower Bound concept   //T.C.: O(log n)  A.S.: O(1)
+    //1st method: Lower Bound concept   //T.C.: O(log n)  A.S.: O(1)        =>Recommended
     public int searchInsert(int[] nums, int target) {
         int lo=0, hi=nums.length-1;
         while(lo<=hi){
@@ -13,7 +18,7 @@ public class Search_Insert_Position_Leetcode_35 {
     }
 
 
-    //Normal Binary Search      //T.C.: O(log n)  A.S.: O(1)
+    //2nd method: Normal Binary Search      //T.C.: O(log n)  A.S.: O(1)
 //    public int searchInsert(int[] nums, int target) {
 //        int lo = 0, hi = nums.length - 1;
 //
@@ -30,7 +35,7 @@ public class Search_Insert_Position_Leetcode_35 {
 //            }
 //        }
 //
-//        return lo;
+//        return lo;        //lo = First index where element is greater than or equal to target.
 //    }
 }
 
@@ -154,3 +159,27 @@ LC 744 = first position where letters[i] > target
 
 Note: Ye teen problems ko ek saath samajh loge to binary search ke bahut saare questions easy ho jayenge.
 * */
+
+
+
+/* Important concept: What is Lower Bound?                          ***
+Lower Bound = First index where arr[index] >= target.
+
+Example:
+nums = [1, 3, 5, 6],    target = 5
+Lower Bound index = 2 (because nums[2] = 5).
+
+Another example:
+nums = [1, 3, 5, 6],    target = 4
+Lower Bound index = 2 (because nums[2] = 5, which is the first element greater than or equal to 4).
+
+
+Note: In 2nd method (Normal Binary Search)
+if (nums[mid] == target) {
+    return mid;
+}
+
+Ye condition tab kaam aati hai jab target array mein already present ho.
+Agar target nahi milta, toh loop ke end mein lo insertion position deta hai.
+
+ */
