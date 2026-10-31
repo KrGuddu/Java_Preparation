@@ -1,6 +1,4 @@
 // https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
-// https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1
-// Leetcode Binary Search Que. 704  ==>> https://leetcode.com/problems/binary-search/description/
 
 package BinarySearch;
 
@@ -35,8 +33,8 @@ public class First_Occurrence {
 interview Que: "Why not return immediately when found?"
 Ans: Kyuki hume first occurrence chahiye, Isliye left side me aur search karna padta(ya pad skta hai) hai
 
-Tips: First Occurrence	hi = mid - 1
-      Last Occurrence	lo = mid + 1
+Tips: First Occurrence  => go left  :	hi = mid - 1
+      Last Occurrence   => go right :   lo = mid + 1
 
 
 Note: Binary search me 2 index lene parte hai low and high.
