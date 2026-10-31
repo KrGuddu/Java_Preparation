@@ -1,0 +1,40 @@
+Note: Binary search me 2 index lene parte hai low and high.
+      Binary search me 3 hisse hote hai left-half, middle element, right-half.
+
+# Kab kaunsa use kare?  => [mid=(lo+hi)/2;  mid=lo+(hi-lo)/2;]
+
+Situation	                            Approach
+1. Small numbers	                    Both work
+2. Binary Search	                    Second preferred [mid=lo+(hi-lo)/2]
+3. Large integer values	                Second preferred [mid=lo+(hi-lo)/2]
+4. Interview / Production code	        Second preferred [mid=lo+(hi-lo)/2]
+
+Reason: Prevents integer overflow that can occur in (lo+hi)/2, provided lo and hi are valid non-negative array indices.
+Remember: Jab bhi Binary Search implement karo, default habit rakho:
+int mid = lo + (hi - lo) / 2;           =>Isko hi prefer karna hai.
+
+-----------------------------------------------------------------------------------------
+Tips: First Occurrence  => go left  :	hi = mid - 1
+      Last Occurrence   => go right :   lo = mid + 1
+
+Note: if return 2 array variables then use this
+return new int[]{first, last};          =>See in LC.34
+
+----------------------------------------------------
+Easy trick to remember:
+- Ascending → Small → Big
+- Descending → Big → Small
+
+# Quick Revision Notes
+1. for swapping:-
+Operation	        Condition
+1. Ascending	    arr[i] > arr[j] → Swap
+2. Descending	    arr[i] < arr[j] → Swap
+
+
+2. for Binary Search:-
+Array order	        Binary Search condition
+1. Ascending	    arr[mid] < target → lo = mid + 1
+2. Descending	    arr[mid] < target → hi = mid - 1
+
+Note: Descending Binary Search mein direction reverse ho jaati hai.
