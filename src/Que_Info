@@ -206,13 +206,14 @@ i <= arr.length  ❌
 
 ================================================== 9th (Binary Search) ======================================================
 1. BinarySearch_Q1
-2. First_Occurrence     ==> [LC.704] [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1] [https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1]
+   BinarySearch_LC704          [LC.704 Binary Search]   [https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1]
+2. First_Occurrence      [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1]
    Last_Occurrence
-   First_And_Last_Occurrence
-   First_And_Last_Occurrence_2nd    **    ==>> [LC.34] [https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1]
-6. Peak Index in a Mountain Array   [Leetcode Q.852]
-7. Floor_in_Sorted_Array_gfg    ==>>  [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
-8. Search_Insert_Position_Leetcode_35      [LC.35. Search Insert Position]
+   First_And_Last_Occurrence            [LC.34. Find First and Last Position of Element in Sorted Array]
+   First_And_Last_Occurrence_2nd    **  [https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1]
+6. Peak Index in a Mountain Array  ** [Leetcode Q.852]
+7. Floor_in_Sorted_Array_gfg    ==>> * [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
+8. Search_Insert_Position_Leetcode_35   *   [LC.35. Search Insert Position]
 9. Smallest_Letter_Greater_Than_Target_Leetcode_744         [Opposite of Floor_in_Sorted_Array_gfg ]
 10.
 11. MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
@@ -235,7 +236,7 @@ i <= arr.length  ❌
 
 
 
-
+Solve que Note page 10
 ============================================== 10th (String) ==============================================
 1. NumberOfVowels
 2. PalindromeString ==>> https://www.geeksforgeeks.org/problems/palindrome-string0817/1

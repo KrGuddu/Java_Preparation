@@ -5,8 +5,8 @@ A personal repository for practicing **Data Structures and Algorithms (DSA)** in
 This repository contains solutions, experiments, test cases, and debugging notes for coding questions from multiple platforms such as:
 
 - [LeetCode](https://leetcode.com/u/KrGuddu)
-- [HackerRank](https://www.hackerrank.com/profile/krguddu684)
 - [GeeksforGeeks (GFG)](https://www.geeksforgeeks.org/profile/krgudd58eo)
+- [HackerRank](https://www.hackerrank.com/profile/krguddu684)
 - Tutorial and practice questions
 
 ## 🎯 Goals
