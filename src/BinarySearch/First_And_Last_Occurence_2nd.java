@@ -1,0 +1,79 @@
+//https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1
+
+/* Rule of Java: Agar kisi class ko public declare karte ho, toh uska naam aur .java filename exactly same hona chahiye.
+Solution 1: File rename karo
+Agar class ka naam ye hai:
+public class First_And_Last_Occurence_2nd
+
+Toh file ka naam rakho:
+First_And_Last_Occurence_2nd.java
+
+Solution 2: public remove karo
+Agar file ka naam change nahi karna hai, toh public remove karo:
+class First_And_Last_Occurence_2nd
+
+recommendation: Agar Java code practice apne IDE (VS Code / IntelliJ) mein kar rahe ho, toh Solution 1 follow karo.
+*/
+
+package BinarySearch;
+import java.util.*;
+
+public class First_And_Last_Occurence_2nd {                 //This is another class
+    public static void main(String[] args) {                //This is main method
+        int[] arr = {1, 3, 5, 5, 5, 5, 67, 123, 125};
+        int x = 5;
+
+        Solution obj = new Solution();
+        ArrayList<Integer> ans = obj.find(arr, x);
+
+        System.out.println(ans); // Output: [2, 5]
+    }
+}
+
+class Solution {                                            //This is another class
+    ArrayList<Integer> find(int arr[], int x) {             //This is find method
+        ArrayList<Integer> res = new ArrayList<>();
+
+        int first = firstOccurrence(arr, x);
+        int last = lastOccurrence(arr, x);
+
+        res.add(first);
+        res.add(last);
+
+        return res;
+    }
+
+    int firstOccurrence(int[] arr, int x) {                 //This is a function
+        int lo = 0, hi = arr.length - 1;
+        int idx = -1;
+
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+
+            if (arr[mid] < x) lo = mid + 1;
+            else if (arr[mid] > x) hi = mid - 1;
+            else {
+                idx = mid;
+                hi = mid - 1;
+            }
+        }
+        return idx;
+    }
+
+    int lastOccurrence(int[] arr, int x) {                  //This is a function
+        int lo = 0, hi = arr.length - 1;
+        int idx = -1;
+
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+
+            if (arr[mid] < x) lo = mid + 1;
+            else if (arr[mid] > x) hi = mid - 1;
+            else {
+                idx = mid;
+                lo = mid + 1;
+            }
+        }
+        return idx;
+    }
+}
