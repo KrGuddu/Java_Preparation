@@ -20,9 +20,9 @@ public class SquareRoot_2 {
 
         while(lo<=hi){
             int mid = (lo+hi)/2;
-            if(mid*mid == n) return mid;        // here, mid is an element/number  //When element perfect quare is equal to n so that element is right answer (here mid is denote that element).
-            else if (mid*mid > n) hi=mid-1;     //when element square is greater than element then ho left.
-            else lo=mid+1;                      //when element square is greater than element then ho right.
+            if(mid*mid == n) return mid;        //If the square of mid equals n, we found the exact square root. Return mid.    [here, mid is an element/number]
+            else if (mid*mid > n) hi=mid-1;     //when element square is greater than element then go left (means: search in the left half).
+            else lo=mid+1;                      //when element square is less than element then go right (means: search in the right half).
         }
         return hi;      // When low cross high then loop will terminated and the right element is available on high, so answer is high.
     }
