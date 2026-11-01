@@ -217,12 +217,12 @@ i <= arr.length  ❌
 6. Smallest_Letter_Greater_Than_Target_Leetcode_744             [Pattern: Binary Search – Upper Bound]      [Opposite of Floor_in_Sorted_Array_gfg ]  [LC.744]
 7.
 8. MaxCount_Of_PosInt_NegInt_2
-    MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
-    MaxCount_Of_PosInt_NegInt_3
-    Extra
+   MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
+   MaxCount_Of_PosInt_NegInt_3
+   Extra
 9. SquareRoot_2                         [LC. 69. Sqrt(x)]***     ==> By Sir      =>The Best
-    SquareRoot                          [https://www.geeksforgeeks.org/problems/square-root/1]
-    ---------- See Again video from here ----------
+   SquareRoot                          [https://www.geeksforgeeks.org/problems/square-root/1]
+   ---------- See Again video from here ----------
 10. Single Among Doubles in a Sorted                 ***        [https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1]
 11. Arranging Coins                                  ***        [LC.441. Arranging Coins]
 12. Search_element_in_sorted_and_rotated_array                  [https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1]
