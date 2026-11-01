@@ -1,7 +1,6 @@
 package BinarySearch;
 
 public class Search_element_in_sorted_and_rotated_array {
-
     public static void main(String[] args) {
         int[] arr = {5, 6, 7, 8, 9, 10, 1, 2, 3};
         int tar = 3;
