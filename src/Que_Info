@@ -102,7 +102,7 @@
 15. Rhombus                                         **
 16. Pyramid                         *
     Pyramid_2ndMethod               **
-    Pyramid_Alternate               **                RA =>See video again
+    Pyramid_Alternate               **                RA (Revise again) =>See video again
     Pyramid_Extra                                     RA
     Pyramid_Logics      =>Imp                         RA
     Pyramid_Vertically_Flipped                        RA
@@ -206,34 +206,31 @@ i <= arr.length  ❌
 
 ================================================== 9th (Binary Search) ======================================================
 1. BinarySearch_Q1
-   BinarySearch_LC704          [LC.704 Binary Search]   [https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1]
-2. First_Occurrence      [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1]
+   BinarySearch_LC704                   [LC.704 Binary Search]   [https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1]
+2. First_Occurrence                     [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1]
    Last_Occurrence
    First_And_Last_Occurrence            [LC.34. Find First and Last Position of Element in Sorted Array]
    First_And_Last_Occurrence_2nd    **  [https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1]
-6. Peak Index in a Mountain Array  ** [Leetcode Q.852]
-7. Floor_in_Sorted_Array_gfg    ==>> * [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
-8. Search_Insert_Position_Leetcode_35   *   [LC.35. Search Insert Position]
-9. Smallest_Letter_Greater_Than_Target_Leetcode_744         [Opposite of Floor_in_Sorted_Array_gfg ]
-10.
-11. MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
-    MaxCount_Of_PosInt_NegInt_2
+3. Peak Index in a Mountain Array   **  [Leetcode Q.852]
+4. Floor_in_Sorted_Array_gfg         *  [https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1]
+5. Search_Insert_Position_Leetcode_35           *               [Pattern: Binary Search – Lower Bound]  [LC.35. Search Insert Position]
+6. Smallest_Letter_Greater_Than_Target_Leetcode_744             [Pattern: Binary Search – Upper Bound]      [Opposite of Floor_in_Sorted_Array_gfg ]  [LC.744]
+7.
+8. MaxCount_Of_PosInt_NegInt_2
+    MaxCount_Of_PosInt_NegInt_1         [LC.2529. Maximum Count of Positive Integer and Negative Integer]       ==>Recommended
     MaxCount_Of_PosInt_NegInt_3
     Extra
-12. SquareRoot                       [https://www.geeksforgeeks.org/problems/square-root/1]
-    SquareRoot_2        ==> By Sir      =>The Best
-    LC. 69. Sqrt(x)
-
-    ----------Revise from here, also must check chatgpt solution----------
-14. Single Among Doubles in a Sorted ==>> https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1
-15. Arranging Coins ==> LC 441
-16. Search_element_in_sorted_and_rotated_array  ==>> https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
-17. Search in a sorted Matrix  ==>> https://www.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1
-    Or, LC. 74: Search a 2D Matrix
-18. Kth Missing Positive Number in a Sorted Array  ==>> https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1
-    Or, LC.1539. Kth Missing Positive Number
-19.
-
+9. SquareRoot_2                         [LC. 69. Sqrt(x)]***     ==> By Sir      =>The Best
+    SquareRoot                          [https://www.geeksforgeeks.org/problems/square-root/1]
+    ---------- See Again video from here ----------
+10. Single Among Doubles in a Sorted                 ***        [https://www.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1]
+11. Arranging Coins                                  ***        [LC.441. Arranging Coins]
+12. Search_element_in_sorted_and_rotated_array                  [https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1]
+13. Search in a sorted Matrix                                   [https://www.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1]
+    Or, LC. 74: Search a 2D Matrix                              [LC.74. Search a 2D Matrix]
+14. Kth Missing Positive Number in a Sorted Array               [https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1]
+    Or, LC.1539. Kth Missing Positive Number                    [LC.1539. Kth Missing Positive Number]
+15.
 
 
 Solve que Note page 10

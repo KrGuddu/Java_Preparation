@@ -38,3 +38,36 @@ Array order	        Binary Search condition
 2. Descending	    arr[mid] < target → hi = mid - 1
 
 Note: Descending Binary Search mein direction reverse ho jaati hai.
+
+
+---------------------------------------------
+1. comparison or three questions    =>Binary Search → Boundary Search (Lower Bound / Upper Bound / Floor)
+
+Question	                                        Kya find karna hai?	                                Pattern
+1. GFG Floor in Sorted Array	                    Target se chhota ya equal, sabse bada element	    Floor
+2. LC 35 Search Insert Position	                    Target se bada ya equal, first position	            Lower Bound
+3. LC 744 Smallest Letter Greater Than Target	    Target se strictly bada, first element	            Upper Bound
+
+
+Examples:
+arr = [1, 3, 5, 7, 9]
+target = 5
+
+1. Floor in Sorted Array (GFG)
+Target se chhota ya equal sabse bada element.
+Floor = greatest element ≤ target
+Answer = 5
+
+2. Search Insert Position (LC 35)
+Target se bada ya equal, first position.
+Lower Bound = first element ≥ target
+Answer = index 2
+
+3. Smallest Letter Greater Than Target (LC 744)
+Target se strictly bada, first element.
+Upper Bound = first element > target
+Answer = 7
+
+--------------------------------------------------
+Note: Jab ham extra variable ke taur par array, Stack, Queue, recursion, etc. ka use karte hai tab Space comlexity count/change hoti hai.
+      But, Jab ham constant extra variables (like: int n; int lo; int hi; int mid; int negCount; int posCount; etc) ka use karte hai to Space complexity count/change nhi hoti hai ye constant rahti hai. (SC: O(1)).
