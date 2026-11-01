@@ -1,3 +1,13 @@
+/* Pattern: Binary Search – Upper Bound
+
+   Que. Find Smallest Letter Greater Than Target
+   Means: Wo smallest element jo target se thik bada ho.
+   Final answer: arr[lo % n]            => return arr[lo % arr.length];
+
+   TC: O(log n)  =>	Binary search halves the search space
+   SC: O(1)	     => Only three variables: lo, hi, mid
+*/
+
 package BinarySearch;
 
 public class Smallest_Letter_Greater_Than_Target_Leetcode_744 {
@@ -7,10 +17,29 @@ public class Smallest_Letter_Greater_Than_Target_Leetcode_744 {
             int mid=lo+(hi-lo)/2;
             if(letters[mid]<=target) lo=mid+1;
             else hi=mid-1;
+
+//            if(letters[mid]>target) hi=mid-1;         //or, use this
+//            else lo=mid+1;
         }
         return letters[lo % letters.length];
     }
 }
+
+
+
+/* 1. Lexicographically Smaller: Agar string dictionary order mein pehle aati hai → smaller.
+        Ex: "apple" < "banana" Because a < b        ==> a is lexicographically smaller than b
+   2. Lexicographically Greater: Agar string dictionary order mein baad mein aati hai → greater.
+        Ex: "dog" > "cat" Because: d > c            ==> d is lexicographically greater than c
+
+   Tips: "a" < "b" < "c" < ... < "z"
+
+   Note: Java mein:
+        "a".compareTo("b")   // negative → a smaller
+        "b".compareTo("a")   // positive → b greater
+        "a".compareTo("a")   // 0 → equal
+ */
+
 
 
 /*
@@ -119,15 +148,3 @@ Loop end → lo = smallest letter greater than target
 
 
 
-/* 1. Lexicographically Smaller: Agar string dictionary order mein pehle aati hai → smaller.
-        Ex: "apple" < "banana" Because a < b        ==> a is lexicographically smaller than b
-   2. Lexicographically Greater: Agar string dictionary order mein baad mein aati hai → greater.
-        Ex: "dog" > "cat" Because: d > c            ==> d is lexicographically greater than c
-
-   Tips: "a" < "b" < "c" < ... < "z"
-
-   Note: Java mein:
-        "a".compareTo("b")   // negative → a smaller
-        "b".compareTo("a")   // positive → b greater
-        "a".compareTo("a")   // 0 → equal
- */
