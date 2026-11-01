@@ -1,5 +1,8 @@
 /* Search Insert Position means: search karo + insert karo
 Means: Agar target array me exist karti hai to uski index return karo otherwise wo index return karo jaha target ko actually me inserted hona chahiye tha.
+
+Pattern of this que.: Binary Search – Lower Bound
+Final Ans: return lo;
  */
 
 
