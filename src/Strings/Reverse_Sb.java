@@ -10,6 +10,9 @@ public class Reverse_Sb {
 //        sb.reverse();
 //        collections.sort(sb);         //does not work  //StringBuilder me sorting work nhi karta hai.
 
+//        System.out.println(s.reverse());        //not support
+//        System.out.println(sb.reverse());       //support
+
         //Function method of reverse StringBuilder      ==>> This 2-pointer reverse technique may be asked in interview.
         int i=0, j=sb.length()-1;
         while(i<=j){

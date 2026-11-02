@@ -3,7 +3,7 @@ package Strings.SubStrings;
 public class SubStringsOfString {
     public static void main(String[] args) {
         String s = "Abhishek Kumar";
-        System.out.println(s.substring(4,8));               //shek          //In substring fist index number is included and last index number is excluded. So, last index number is not count.
+        System.out.println(s.substring(4,10));               //shek K        //In substring fist index number is included and last index number is excluded. So, last index number is not count.
         System.out.println(s.substring(4,14));              //shek Kumar
         System.out.println(s.substring(4));       //shek Kumar
         System.out.println(s.substring(0));       //Abhishek Kumar      //Warnig: Call to 'substring()' is redundant  ==>> redundant means unnecessary.
