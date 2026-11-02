@@ -1,4 +1,5 @@
 //Que: count digits without applying loop conditions
+//Note: string ke length hi string ki count hoti hai.
 
 package Strings;
 import java.util.Scanner;

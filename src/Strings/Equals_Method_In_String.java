@@ -6,18 +6,16 @@ public class Equals_Method_In_String {
     public static void main(String[] args) {
 //        String s1 = "guddu";
 //        String s2 = "guddu";
-//        System.out.println(s1==s2);      //it return true b/q of both s1 and s2 are point to guddu.
+//        System.out.println(s1==s2);      //it return true b/q of both s1 and s2 are point to same value guddu.
 //        System.out.println(s1.equals(s2));
 
         String s1 = new String("guddu");
         String s2 = new String("guddu");
-        System.out.println(s1==s2);
-        System.out.println(s1.equals(s2));
-
-
+        System.out.println(s1==s2);         //false, b/q s1 and s2 both create a new variable and both point it's own value
+        System.out.println(s1.equals(s2));  //true
     }
 
-    //This is the actual function for checks whether two strings are equal in content.
+    //This is the actual function for checks whether two strings are equal in content.      ***
     public static boolean equals(String s1, String s2){
         if(s1.length() != s2.length()) return false;
         for(int i=0; i<=s1.length(); i++){
@@ -27,7 +25,7 @@ public class Equals_Method_In_String {
     }
 
     /* Note: Ye method corrupted hai qki isme koe v operations like update or add nhi kar paa rhe hai to iska alternative ye hai:
-       1St: string/ characters ki arrayList bana do
+       1st: string/ characters ki arrayList bana do
        2nd: Character array bana do
        3rd: String Builders     ==>> The best method
 
