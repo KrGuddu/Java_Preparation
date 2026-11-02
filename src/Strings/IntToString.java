@@ -1,5 +1,4 @@
 package Strings;
-
 import java.util.Scanner;
 
 public class IntToString {
