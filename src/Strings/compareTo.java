@@ -9,10 +9,8 @@ public class compareTo {
                 return a.charAt(i) - b.charAt(i);
             }
         }
-
         return a.length() - b.length();
     }
-
 
     public static void main(String[] args) {
 //        All string anr print is written here

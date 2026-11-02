@@ -9,7 +9,6 @@ public class compareToExample {
                 return a.charAt(i) - b.charAt(i);
             }
         }
-
         return a.length() - b.length();
     }
 
