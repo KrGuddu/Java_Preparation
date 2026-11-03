@@ -264,14 +264,15 @@ Solve que Note page 10
 
 
 =================================================== 11th (2D Array) ============================================
-1. OutputIn2DArray
-   InputIn2DArray
+1. InputIn2DArray
+   OutputIn2DArray
 2. SumOf2DArray
    SumOf2DArray_Q2
    SumOf2DArray_Q3
-3. maximum element in given 2D array.       ==>Pending
+3. MaxElementIn2DArray
+   Elements_SubQue      *
 4. Rows_MaxSum
-   Rows_MaxSum_Q2
+   Rows_MaxSum_Q2       *
 5. ColumnWisePrint
 6. ForEachLoop
 7. SnakePattern_Row_Wise
