@@ -8,7 +8,7 @@ public class OutputIn2DArray {
         // System.out.println(arr.length + " " + arr[0].length);       //no. of rows in 2d array: arr.length  //no. of column in 2d array: arr[0].length   or arr[1].length  or arr[2].length  =>where 0,1,2... is representing row's number.
 
         for(int i=0; i<arr.length; i++){     //so here, i<3 is arr.length
-            for(int j=0; j<arr[0].length; j++){     //so here, i<4 is arr[0].length
+            for(int j=0; j<arr[0].length; j++){     //so here, i<4 is arr[0].length         //Recommended to use arr[i]
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
