@@ -13,7 +13,7 @@ public class SumOf2DArray_Q3 {
             for(int j=0; j<arr[0].length; j++){
                 arr[i][j] = sc.nextInt();
                 sum += arr[i][j];
-                System.out.print(arr[i][j] + " ");
+//                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
