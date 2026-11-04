@@ -6,7 +6,7 @@ public class Search_In_A_Row_Column_Sorted_matrix {
     }
 
     public boolean searchMatrix(int[][] arr, int target) {
-        int m = arr.length, n = arr[0].length;
+        int m = arr.length, n = arr[0].length;          //here m is row's length, n is column's length
 
         //Method1: Best b/q of T.C. : O(m+n)
         int i=0, j=n-1;
