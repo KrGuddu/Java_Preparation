@@ -29,7 +29,7 @@ public class RotateBy90Degree_Clockwise {
             }
         }
 
-        // Reverse each row
+        // Reverse each row     // After transpose, reverse each row to get 90° clockwise rotation.     //Har row ke elements ko left-to-right reverse karta hai.
         for (int i = 0; i < arr.length; i++) {
             int stCol = 0;
             int endCol = arr[i].length - 1;

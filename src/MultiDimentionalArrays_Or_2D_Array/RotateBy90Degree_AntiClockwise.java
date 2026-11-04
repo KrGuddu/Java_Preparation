@@ -19,7 +19,7 @@ public class RotateBy90Degree_AntiClockwise {
     }
 
     public static void rotateMatrix(int[][] arr) {          //without static it will give error  ==>> non-static method rotateMatrix(int[][]) cannot be referenced from a static context
-        // Transpose: Convert rows into columns and columns into rows.
+        //1st: Transpose: Convert rows into columns and columns into rows.
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < i; j++) {
                 int temp = arr[i][j];
@@ -28,7 +28,7 @@ public class RotateBy90Degree_AntiClockwise {
             }
         }
 
-        // Reverse each column: Gives 90° anticlockwise rotation.
+        //2nd: Reverse each column: Gives 90° anticlockwise rotation.   // After transpose, reverse each column to get 90° anticlockwise rotation.      //Har column ke elements ko top-to-bottom reverse karta hai.
         for (int j = 0; j < arr[0].length; j++) {
             int stRow = 0;
             int endRow = arr.length - 1;
@@ -44,3 +44,11 @@ public class RotateBy90Degree_AntiClockwise {
         }
     }
 }
+
+/*
+Rotation	                Logic
+90° Clockwise	            Transpose + Reverse Rows
+90° Anti-Clockwise	        Transpose + Reverse Columns
+
+Important: Ye approach in-place transpose/reversal ke saath square matrix ke liye use hoti hai. Rectangular matrix mein dimensions change hoti hain, isliye generally new matrix banana padta hai.
+ */
