@@ -270,27 +270,24 @@ Solve que Note page 10
    SumOf2DArray_Q2
    SumOf2DArray_Q3
 3. MaxElementIn2DArray
-   Elements_SubQue      *
+   Elements_SubQue          *
 4. Rows_MaxSum
-   Rows_MaxSum_Q2       *
+   Rows_MaxSum_Q2           *
 5. ColumnWisePrint
 6. ForEachLoop
 7. SnakePattern_Row_Wise
-   SnakePattern_Column_Wise         ==>Verify
-8. Reverse_Row_And_Column           ==>Pending
-9. Transpose_Of_Matrix                 https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1 ===>> see again
-   LC 867. Transpose Matrix
-10. RotateBy90Degree_Clockwise
-    RotateBy90Degree_AntiClockwise
-    Rotate by 90 degree    ==> https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1
-    LC. 48. Rotate Image    ==>Pending
-11. ArrayList_In_2D >>> Basics
-12. LC. 118. Pascal's Triangle
-    LC. 119. Pascal's Triangle II
-13. Search in a Row-Column Sorted matrix
-    LC. 240. Search a 2D Matrix II
-14. Spirally_Traversing_Matrix      ==>https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
-15. Multiply Two Matrices       ==>> https://www.geeksforgeeks.org/problems/multiply-matrices/1
+   SnakePattern_Column_Wise         **
+8. Reverse_Row_And_Column           ==>Pending          =>See Again
+9. Transpose_Of_Matrix              *   [https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1] **     ===>> see again
+                                        [LC 867. Transpose Matrix]  **
+10. RotateBy90Degree_Clockwise      *       [LC. 48. Rotate Image]
+    RotateBy90Degree_AntiClockwise  *   [https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1]
+11. ArrayList_In_2D >>> Basics      *
+12. LC. 118. Pascal's Triangle      *
+    LC. 119. Pascal's Triangle II   *
+13. Search in a Row-Column Sorted matrix     *   [LC. 240. Search a 2D Matrix II]
+14. Spirally_Traversing_Matrix      *   [https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1]
+15. Multiply Two Matrices           *   [https://www.geeksforgeeks.org/problems/multiply-matrices/1]
 16.
 
 
