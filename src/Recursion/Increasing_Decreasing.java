@@ -8,7 +8,6 @@ public class Increasing_Decreasing {
         n = sc.nextInt();
         print(n);
     }
-
     public static void print(int n){
         if(n==0) return;
         System.out.print(n + " ");
@@ -17,7 +16,8 @@ public class Increasing_Decreasing {
     }                                         //o.p: 5 4 3 2 1 1 2 3 4 5
 
 
-    //for o/p: 5 4 3 2 1 2 3 4 5        ==> two 1 ki jagah ek 1 rakhne ke liye
+    /* for o/p: 5 4 3 2 1 2 3 4 5   ==> [two 1 ki jagah ek 1 rakhne ke liye]          //All three approaches have => TC: O(n), AS: O(n), due to the recursion call stack. */
+    // Best for beginners (But taking Extra condition)
 //    public static void print(int n){
 //        if(n==0) return;
 //        System.out.print(n + " ");
@@ -26,7 +26,7 @@ public class Increasing_Decreasing {
 //        System.out.print(n + " ");
 //    }
 
-    //or
+    //or,   Cleanest (Not required Extra condition)         => Recommendation
 //    public static void print(int n){
 //        if(n==1) {
 //            System.out.print(n + " ");
@@ -44,6 +44,5 @@ public class Increasing_Decreasing {
 //        print(n-1);
 //        if(n != 1) System.out.print(n + " ");
 //    }
-
 
 }
