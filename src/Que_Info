@@ -278,7 +278,7 @@ Solve que Note page 10
 7. SnakePattern_Row_Wise
    SnakePattern_Column_Wise         **
 8. Reverse_Row_And_Column           ==>Pending          =>See Again
-9. Transpose_Of_Matrix              *   [https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1] **     ===>> see again
+9. Transpose_Of_Matrix              **   [https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1] **     ===>> see again
                                         [LC 867. Transpose Matrix]  **
 10. RotateBy90Degree_Clockwise      *       [LC. 48. Rotate Image]
     RotateBy90Degree_AntiClockwise  *   [https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1]
@@ -296,15 +296,15 @@ Solve que Note page 10
 1. Function_Calling_Itself
 2. LocalVariables
    GlobalVariables
-3. NToOne
-   OneToN
+3. NToOne   +
+   OneToN   *
 4. Increasing_Decreasing
-5. Power_Linear
-6. Reverse
+5. 1. Power_Linear     *
+   2. Reverse          *
+   3. Raise to Power of Its Own Reverse    ** [https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1]
 7. SumOfNumbers
-   SumOfNumbers_V2          ==>> https://www.geeksforgeeks.org/problems/reverse-coding2452/1
-8. Raise to Power of Its Own Reverse    ==>> https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1
-9. GCD of two numbers     ==>> https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
+   SumOfNumbers_V2       *        [https://www.geeksforgeeks.org/problems/reverse-coding2452/1]
+9. GCD of two numbers     ==>> [https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1]        =>RA
 
 ------------------------------------ Videos No: 13th --------------------------------
 10. LC 62 Unique paths

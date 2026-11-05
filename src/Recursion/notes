@@ -1,0 +1,57 @@
+----------------------------- Recursion -----------------------------------
+Recursion:- Recursion is the process where a function calls itself directly or indirectly.
+
+💡 Core Components of a Recursive Function:
+To prevent the function from calling itself infinitely and crashing the program (causing a Stack Overflow error), every recursive function must have two main parts:
+• Base Case: The condition under which the function stops calling itself and returns a definitive value.
+• Recursive Case: The part of the function where it modifies its parameters and calls itself to solve a smaller sub-problem.
+
+🧩 Classic Example: Factorial of a Number (n!)
+
+int factorial(int n) {
+    // 1. Base Case
+    if (n == 1 || n == 0) {
+        return 1;
+    }
+
+    // 2. Recursive Case
+    return n * factorial(n - 1);
+}
+
+Note: Base Case/Stopping Condition / Termination Condition/Exit Condition/Anchor Case/Ground Case / Bottom-up Limit/Trivial Case
+----------------------------- Global Variables ----------------------------
+Preference:
+Local variable > static/class variable when both have the same name.
+
+Aur static x ko specifically access karna ho to:
+ClassName.x
+Eg: System.out.println(Test.x); where Test is a className
+
+
+static = class ke saath associated, but value change ho sakti hai.      //Class ke saath associated means: static variable object ke saath nahi, balki class ke saath belong karta hai.
+final = value change nahi ho sakti.
+
+
+Normal variable → Object ka hai
+static variable → Class ka hai
+Eg: static int x = 10;        // ✅ change allowed
+    static final int x = 10;  // ❌ change not allowed
+
+
+------------------ Find Power --------------------
+1st: Linear Recursion (Naive Recursive Exponentiation):     [TC: O(b), AS: O(b)]
+pow(a,b) = a*pow(a, b-1)
+
+2nd: Optimized Recursion [Exponentiation by Squaring (Fast Exponentiation / Binary Exponentiation)]:        [TC: O(log b), AS: O(log b)]        =>Recommended
+pow(a,b) = call*call        =>when b is even        Where, call = pow(a, b/2)
+         = a*call*call      =>when b is odd
+
+
+Que: Why is called Linear Recursion?
+Ans: Because in every recursive call, the exponent decreases by 1:
+
+----------------------------- Formula ----------------------
+Sum of natural numbers(1+2+3+...+ n-2 + n-1 +n): n*(n+1)/2
+Sum of cubes of natural numbers(1^3 +2^3 +3^3 +...+ (n-2)^3 + (n-1)^3 +n^3) : [n(n+1)/2]^2
+                                                                            : [n^2*(n+1)^2]4
+
