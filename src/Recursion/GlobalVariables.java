@@ -1,27 +1,27 @@
 package Recursion;
 
 public class GlobalVariables {
-    static int x=10;                    //This is global variable which is accessible anywhere.     //static means shareable variable
-    public static void main(String[] args) {
-        change();
-        System.out.println(x);
-    }
-
-    public static void change(){
-        x=20;
-    }
+//    static int x=10;                    //This is global variable which is accessible anywhere.     //static means shareable variable
+//    public static void main(String[] args) {
+//        System.out.println(x);      //10
+//        change();
+//        System.out.println(x);      //20
+//    }
+//    public static void change(){
+//        x=20;
+//    }
 
 
     //Accessibility
-//    static int x=10;
-//    public static void main(String[] args) {
-//        x=15;                       //This x is accessible b/q of: Abhi main() ke andar local x declare nahi hua hai. Isliye Java ko jo x milta hai, woh class ka static x hai.
-//        System.out.println(x);        //o/p: 15
-//        int x=20;                   // yaha par local x declared hua hai
-//        System.out.println(x);        //o/p: 20
-//        x=30;                       //local x ke karan ise update v kar skte hai
-//        System.out.println(x);        //o/p: 30
-//    }
+    static int x=10;
+    public static void main(String[] args) {
+        x=15;                       //This x is accessible b/q of: Abhi main() ke andar local x declare nahi hua hai. Isliye Java ko jo x milta hai, woh class ka static x hai.
+        System.out.println(x);        //o/p: 15
+        int x=20;                   // yaha par local x declared hua hai
+        System.out.println(x);        //o/p: 20
+        x=30;                       //local x ke karan ise update v kar skte hai
+        System.out.println(x);        //o/p: 30
+    }
 
 }
 

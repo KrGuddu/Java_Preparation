@@ -9,5 +9,6 @@ public class LocalVariables {
 
     public static void change(int x){
         x=20;                                       //here x local for the change method
+        System.out.println(x);
     }
 }
