@@ -1,4 +1,17 @@
 //Print a to the power of b
+/*
+1st: Linear Recursion (Naive Recursive Exponentiation):     [TC: O(b), AS: O(b)]
+pow(a,b) = a*pow(a, b-1)
+
+2nd: Optimized Recursion [Exponentiation by Squaring (Fast Exponentiation / Binary Exponentiation)]:        [TC: O(log b), AS: O(log b)]        =>Recommended
+pow(a,b) = call*call        =>when b is even        Where, call = pow(a, b/2)
+         = a*call*call      =>when b is odd
+
+
+Que: Why is called Linear Recursion?
+Ans: Because in every recursive call, the exponent decreases by 1:
+ */
+
 
 package Recursion;
 import java.util.Scanner;
