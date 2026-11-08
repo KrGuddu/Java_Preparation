@@ -153,7 +153,7 @@
     ModifyElements_3rd
 12. LinearSearch                        **     [LC.33. Search in Rotated Sorted Array]  [https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1]
     LinearSearch_Other
-13. TwoSum                                     [LC.1. Two Sum]     [https://www.geeksforgeeks.org/problems/key-pair5616/1]
+13. PrefixSum                                     [LC.1. Two Sum]     [https://www.geeksforgeeks.org/problems/key-pair5616/1]
     TwoSum_2nd ==> best practice        *
 14. SecondMax                                  [https://www.geeksforgeeks.org/problems/second-largest3735/1]
 15. ForEach
