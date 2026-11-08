@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         int slow = 0;

@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class MoveZeroes {
     public void moveZeroes(int[] nums) {
         //1st method (Two Pointers)     //TC: O(n), AS: O(1)    =>Best
@@ -13,7 +15,7 @@ public class MoveZeroes {
         }
 
 
-        //2nd method (Without Swapping)     //TC: O(n), AS: O(1)
+        //2nd method (Without Swapping)     //TC: O(n), AS: O(1)    =>good
         // int slow = 0;
 
         // // Move non-zero elements to the beginning

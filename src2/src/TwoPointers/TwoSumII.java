@@ -1,4 +1,4 @@
-/*
+package TwoPointers;/*
 Problem: Given a 1-indexed sorted array arr and an integer target, find two numbers whose sum equals the target.
 Return their indices using 1-based indexing.
  */

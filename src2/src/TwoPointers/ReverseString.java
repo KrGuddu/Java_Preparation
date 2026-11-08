@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class ReverseString {
 //    public void reverseString(char[] s) {
 //        int i = 0, j = s.length - 1;
@@ -51,7 +53,7 @@ Below are the three most common approaches to accomplish this depending on your 
 1. The Built-in Way (Recommended)
 
 This approach utilizes StringBuilder, which is mutable and handles the reversal quickly and efficiently in memory. As noted by a consensus among developers on Stack Overflow, this is the cleanest implementation and properly handles Unicode surrogate pairs.
-public class ReverseString {
+public class TwoPointers.ReverseString {
     public static void main(String[] args) {
         String original = "Hello World";
 

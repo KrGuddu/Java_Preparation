@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         //Optimal Approach – Slow & Fast Pointers       //TC: O(n), AS: O(1)    =>Best
