@@ -1,3 +1,6 @@
+// int[] s : this is an array
+// char[] s : this is a character type string
+
 package TwoPointers;
 
 public class ReverseString {
