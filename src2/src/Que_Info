@@ -14,7 +14,7 @@
 11. TrappingRainWater       [42. Trapping Rain Water]
 12. [LC 31 – Next Permutation]      => You can solve this
 
-============================== Pattern 2: Sliding Window =====================
+============================== Pattern 2: Sliding Window ====================
 1. MaximumAverageSubarrayI         [643. Maximum Average Subarray I]
 2. MinimumSizeSubarraySum          [209. Minimum Size Subarray Sum]
 3. LongestSubstringWithoutRepeatingCharacters   [LC.3. Longest Substring Without Repeating Characters]
