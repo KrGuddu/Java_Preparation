@@ -537,21 +537,24 @@ https://www.geeksforgeeks.org/problems/perfect-binary-tree/1
 
 
 ============================================== 23. Binary Search Tree (BST) =======================================================
-1. MinMaxInBST                              [https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1]
-                                            []
+1. MinMaxInBST                      [https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1]
+                                    []
 2. SearchInBST                      [https://www.geeksforgeeks.org/problems/search-a-node-in-bst/1]
                                     [LC.700. Search in a Binary Search Tree]
 3. CountBSTNodesInRange             [https://www.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1]
                                     [LC. 938. Range Sum of BST]
 4. BSTInsert                        [https://www.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1]
+5. kthSmallestInBST                 [https://www.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1]
+                                    [LC.230. Kth Smallest Element in a BST]
+6. CheckForBST                      [https://www.geeksforgeeks.org/problems/check-for-bst/1]        =>H.W.          =>Check code solutions
+                                    [LC.98. Validate Binary Search Tree]
+7. bst to gst
 
 
 
+
+1:38:00
 Start from 14:30:00
-
-
-
-
 
 
 =====================================================================================================
