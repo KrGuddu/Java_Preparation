@@ -14,7 +14,7 @@ public class Reverse {
 //        System.out.println(r);
 //    }
 
-    //By recursive method
+    //By recursive method   =>when return type is void
 //    public static void reverse(int n, int r){
 //        if(n==0){
 //            System.out.println(r);
