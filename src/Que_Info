@@ -298,7 +298,8 @@ Solve que Note page 10
    GlobalVariables
 3. NToOne   +
    OneToN   *
-4. Increasing_Decreasing
+   Increasing_Decreasing    **
+4. Factorial                               [https://www.geeksforgeeks.org/problems/factorial5739/1]
 5. 1. Power_Linear     *
    2. Reverse          *
    3. Raise to Power of Its Own Reverse    ** [https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1]

@@ -1,4 +1,6 @@
 ----------------------------- Recursion -----------------------------------
+Note: Recursion me big result ko small result ki help se nikalte hai.   [Matlab, bada problem ka answer chhote problem ko sounp deta hai ki tu nikalkar leke aa]
+
 Recursion:- Recursion is the process where a function calls itself directly or indirectly.
 
 💡 Core Components of a Recursive Function:
