@@ -19,7 +19,7 @@ public class LC_62_Unique_Paths {
         return paths(0,0,m-1,n-1);      //current row is 0, current column is 0, last row is m-1, last column is n-1.
     }
 
-    //3rd method: without helper function and reverse ways      //TLE error
+    //3rd method: without helper function and reverse ways (Better)       //TLE error
     // public int uniquePaths(int m, int n) {
     //     if(m==1 && n==1) return 1;
     //     if(m==0 || n==0) return 0;
