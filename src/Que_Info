@@ -315,20 +315,18 @@ Note: Kisi v code me T.C. 2^n hai to TLE error dega hi dega, so usko DP se solve
 10. LC 62 Unique paths
 11. RecursionOnArrays
     ElementExist => linear search on recursion
-13. LC 704. Binary Search  =>Binary Search on recursion
-    First_Occurrence.  ==>> https://www.geeksforgeeks.org/problems/binary-search-1587115620/1       =>H.W.
-    reverse an array using recursion.  ==>> 1:03:30           =>H.W.
-
-StringsBasicsMore
-PrintSubSets
-PrintSubSets_ArrayList
-All Subsequences of a String => https://www.geeksforgeeks.org/problems/power-set4302/1
-Subset Sums => https://www.geeksforgeeks.org/problems/subset-sums2234/1     ==>1:43:40  =>H.w.
-LC 78. Subsets
-**LC 22. Generate Parentheses
-**PreInPost
-**TowerOfHanoi  =>https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
-Look_And_Say_Pattern =>https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1      => H.W.
+12. LC 704. Binary Search       =>Binary Search on recursion
+    First_Occurrence.            [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1]       =>H.W.
+    reverse an array using recursion.       ==>> 1:03:30           =>H.W.
+13. StringsBasicsMore
+14. PrintSubSets
+    PrintSubSets_ArrayList  [or, Power Set]      [https://www.geeksforgeeks.org/problems/power-set4302/1]
+    Subset Sums             [https://www.geeksforgeeks.org/problems/subset-sums2234/1]             ==>1:43:40  =>H.w.
+    [LC 78. Subsets]
+15. LC 22. Generate Parentheses         ***         TC: O(2^n)
+16. PreInPost           ****
+17. TowerOfHanoi          ***         [https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1]
+18. Look_And_Say_Pattern      **        [https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1]      => H.W.
 
 
 =========================================== 14th (Merge Sort) ==============================================
