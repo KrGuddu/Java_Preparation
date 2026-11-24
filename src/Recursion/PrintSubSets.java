@@ -6,7 +6,7 @@ public class PrintSubSets {
         subsets("", s, 0);
     }
     private static void subsets(String ans, String s, int idx){
-        if(idx==s.length()){
+        if(idx==s.length()){        //Base case     //agar index tring ki length se bahar nikal jaye to tab wahi par loop terminate kar do, usse pahle ans ko print kar do.
             System.out.print(ans + " ");
             return;
         }
