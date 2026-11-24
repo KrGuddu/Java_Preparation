@@ -11,8 +11,8 @@ public class PrintSubSets_ArrayList {
     }
     private static void subsets(String ans, String s, int idx, List<String> list){
         if(idx==s.length()){
-//            list.add(ans);
-            if(ans.length() != 0) list.add(ans);        //Agar length non zero hai (means empty string hai) tabi list me ans add karna. //Agar question me bol rkha hai emty string ko print nhi karna hai tabi ye use kare barna upper bala v use kar skte hai.
+//            list.add(ans);                            //Agar answer empty string ke sath mage to ye use kare
+            if(ans.length() != 0) list.add(ans);        //Agar answer without empty string ke mage to ye use kare       //Agar length non zero hai (means empty string hai) tabi list me ans add karna.
             return;
         }
         char ch = s.charAt(idx);
