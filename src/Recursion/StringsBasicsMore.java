@@ -1,12 +1,11 @@
 package Recursion;
-
 import java.util.ArrayList;
 
 public class StringsBasicsMore {
     public static void main(String[] args) {
 //        String s = "Guddu";
 //        change(s);
-//        System.out.println(s);        //Note:
+//        System.out.println(s);        //output is Guddu   //Sting is not changed b/q of string is pass by value   //This is known as string is pass by value
 
         //Array of Strings =>We can create array of a string or ArrayList of ArrayList
 //        String[] arr = {"Guddu", "Vicky", "Rohit", "Purkit"};
@@ -23,7 +22,7 @@ public class StringsBasicsMore {
         System.out.println(al);
 
         change2(al);
-        System.out.println(al);
+        System.out.println(al);     //Arraylist of string is pass by reference
     }
     private static void change2(ArrayList<String> al){
         al.add("John");
@@ -33,3 +32,10 @@ public class StringsBasicsMore {
         s = "Rohit";
     }
 }
+
+
+/*
+Note: character array is pass by reference, but character string is not pass by reference.
+      string ki array (array of string) and string ki arraylist (arraylist of string) pass by reference hoti hai
+Note: we can create an arraylist using ArrayList or List method.
+ */
