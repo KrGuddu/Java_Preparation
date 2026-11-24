@@ -7,12 +7,12 @@ public class Look_And_Say_Pattern {
 //        String ans = "";            //Initially, resume String answer is empty.
 //        int i=0, j=0;
 //        while(j<s.length()){                    //Agar j sring ki length se chhota hai to loop ke under enter karo
-//            if(s.charAt(i)==s.charAt(j)) j++;   //Agar i and j equal stage par hai to j++ kare.
-//            else{                               //Otherwise j-i se string ke length/freq nikale and usse ans me store kare And i ki value v ans me store kare. then i ko uthakar j par le jaye.
+//            if(s.charAt(i)==s.charAt(j)) j++;   //Agar i and j same position par hai to j++ kare.
+//            else{                               //Otherwise(agar i and j dono ek dusre ke different position par ho to ye kam karo) j-i se string ke length/freq nikale and usse ans me store kare And i ki value v ans me store kare. then i ko uthakar j par le jaye.
 //                int freq = j-i;
 //                ans += freq;
 //                ans += s.charAt(i);
-//                i=j;
+//                i=j;                            // i ko j par le jao
 //            }
 //        }
 //        int freq = j-i;                 //last bala group j++ ke karan terminate ho gya hoga to last bala ko v run karke dekho.
@@ -40,3 +40,7 @@ public class Look_And_Say_Pattern {
         return ans;
     }
 }
+
+
+
+//Use StringBuilder in this for better Time complexity
