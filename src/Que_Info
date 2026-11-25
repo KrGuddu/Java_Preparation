@@ -502,7 +502,7 @@ Note: See again last 1.30 hours videos of part1
                                                 [LC.199. Binary Tree Right Side View]
 11. BT_LeftSideView                             [https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1]
                                                 [Tips: https://leetcode.com/discuss/post/1733771/different-type-of-view-in-binary-tree-by-qk1d/]
-12. LCA_In_BT           [LCA: lowest common ancestor/purbaj]            ==> Must See & Do Again
+12. LCA_In_BT     [LCA means: lowest common ancestor/purbaj]            ==> Must See & Do Again
                                                 [https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1]
                                                 [LC.236. Lowest Common Ancestor of a Binary Tree]
 13. MinDistBtw2NodesInBT     [02:03:35]*        [https://www.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1]
@@ -550,7 +550,16 @@ https://www.geeksforgeeks.org/problems/perfect-binary-tree/1
                                     [LC.230. Kth Smallest Element in a BST]
 6. CheckForBST                      [https://www.geeksforgeeks.org/problems/check-for-bst/1]        =>H.W.          =>Check code solutions
                                     [LC.98. Validate Binary Search Tree]
-7. bst to gst
+7. LCAInBST                         [https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1]
+                                    [LC.235. Lowest Common Ancestor of a Binary Search Tree]
+8. BST to GST                       [https://www.geeksforgeeks.org/problems/bst-to-greater-sum-tree/1]          =>See again solution
+                                    [LC.538. Convert BST to Greater Tree]
+                                    [LC.1038. Binary Search Tree to Greater Sum Tree]       =>check solution
+9. ArrayToBST                       [https://www.geeksforgeeks.org/problems/array-to-bst4443/1]
+                                    [LC.108. Convert Sorted Array to Binary Search Tree]        =>Using Array
+                                    [LC.109. Convert Sorted List to Binary Search Tree]         =>using LinkedList      =>
+10.
+
 
 
 
