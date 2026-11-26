@@ -16,6 +16,7 @@ public class ArrayToBST {
 }
 
 
+
 /*
 Interview recommendation: Your ArrayList + Binary Search approach is a good solution. Remember that the O(n) inorder simulation approach can construct the BST directly from the linked list without storing all elements in an array or ArrayList.
 My verdict: Keep the ArrayList approach as your first solution. Learn Inorder Simulation as your optimized second solution, because it avoids storing all linked-list elements separately.
