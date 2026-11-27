@@ -305,16 +305,18 @@ Solve que Note page 10
    3. Raise to Power of Its Own Reverse    ** [https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1]
 6. SumOfNumbers
    SumOfNumbers_V2       *        [https://www.geeksforgeeks.org/problems/reverse-coding2452/1]
-7. GCD of two numbers    **  ==>> [https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1]
-8. Nth Fibonacci Number            [https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1]     =>Check code        =>Solved in DP
-9. WaysToReachNthStair             [https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1]
-                                   [LC.70. Climbing Stairs]     =>TLE error             [Also See: LC.3154]
+7. GCD of two numbers    **       [https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1]
+   LCMOfTwoNumbers       **       [https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1]
+8. Nth Fibonacci Number           [https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1]     =>Check code        =>[T.C. 2^n ]     =>Solved in DP
+9. WaysToReachNthStair            [https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1]     =>[T.C. 2^n ]     =>Solved in DP
+                                  [LC.70. Climbing Stairs]     =>TLE error             [Also See: LC.3154]
 
 Note: Kisi v code me T.C. 2^n hai to TLE error dega hi dega, so usko DP se solve karo
 ------------------------------------ Videos No: 13th --------------------------------
-10. LC 62 Unique paths
-11. RecursionOnArrays
-    ElementExist => linear search on recursion
+10. LC 62 Unique paths            [TLE Error b/q of TC:O(2^{m+n})]        =>In DP
+                                  [https://www.geeksforgeeks.org/problems/number-of-paths0926/1]
+11. RecursionOnArrays   *
+    ElementExist => linear search on recursion          =>https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
 12. LC 704. Binary Search       =>Binary Search on recursion
     First_Occurrence.            [https://www.geeksforgeeks.org/problems/binary-search-1587115620/1]       =>H.W.
     reverse an array using recursion.       ==>> 1:03:30           =>H.W.
@@ -558,10 +560,12 @@ https://www.geeksforgeeks.org/problems/perfect-binary-tree/1
 9. ArrayToBST                       [https://www.geeksforgeeks.org/problems/array-to-bst4443/1]
                                     [LC.108. Convert Sorted Array to Binary Search Tree]        =>Using Array
                                     [LC.109. Convert Sorted List to Binary Search Tree]         =>using LinkedList      =>
-10.
+10. CheckForBST     => see again
 
 
 
+
+return type is pair
 
 
 1:38:00
