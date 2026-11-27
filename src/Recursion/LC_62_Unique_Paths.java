@@ -1,8 +1,8 @@
 package Recursion;
 
 public class LC_62_Unique_Paths {
+    //1st method (Best): This is give TLE error b/q here is repetation call
     // public int uniquePaths(int m, int n) {
-    //     //1st method (Best): This is give TLE error b/q here is repetation call
     //     if(m==1 || n==1) return 1;          // why return 1? =>B/q of it is only one way.
     //     return uniquePaths(m-1, n) + uniquePaths(m, n-1);
     // }
@@ -30,3 +30,24 @@ public class LC_62_Unique_Paths {
 
 // Current/initial stage
 // last/destination stage
+
+
+/* Final Complexity Comparison      =>(Recursive code)
+Method                              Time Complexity (TC)            Auxiliary SC
+1st method (simple recursion)       O(2 ^ (m + n)) upper bound      O(m+n)
+2nd method (your code)              O(2 ^ (m + n)) upper bound      O(m+n)
+3rd method (reverse recursion)      O(2 ^ (m + n)) upper bound      O(m+n)
+
+Important: All three methods have repeated subproblems, so they can give TLE.
+
+# What should you learn next?       =>(DP Code)
+For LeetCode 62, the next improvement is Dynamic Programming (Memoization).
+
+Approach                TC              SC
+Recursion               Exponential     O(m+n)
+Memoization             O(m x n)        O(m x n) + recursion stack
+Tabulation              O(m x n)        O(m x n)
+Space Optimized DP      O(m xn)         O(n)
+
+My recommendation: First understand why recursion repeats (1,1) in the example. Then learn how Memoization stores its answer so that the same subproblem is not calculated again.
+ */
